@@ -1,0 +1,2746 @@
+{
+ "title": "What If a Day Lasted Just 1 Hour?",
+ "duration": 522.392,
+ "shots": [
+  {
+   "id": "s001",
+   "start": 0.0,
+   "end": 3.34,
+   "line": "What if a whole day lasted just one hour?",
+   "scene": "earth {\"cam\": \"hook\", \"spin\": 3.0, \"day\": 24}",
+   "kind": "earth",
+   "params": {
+    "cam": "hook",
+    "spin": 3.0,
+    "day": 24
+   },
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "whoosh",
+     "gain": -16
+    }
+   ],
+   "captions": true
+  },
+  {
+   "id": "s002",
+   "start": 3.34,
+   "end": 10.18,
+   "line": "Then the sun would rise every hour. Breakfast, lunch, dinner and bedtime, all before your cartoon ends.",
+   "scene": "room {\"cam\": \"wide\", \"light\": \"cycle\", \"cycle\": 3.1, \"pip\": [\"awe\", \"pointUp\"], \"ink\": [\"smirk\", \"explain\"]}",
+   "kind": "room",
+   "params": {
+    "cam": "wide",
+    "light": "cycle",
+    "cycle": 3.1,
+    "pip": [
+     "awe",
+     "pointUp"
+    ],
+    "ink": [
+     "smirk",
+     "explain"
+    ]
+   },
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "captions": true
+  },
+  {
+   "id": "s003",
+   "start": 10.18,
+   "end": 12.15,
+   "line": "Ha! Short days mean short school!",
+   "scene": "room {\"cam\": \"pip\", \"pip\": [\"joy\", \"cheer\"], \"hop\": true}",
+   "kind": "room",
+   "params": {
+    "cam": "pip",
+    "pip": [
+     "joy",
+     "cheer"
+    ],
+    "hop": true
+   },
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "captions": true
+  },
+  {
+   "id": "s004",
+   "start": 12.15,
+   "end": 15.0,
+   "line": "Short school... and a planet that tears itself apart. Want to find out how?",
+   "scene": "earth {\"cam\": \"close\", \"spin\": 4.0, \"squash\": 0.55, \"crack\": true}",
+   "kind": "earth",
+   "params": {
+    "cam": "close",
+    "spin": 4.0,
+    "squash": 0.55,
+    "crack": true
+   },
+   "in": {
+    "type": "whip",
+    "dir": 1,
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "whoosh",
+     "gain": -16
+    }
+   ],
+   "captions": true
+  },
+  {
+   "id": "s005",
+   "start": 15.0,
+   "end": 17.76,
+   "line": "",
+   "scene": "board {\"type\": \"title\"}",
+   "kind": "board",
+   "params": {
+    "type": "title"
+   },
+   "in": {
+    "type": "flash",
+    "dur": 0.25
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "stinger",
+     "gain": -10
+    }
+   ],
+   "captions": false
+  },
+  {
+   "id": "s006",
+   "start": 17.76,
+   "end": 18.77,
+   "line": "What is THAT?",
+   "scene": "room {\"cam\": \"pip\", \"pip\": [\"surprised\", \"point\"]}",
+   "kind": "room",
+   "params": {
+    "cam": "pip",
+    "pip": [
+     "surprised",
+     "point"
+    ]
+   },
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "captions": true
+  },
+  {
+   "id": "s007",
+   "start": 18.77,
+   "end": 23.5,
+   "line": "The Spin Dial. It sets how long a day is. Right now it says twenty-four hours. We'll turn it down, one click at a time, and watch what happens to Earth.",
+   "scene": "dial {\"from\": 24, \"to\": 24}",
+   "kind": "dial",
+   "params": {
+    "from": 24,
+    "to": 24
+   },
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.45,
+     "name": "tick",
+     "gain": -4
+    },
+    {
+     "at": 0.5,
+     "name": "hit",
+     "gain": -12,
+     "pitch": 1.6
+    },
+    {
+     "at": 0.55,
+     "name": "whoosh",
+     "gain": -14
+    }
+   ],
+   "captions": true
+  },
+  {
+   "id": "s008",
+   "start": 23.5,
+   "end": 28.65,
+   "line": "",
+   "scene": "room {\"cam\": \"two\", \"pip\": [\"awe\", \"stand\"], \"ink\": [\"smirk\", \"explain\"]}",
+   "kind": "room",
+   "params": {
+    "cam": "two",
+    "pip": [
+     "awe",
+     "stand"
+    ],
+    "ink": [
+     "smirk",
+     "explain"
+    ]
+   },
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "captions": true
+  },
+  {
+   "id": "s009",
+   "start": 28.65,
+   "end": 29.7,
+   "line": "And at one hour?",
+   "scene": "room {\"cam\": \"pip\", \"pip\": [\"thinking\", \"think\"]}",
+   "kind": "room",
+   "params": {
+    "cam": "pip",
+    "pip": [
+     "thinking",
+     "think"
+    ]
+   },
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "captions": true
+  },
+  {
+   "id": "s010",
+   "start": 29.7,
+   "end": 33.35,
+   "line": "At one hour, one of us leaves the planet. Without a rocket.",
+   "scene": "room {\"cam\": \"ink\", \"ink\": [\"smirk\", \"explain\"]}",
+   "kind": "room",
+   "params": {
+    "cam": "ink",
+    "ink": [
+     "smirk",
+     "explain"
+    ]
+   },
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "captions": true
+  },
+  {
+   "id": "s011",
+   "start": 33.35,
+   "end": 34.4,
+   "line": "Dibs on not me.",
+   "scene": "room {\"cam\": \"pip\", \"pip\": [\"nervous\", \"shrug\"]}",
+   "kind": "room",
+   "params": {
+    "cam": "pip",
+    "pip": [
+     "nervous",
+     "shrug"
+    ]
+   },
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "captions": true
+  },
+  {
+   "id": "s012",
+   "start": 34.4,
+   "end": 37.0,
+   "line": "First, a little nudge. Right now the equator spins at about one thousand miles per hour.",
+   "scene": "dial {\"from\": 24, \"to\": 22, \"day\": 22}",
+   "kind": "dial",
+   "params": {
+    "from": 24,
+    "to": 22,
+    "day": 22
+   },
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.45,
+     "name": "tick",
+     "gain": -4
+    },
+    {
+     "at": 0.5,
+     "name": "hit",
+     "gain": -12,
+     "pitch": 1.6
+    },
+    {
+     "at": 0.55,
+     "name": "whoosh",
+     "gain": -14
+    }
+   ],
+   "captions": true
+  },
+  {
+   "id": "s013",
+   "start": 37.0,
+   "end": 41.16,
+   "line": "",
+   "scene": "board {\"type\": \"speed\", \"rows\": [[\"TODAY\", 1000, \"#8fb8e8\"]], \"day\": 22}",
+   "kind": "board",
+   "params": {
+    "type": "speed",
+    "rows": [
+     [
+      "TODAY",
+      1000,
+      "#8fb8e8"
+     ]
+    ],
+    "day": 22
+   },
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "pop",
+     "gain": -14
+    }
+   ],
+   "captions": true
+  },
+  {
+   "id": "s014",
+   "start": 41.16,
+   "end": 44.89,
+   "line": "We're moving a thousand miles per hour? Right now? I'm sitting still!",
+   "scene": "room {\"cam\": \"pip\", \"pip\": [\"shocked\", \"handsOnHead\"], \"day\": 22}",
+   "kind": "room",
+   "params": {
+    "cam": "pip",
+    "pip": [
+     "shocked",
+     "handsOnHead"
+    ],
+    "day": 22
+   },
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "captions": true
+  },
+  {
+   "id": "s015",
+   "start": 44.89,
+   "end": 49.5,
+   "line": "Everything around you moves with you, so you don't feel it. Now let's add one hundred miles per hour. That's enough to make a day about twenty-two hours long.",
+   "scene": "room {\"cam\": \"ink\", \"ink\": [\"neutral\", \"explain\"], \"day\": 22}",
+   "kind": "room",
+   "params": {
+    "cam": "ink",
+    "ink": [
+     "neutral",
+     "explain"
+    ],
+    "day": 22
+   },
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "captions": true
+  },
+  {
+   "id": "s016",
+   "start": 49.5,
+   "end": 54.64,
+   "line": "",
+   "scene": "board {\"type\": \"speed\", \"rows\": [[\"TODAY\", 1000, \"#8fb8e8\"], [\"+100 MPH\", 1100, \"#ffd47e\"]], \"note\": \"22-HOUR DAY\", \"day\": 22}",
+   "kind": "board",
+   "params": {
+    "type": "speed",
+    "rows": [
+     [
+      "TODAY",
+      1000,
+      "#8fb8e8"
+     ],
+     [
+      "+100 MPH",
+      1100,
+      "#ffd47e"
+     ]
+    ],
+    "note": "22-HOUR DAY",
+    "day": 22
+   },
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "pop",
+     "gain": -14
+    }
+   ],
+   "captions": true
+  },
+  {
+   "id": "s017",
+   "start": 54.64,
+   "end": 57.53,
+   "line": "Two extra hours of nothing? I can live with that.",
+   "scene": "room {\"cam\": \"two\", \"pip\": [\"smile\", \"relaxed\"], \"ink\": [\"thinking\", \"crossArms\"], \"day\": 22}",
+   "kind": "room",
+   "params": {
+    "cam": "two",
+    "pip": [
+     "smile",
+     "relaxed"
+    ],
+    "ink": [
+     "thinking",
+     "crossArms"
+    ],
+    "day": 22
+   },
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "captions": true
+  },
+  {
+   "id": "s018",
+   "start": 57.53,
+   "end": 66.87,
+   "line": "Your body can't. It's like setting every clock back two hours, every single day. Permanent jet lag. Plants and animals get confused too.",
+   "scene": "board {\"type\": \"clock\", \"shift\": -2, \"day\": 22}",
+   "kind": "board",
+   "params": {
+    "type": "clock",
+    "shift": -2,
+    "day": 22
+   },
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "captions": true
+  },
+  {
+   "id": "s019",
+   "start": 66.87,
+   "end": 69.0,
+   "line": "Okay, so I'm grumpy. That's it?",
+   "scene": "room {\"cam\": \"pip\", \"pip\": [\"angry\", \"crossArms\"], \"day\": 22}",
+   "kind": "room",
+   "params": {
+    "cam": "pip",
+    "pip": [
+     "angry",
+     "crossArms"
+    ],
+    "day": 22
+   },
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "captions": true
+  },
+  {
+   "id": "s020",
+   "start": 69.0,
+   "end": 79.86,
+   "line": "Not quite. A spinning planet pushes things outward, most of all at the equator. Water is the first to notice. The oceans start sliding toward the middle of the planet.",
+   "scene": "earth {\"cam\": \"close\", \"spin\": 0.6, \"bulge\": [0.0, 0.35], \"day\": 22}",
+   "kind": "earth",
+   "params": {
+    "cam": "close",
+    "spin": 0.6,
+    "bulge": [
+     0.0,
+     0.35
+    ],
+    "day": 22
+   },
+   "in": {
+    "type": "whip",
+    "dir": 1,
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "whoosh",
+     "gain": -16
+    }
+   ],
+   "captions": true
+  },
+  {
+   "id": "s021",
+   "start": 79.86,
+   "end": 81.02,
+   "line": "How much water?",
+   "scene": "room {\"cam\": \"pip\", \"pip\": [\"worried\", \"stand\"], \"day\": 22}",
+   "kind": "room",
+   "params": {
+    "cam": "pip",
+    "pip": [
+     "worried",
+     "stand"
+    ],
+    "day": 22
+   },
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "captions": true
+  },
+  {
+   "id": "s022",
+   "start": 81.02,
+   "end": 89.94,
+   "line": "Scientists estimate the sea at the equator could rise by tens of feet. Low islands and coastal cities near the equator start to flood.",
+   "scene": "earth {\"cam\": \"equator\", \"spin\": 0.4, \"bulge\": [0.35, 0.5], \"day\": 22}",
+   "kind": "earth",
+   "params": {
+    "cam": "equator",
+    "spin": 0.4,
+    "bulge": [
+     0.35,
+     0.5
+    ],
+    "day": 22
+   },
+   "in": {
+    "type": "whip",
+    "dir": 1,
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "whoosh",
+     "gain": -16
+    }
+   ],
+   "captions": true
+  },
+  {
+   "id": "s023",
+   "start": 89.94,
+   "end": 92.92,
+   "line": "From one hundred miles per hour? That's a slow car!",
+   "scene": "room {\"cam\": \"pip\", \"pip\": [\"confused\", \"shrug\"], \"day\": 22}",
+   "kind": "room",
+   "params": {
+    "cam": "pip",
+    "pip": [
+     "confused",
+     "shrug"
+    ],
+    "day": 22
+   },
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "captions": true
+  },
+  {
+   "id": "s024",
+   "start": 92.92,
+   "end": 104.35,
+   "line": "And look up. Weather and TV satellites hang over one spot of Earth because they circle exactly as fast as it spins. Speed Earth up even a little, and they drift out of place.",
+   "scene": "earth {\"cam\": \"wide\", \"spin\": 0.5, \"sats\": true, \"day\": 22}",
+   "kind": "earth",
+   "params": {
+    "cam": "wide",
+    "spin": 0.5,
+    "sats": true,
+    "day": 22
+   },
+   "in": {
+    "type": "whip",
+    "dir": 1,
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "whoosh",
+     "gain": -16
+    }
+   ],
+   "captions": true
+  },
+  {
+   "id": "s025",
+   "start": 104.35,
+   "end": 106.64,
+   "line": "So no TV and no GPS?",
+   "scene": "room {\"cam\": \"two\", \"pip\": [\"shocked\", \"handsOnHead\"], \"ink\": [\"neutral\", \"stand\"], \"day\": 22}",
+   "kind": "room",
+   "params": {
+    "cam": "two",
+    "pip": [
+     "shocked",
+     "handsOnHead"
+    ],
+    "ink": [
+     "neutral",
+     "stand"
+    ],
+    "day": 22
+   },
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "captions": true
+  },
+  {
+   "id": "s026",
+   "start": 106.64,
+   "end": 111.9,
+   "line": "Not until engineers move every single one of them. Hope you know the way to school.",
+   "scene": "room {\"cam\": \"ink\", \"ink\": [\"smirk\", \"crossArms\"], \"day\": 22}",
+   "kind": "room",
+   "params": {
+    "cam": "ink",
+    "ink": [
+     "smirk",
+     "crossArms"
+    ],
+    "day": 22
+   },
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "captions": true
+  },
+  {
+   "id": "s027",
+   "start": 111.9,
+   "end": 115.5,
+   "line": "Now let's double the speed. Two thousand miles per hour. A day is twelve hours long.",
+   "scene": "dial {\"from\": 22, \"to\": 12, \"day\": 12}",
+   "kind": "dial",
+   "params": {
+    "from": 22,
+    "to": 12,
+    "day": 12
+   },
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.45,
+     "name": "tick",
+     "gain": -4
+    },
+    {
+     "at": 0.5,
+     "name": "hit",
+     "gain": -12,
+     "pitch": 1.6
+    },
+    {
+     "at": 0.55,
+     "name": "whoosh",
+     "gain": -14
+    }
+   ],
+   "captions": true
+  },
+  {
+   "id": "s028",
+   "start": 115.5,
+   "end": 118.27,
+   "line": "",
+   "scene": "earth {\"cam\": \"wide\", \"spin\": 1.4, \"bulge\": [0.5, 0.5], \"day\": 12}",
+   "kind": "earth",
+   "params": {
+    "cam": "wide",
+    "spin": 1.4,
+    "bulge": [
+     0.5,
+     0.5
+    ],
+    "day": 12
+   },
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "whoosh",
+     "gain": -16
+    }
+   ],
+   "captions": true
+  },
+  {
+   "id": "s029",
+   "start": 118.27,
+   "end": 124.18,
+   "line": "Sunrise at six, sunset at noon, sunrise again at six in the evening? I'd be so confused.",
+   "scene": "room {\"cam\": \"wide\", \"light\": \"cycle\", \"cycle\": 2.6, \"pip\": [\"confused\", \"handsOnHead\"], \"ink\": [\"smirk\", \"crossArms\"], \"day\": 12}",
+   "kind": "room",
+   "params": {
+    "cam": "wide",
+    "light": "cycle",
+    "cycle": 2.6,
+    "pip": [
+     "confused",
+     "handsOnHead"
+    ],
+    "ink": [
+     "smirk",
+     "crossArms"
+    ],
+    "day": 12
+   },
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "captions": true
+  },
+  {
+   "id": "s030",
+   "start": 124.18,
+   "end": 129.77,
+   "line": "You'd probably sleep in two shifts. One nap during the first night, one during the second.",
+   "scene": "board {\"type\": \"clock\", \"shift\": 0, \"twoNights\": true, \"day\": 12}",
+   "kind": "board",
+   "params": {
+    "type": "clock",
+    "shift": 0,
+    "twoNights": true,
+    "day": 12
+   },
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "captions": true
+  },
+  {
+   "id": "s031",
+   "start": 129.77,
+   "end": 132.32,
+   "line": "Two bedtimes a day? Mom will love that.",
+   "scene": "room {\"cam\": \"pip\", \"pip\": [\"smirk\", \"crossArms\"], \"day\": 12}",
+   "kind": "room",
+   "params": {
+    "cam": "pip",
+    "pip": [
+     "smirk",
+     "crossArms"
+    ],
+    "day": 12
+   },
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "captions": true
+  },
+  {
+   "id": "s032",
+   "start": 132.32,
+   "end": 140.99,
+   "line": "The oceans are more confused. Even more water rushes to the equator. Near the poles the seas get shallower, and new land appears.",
+   "scene": "earth {\"cam\": \"pole\", \"spin\": 0.6, \"bulge\": [0.5, 0.7], \"day\": 12}",
+   "kind": "earth",
+   "params": {
+    "cam": "pole",
+    "spin": 0.6,
+    "bulge": [
+     0.5,
+     0.7
+    ],
+    "day": 12
+   },
+   "in": {
+    "type": "whip",
+    "dir": 1,
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "whoosh",
+     "gain": -16
+    }
+   ],
+   "captions": true
+  },
+  {
+   "id": "s033",
+   "start": 140.99,
+   "end": 142.12,
+   "line": "Free beaches!",
+   "scene": "room {\"cam\": \"pip\", \"pip\": [\"joy\", \"cheer\"], \"day\": 12}",
+   "kind": "room",
+   "params": {
+    "cam": "pip",
+    "pip": [
+     "joy",
+     "cheer"
+    ],
+    "day": 12
+   },
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "captions": true
+  },
+  {
+   "id": "s034",
+   "start": 142.12,
+   "end": 146.5,
+   "line": "Freezing beaches. And then there's the weather. You see, Earth's spin is what makes hurricanes turn. A faster spin bends the winds harder, so storms spin faster and carry more energy.",
+   "scene": "room {\"cam\": \"ink\", \"ink\": [\"neutral\", \"explain\"], \"day\": 12}",
+   "kind": "room",
+   "params": {
+    "cam": "ink",
+    "ink": [
+     "neutral",
+     "explain"
+    ],
+    "day": 12
+   },
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "captions": true
+  },
+  {
+   "id": "s035",
+   "start": 146.5,
+   "end": 154.34,
+   "line": "",
+   "scene": "earth {\"cam\": \"close\", \"spin\": 0.9, \"bulge\": [0.7, 0.7], \"storms\": true, \"day\": 12}",
+   "kind": "earth",
+   "params": {
+    "cam": "close",
+    "spin": 0.9,
+    "bulge": [
+     0.7,
+     0.7
+    ],
+    "storms": true,
+    "day": 12
+   },
+   "in": {
+    "type": "whip",
+    "dir": 1,
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "whoosh",
+     "gain": -16
+    }
+   ],
+   "captions": true
+  },
+  {
+   "id": "s036",
+   "start": 154.34,
+   "end": 158.63,
+   "line": "So: floods, freezing beaches, angry hurricanes. Can we stop here?",
+   "scene": "room {\"cam\": \"two\", \"pip\": [\"worried\", \"talk\"], \"ink\": [\"smirk\", \"stand\"], \"day\": 12}",
+   "kind": "room",
+   "params": {
+    "cam": "two",
+    "pip": [
+     "worried",
+     "talk"
+    ],
+    "ink": [
+     "smirk",
+     "stand"
+    ],
+    "day": 12
+   },
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "captions": true
+  },
+  {
+   "id": "s037",
+   "start": 158.63,
+   "end": 160.98,
+   "line": "We're only at twelve hours. Click.",
+   "scene": "dial {\"from\": 12, \"to\": 10, \"day\": 10}",
+   "kind": "dial",
+   "params": {
+    "from": 12,
+    "to": 10,
+    "day": 10
+   },
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.45,
+     "name": "tick",
+     "gain": -4
+    },
+    {
+     "at": 0.5,
+     "name": "hit",
+     "gain": -12,
+     "pitch": 1.6
+    },
+    {
+     "at": 0.55,
+     "name": "whoosh",
+     "gain": -14
+    }
+   ],
+   "captions": true
+  },
+  {
+   "id": "s038",
+   "start": 160.98,
+   "end": 162.99,
+   "line": "Why do you always click?!",
+   "scene": "room {\"cam\": \"pip\", \"pip\": [\"angry\", \"handsOnHead\"], \"day\": 10}",
+   "kind": "room",
+   "params": {
+    "cam": "pip",
+    "pip": [
+     "angry",
+     "handsOnHead"
+    ],
+    "day": 10
+   },
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "captions": true
+  },
+  {
+   "id": "s039",
+   "start": 162.99,
+   "end": 169.62,
+   "line": "Ten hours. Now Earth spins almost like Jupiter. Jupiter's day lasts just under ten hours.",
+   "scene": "planet {\"body\": \"earthJupiter\", \"day\": 10}",
+   "kind": "planet",
+   "params": {
+    "body": "earthJupiter",
+    "day": 10
+   },
+   "in": {
+    "type": "whip",
+    "dir": 1,
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "whoosh",
+     "gain": -16
+    }
+   ],
+   "captions": true
+  },
+  {
+   "id": "s040",
+   "start": 169.62,
+   "end": 172.68,
+   "line": "Jupiter is huge. Does the spin do anything to it?",
+   "scene": "room {\"cam\": \"pip\", \"pip\": [\"awe\", \"stand\"], \"day\": 10}",
+   "kind": "room",
+   "params": {
+    "cam": "pip",
+    "pip": [
+     "awe",
+     "stand"
+    ],
+    "day": 10
+   },
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "captions": true
+  },
+  {
+   "id": "s041",
+   "start": 172.68,
+   "end": 180.49,
+   "line": "First, imagine the speed. Jupiter is so big that its equator flies at about twenty-eight thousand miles per hour.",
+   "scene": "planet {\"body\": \"jupiter\", \"cam\": \"close\", \"label\": \"28,000 MPH\", \"day\": 10}",
+   "kind": "planet",
+   "params": {
+    "body": "jupiter",
+    "cam": "close",
+    "label": "28,000 MPH",
+    "day": 10
+   },
+   "in": {
+    "type": "whip",
+    "dir": 1,
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "whoosh",
+     "gain": -16
+    }
+   ],
+   "captions": true
+  },
+  {
+   "id": "s042",
+   "start": 180.49,
+   "end": 182.02,
+   "line": "And it doesn't fall apart?",
+   "scene": "room {\"cam\": \"pip\", \"pip\": [\"worried\", \"stand\"], \"day\": 10}",
+   "kind": "room",
+   "params": {
+    "cam": "pip",
+    "pip": [
+     "worried",
+     "stand"
+    ],
+    "day": 10
+   },
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "captions": true
+  },
+  {
+   "id": "s043",
+   "start": 182.02,
+   "end": 191.0,
+   "line": "Its gravity is strong enough to hold on. But the fast spin helps stretch its clouds into those long stripes you see in every picture. And it squashes the whole planet. Jupiter's middle is about four thousand seven hundred kilometers farther from its center than its poles are. You can see the bulge in a small backyard telescope.",
+   "scene": "planet {\"body\": \"jupiter\", \"cam\": \"stripes\", \"day\": 10}",
+   "kind": "planet",
+   "params": {
+    "body": "jupiter",
+    "cam": "stripes",
+    "day": 10
+   },
+   "in": {
+    "type": "whip",
+    "dir": 1,
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "whoosh",
+     "gain": -16
+    }
+   ],
+   "captions": true
+  },
+  {
+   "id": "s044",
+   "start": 191.0,
+   "end": 202.1,
+   "line": "",
+   "scene": "planet {\"body\": \"jupiter\", \"cam\": \"front\", \"outline\": true, \"label\": \"+4,700 KM\", \"day\": 10}",
+   "kind": "planet",
+   "params": {
+    "body": "jupiter",
+    "cam": "front",
+    "outline": true,
+    "label": "+4,700 KM",
+    "day": 10
+   },
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "captions": true
+  },
+  {
+   "id": "s045",
+   "start": 202.1,
+   "end": 210.6,
+   "line": "Saturn is even flatter than Jupiter. It's almost ten percent wider than it is tall. You can see that in a backyard telescope too.",
+   "scene": "planet {\"body\": \"saturn\", \"outline\": true, \"label\": \"~10% WIDER\", \"day\": 10}",
+   "kind": "planet",
+   "params": {
+    "body": "saturn",
+    "outline": true,
+    "label": "~10% WIDER",
+    "day": 10
+   },
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "captions": true
+  },
+  {
+   "id": "s046",
+   "start": 210.6,
+   "end": 214.08,
+   "line": "So round planets are only round because they spin slowly?",
+   "scene": "room {\"cam\": \"two\", \"pip\": [\"thinking\", \"think\"], \"ink\": [\"smirk\", \"crossArms\"], \"day\": 10}",
+   "kind": "room",
+   "params": {
+    "cam": "two",
+    "pip": [
+     "thinking",
+     "think"
+    ],
+    "ink": [
+     "smirk",
+     "crossArms"
+    ],
+    "day": 10
+   },
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "captions": true
+  },
+  {
+   "id": "s047",
+   "start": 214.08,
+   "end": 217.32,
+   "line": "Pretty much. Spin is a planet's hidden sculptor.",
+   "scene": "room {\"cam\": \"ink\", \"ink\": [\"smile\", \"explain\"], \"day\": 10}",
+   "kind": "room",
+   "params": {
+    "cam": "ink",
+    "ink": [
+     "smile",
+     "explain"
+    ],
+    "day": 10
+   },
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "captions": true
+  },
+  {
+   "id": "s048",
+   "start": 217.32,
+   "end": 219.24,
+   "line": "So Earth starts getting squashed too?",
+   "scene": "room {\"cam\": \"pip\", \"pip\": [\"worried\", \"stand\"], \"day\": 10}",
+   "kind": "room",
+   "params": {
+    "cam": "pip",
+    "pip": [
+     "worried",
+     "stand"
+    ],
+    "day": 10
+   },
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "captions": true
+  },
+  {
+   "id": "s049",
+   "start": 219.24,
+   "end": 229.28,
+   "line": "The faster it spins, the more it bulges. Fun fact: right after the Moon formed, billions of years ago, Earth's day may have been less than ten hours long.",
+   "scene": "earth {\"cam\": \"moon\", \"spin\": 1.2, \"moon\": \"close\", \"label\": \"DAY < 10 HOURS\", \"day\": 10}",
+   "kind": "earth",
+   "params": {
+    "cam": "moon",
+    "spin": 1.2,
+    "moon": "close",
+    "label": "DAY < 10 HOURS",
+    "day": 10
+   },
+   "in": {
+    "type": "whip",
+    "dir": 1,
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "whoosh",
+     "gain": -16
+    }
+   ],
+   "captions": true
+  },
+  {
+   "id": "s050",
+   "start": 229.28,
+   "end": 231.04,
+   "line": "So Earth has done this before?",
+   "scene": "room {\"cam\": \"two\", \"pip\": [\"surprised\", \"talk\"], \"ink\": [\"smirk\", \"stand\"], \"day\": 10}",
+   "kind": "room",
+   "params": {
+    "cam": "two",
+    "pip": [
+     "surprised",
+     "talk"
+    ],
+    "ink": [
+     "smirk",
+     "stand"
+    ],
+    "day": 10
+   },
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "captions": true
+  },
+  {
+   "id": "s051",
+   "start": 231.04,
+   "end": 234.4,
+   "line": "A long time ago, with nobody around to complain.",
+   "scene": "room {\"cam\": \"ink\", \"ink\": [\"smirk\", \"crossArms\"], \"day\": 10}",
+   "kind": "room",
+   "params": {
+    "cam": "ink",
+    "ink": [
+     "smirk",
+     "crossArms"
+    ],
+    "day": 10
+   },
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "captions": true
+  },
+  {
+   "id": "s052",
+   "start": 234.4,
+   "end": 236.75,
+   "line": "",
+   "scene": "board {\"type\": \"recap\", \"steps\": [24, 22, 12, 10], \"day\": 10}",
+   "kind": "board",
+   "params": {
+    "type": "recap",
+    "steps": [
+     24,
+     22,
+     12,
+     10
+    ],
+    "day": 10
+   },
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "pop",
+     "gain": -14
+    }
+   ],
+   "captions": true
+  },
+  {
+   "id": "s053",
+   "start": 236.75,
+   "end": 239.07,
+   "line": "Whoa, what is that? A space potato?",
+   "scene": "planet {\"body\": \"haumea\", \"cam\": \"reveal\", \"day\": 4}",
+   "kind": "planet",
+   "params": {
+    "body": "haumea",
+    "cam": "reveal",
+    "day": 4
+   },
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "whoosh",
+     "gain": -16
+    }
+   ],
+   "captions": true
+  },
+  {
+   "id": "s054",
+   "start": 239.07,
+   "end": 249.62,
+   "line": "That's Haumea, a dwarf planet far beyond Neptune. It spins once every three point nine hours, the fastest of any big world we know in the solar system.",
+   "scene": "planet {\"body\": \"haumea\", \"cam\": \"close\", \"label\": \"1 SPIN = 3.9 HOURS\", \"day\": 4}",
+   "kind": "planet",
+   "params": {
+    "body": "haumea",
+    "cam": "close",
+    "label": "1 SPIN = 3.9 HOURS",
+    "day": 4
+   },
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "captions": true
+  },
+  {
+   "id": "s055",
+   "start": 249.62,
+   "end": 251.39,
+   "line": "And that's why it looks like an egg?",
+   "scene": "room {\"cam\": \"pip\", \"pip\": [\"thinking\", \"think\"], \"day\": 4}",
+   "kind": "room",
+   "params": {
+    "cam": "pip",
+    "pip": [
+     "thinking",
+     "think"
+    ],
+    "day": 4
+   },
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "captions": true
+  },
+  {
+   "id": "s056",
+   "start": 251.39,
+   "end": 258.17,
+   "line": "Exactly. It spins so fast that its middle stretches out. It's about twice as long as it is thin.",
+   "scene": "planet {\"body\": \"haumea\", \"cam\": \"front\", \"axes\": true, \"day\": 4}",
+   "kind": "planet",
+   "params": {
+    "body": "haumea",
+    "cam": "front",
+    "axes": true,
+    "day": 4
+   },
+   "in": {
+    "type": "whip",
+    "dir": 1,
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "whoosh",
+     "gain": -16
+    }
+   ],
+   "captions": true
+  },
+  {
+   "id": "s057",
+   "start": 258.17,
+   "end": 260.31,
+   "line": "So if Earth spun every four hours...",
+   "scene": "room {\"cam\": \"pip\", \"pip\": [\"worried\", \"think\"], \"day\": 4}",
+   "kind": "room",
+   "params": {
+    "cam": "pip",
+    "pip": [
+     "worried",
+     "think"
+    ],
+    "day": 4
+   },
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "captions": true
+  },
+  {
+   "id": "s058",
+   "start": 260.31,
+   "end": 268.59,
+   "line": "...our nice round planet would start stretching too. Mountains, cities, everything along the equator would be slowly pulled outward.",
+   "scene": "earth {\"cam\": \"close\", \"spin\": 1.6, \"stretch\": [0.0, 0.6], \"day\": 4}",
+   "kind": "earth",
+   "params": {
+    "cam": "close",
+    "spin": 1.6,
+    "stretch": [
+     0.0,
+     0.6
+    ],
+    "day": 4
+   },
+   "in": {
+    "type": "whip",
+    "dir": 1,
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "whoosh",
+     "gain": -16
+    }
+   ],
+   "captions": true
+  },
+  {
+   "id": "s059",
+   "start": 268.59,
+   "end": 270.71,
+   "line": "Okay, I officially miss round Earth.",
+   "scene": "room {\"cam\": \"pip\", \"pip\": [\"sad\", \"sad\"], \"day\": 4}",
+   "kind": "room",
+   "params": {
+    "cam": "pip",
+    "pip": [
+     "sad",
+     "sad"
+    ],
+    "day": 4
+   },
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "captions": true
+  },
+  {
+   "id": "s060",
+   "start": 270.71,
+   "end": 277.38,
+   "line": "Spin a world like that even faster, and scientists think it could stretch into a dumbbell shape and split in two.",
+   "scene": "planet {\"body\": \"dumbbell\", \"day\": 4}",
+   "kind": "planet",
+   "params": {
+    "body": "dumbbell",
+    "day": 4
+   },
+   "in": {
+    "type": "whip",
+    "dir": 1,
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "whoosh",
+     "gain": -16
+    }
+   ],
+   "captions": true
+  },
+  {
+   "id": "s061",
+   "start": 277.38,
+   "end": 278.57,
+   "line": "Into two Earths?!",
+   "scene": "room {\"cam\": \"pip\", \"pip\": [\"shocked\", \"handsOnHead\"], \"day\": 4}",
+   "kind": "room",
+   "params": {
+    "cam": "pip",
+    "pip": [
+     "shocked",
+     "handsOnHead"
+    ],
+    "day": 4
+   },
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "captions": true
+  },
+  {
+   "id": "s062",
+   "start": 278.57,
+   "end": 280.2,
+   "line": "Two very bad Earths.",
+   "scene": "room {\"cam\": \"ink\", \"ink\": [\"smirk\", \"crossArms\"], \"day\": 4}",
+   "kind": "room",
+   "params": {
+    "cam": "ink",
+    "ink": [
+     "smirk",
+     "crossArms"
+    ],
+    "day": 4
+   },
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "captions": true
+  },
+  {
+   "id": "s063",
+   "start": 280.2,
+   "end": 283.0,
+   "line": "Now it gets weird. You see, spinning tries to fling everything outward. Gravity holds us down. On normal Earth, gravity wins easily. At the equator you weigh just a tiny bit less than at the poles.",
+   "scene": "dial {\"from\": 4, \"to\": 1.4, \"day\": 1.4}",
+   "kind": "dial",
+   "params": {
+    "from": 4,
+    "to": 1.4,
+    "day": 1.4
+   },
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.45,
+     "name": "tick",
+     "gain": -4
+    },
+    {
+     "at": 0.5,
+     "name": "hit",
+     "gain": -12,
+     "pitch": 1.6
+    },
+    {
+     "at": 0.55,
+     "name": "whoosh",
+     "gain": -14
+    }
+   ],
+   "captions": true
+  },
+  {
+   "id": "s064",
+   "start": 283.0,
+   "end": 294.17,
+   "line": "",
+   "scene": "board {\"type\": \"fling\", \"speed\": [1000, 1000], \"day\": 1.4}",
+   "kind": "board",
+   "params": {
+    "type": "fling",
+    "speed": [
+     1000,
+     1000
+    ],
+    "day": 1.4
+   },
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "captions": true
+  },
+  {
+   "id": "s065",
+   "start": 294.17,
+   "end": 297.0,
+   "line": "So I should go to the equator before every check-up.",
+   "scene": "room {\"cam\": \"pip\", \"pip\": [\"smirk\", \"point\"], \"day\": 1.4}",
+   "kind": "room",
+   "params": {
+    "cam": "pip",
+    "pip": [
+     "smirk",
+     "point"
+    ],
+    "day": 1.4
+   },
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "captions": true
+  },
+  {
+   "id": "s066",
+   "start": 297.0,
+   "end": 300.5,
+   "line": "Ha. But keep turning the dial. At around seventeen thousand five hundred miles per hour, the fling becomes exactly as strong as gravity. That happens when a day lasts about one hour and twenty-four minutes.",
+   "scene": "room {\"cam\": \"ink\", \"ink\": [\"smirk\", \"explain\"], \"day\": 1.4}",
+   "kind": "room",
+   "params": {
+    "cam": "ink",
+    "ink": [
+     "smirk",
+     "explain"
+    ],
+    "day": 1.4
+   },
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "captions": true
+  },
+  {
+   "id": "s067",
+   "start": 300.5,
+   "end": 310.72,
+   "line": "",
+   "scene": "board {\"type\": \"fling\", \"speed\": [1000, 17500], \"ramp\": [1.5, 8.5], \"day\": 1.4}",
+   "kind": "board",
+   "params": {
+    "type": "fling",
+    "speed": [
+     1000,
+     17500
+    ],
+    "ramp": [
+     1.5,
+     8.5
+    ],
+    "day": 1.4
+   },
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "captions": true
+  },
+  {
+   "id": "s068",
+   "start": 310.72,
+   "end": 311.55,
+   "line": "And then?",
+   "scene": "room {\"cam\": \"pip\", \"pip\": [\"surprised\", \"stand\"], \"day\": 1.4}",
+   "kind": "room",
+   "params": {
+    "cam": "pip",
+    "pip": [
+     "surprised",
+     "stand"
+    ],
+    "day": 1.4
+   },
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "captions": true
+  },
+  {
+   "id": "s069",
+   "start": 311.55,
+   "end": 314.09,
+   "line": "Then, at the equator, you weigh... nothing.",
+   "scene": "board {\"type\": \"fling\", \"speed\": [17500, 17500], \"scale0\": true, \"day\": 1.4}",
+   "kind": "board",
+   "params": {
+    "type": "fling",
+    "speed": [
+     17500,
+     17500
+    ],
+    "scale0": true,
+    "day": 1.4
+   },
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "captions": true
+  },
+  {
+   "id": "s070",
+   "start": 314.09,
+   "end": 315.49,
+   "line": "Wait. So I'd float?",
+   "scene": "room {\"cam\": \"pipMed\", \"pip\": [\"surprised\", \"fall\"], \"float\": [0.0, 0.3], \"day\": 1.4}",
+   "kind": "room",
+   "params": {
+    "cam": "pipMed",
+    "pip": [
+     "surprised",
+     "fall"
+    ],
+    "float": [
+     0.0,
+     0.3
+    ],
+    "day": 1.4
+   },
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "captions": true
+  },
+  {
+   "id": "s071",
+   "start": 315.49,
+   "end": 325.96,
+   "line": "Like an astronaut. That's not a coincidence: seventeen thousand five hundred miles per hour is exactly how fast the space station flies to stay in orbit.",
+   "scene": "earth {\"cam\": \"station\", \"spin\": 0.5, \"station\": true, \"label\": \"17,500 MPH\", \"day\": 1.4}",
+   "kind": "earth",
+   "params": {
+    "cam": "station",
+    "spin": 0.5,
+    "station": true,
+    "label": "17,500 MPH",
+    "day": 1.4
+   },
+   "in": {
+    "type": "whip",
+    "dir": 1,
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "whoosh",
+     "gain": -16
+    }
+   ],
+   "captions": true
+  },
+  {
+   "id": "s072",
+   "start": 325.96,
+   "end": 328.95,
+   "line": "So on that Earth, the ground is basically in orbit?",
+   "scene": "room {\"cam\": \"two\", \"pip\": [\"awe\", \"fall\"], \"ink\": [\"smirk\", \"stand\"], \"float\": [0.3, 0.35], \"day\": 1.4}",
+   "kind": "room",
+   "params": {
+    "cam": "two",
+    "pip": [
+     "awe",
+     "fall"
+    ],
+    "ink": [
+     "smirk",
+     "stand"
+    ],
+    "float": [
+     0.3,
+     0.35
+    ],
+    "day": 1.4
+   },
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "captions": true
+  },
+  {
+   "id": "s073",
+   "start": 328.95,
+   "end": 337.36,
+   "line": "Here's the secret of orbit. Astronauts aren't floating because there's no gravity up there. There's plenty. They're falling, all the time.",
+   "scene": "room {\"cam\": \"ink\", \"ink\": [\"neutral\", \"explain\"], \"day\": 1.4}",
+   "kind": "room",
+   "params": {
+    "cam": "ink",
+    "ink": [
+     "neutral",
+     "explain"
+    ],
+    "day": 1.4
+   },
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "captions": true
+  },
+  {
+   "id": "s074",
+   "start": 337.36,
+   "end": 339.68,
+   "line": "Falling? Then why don't they hit the ground?",
+   "scene": "room {\"cam\": \"pipMed\", \"pip\": [\"confused\", \"fall\"], \"float\": [0.35, 0.35], \"day\": 1.4}",
+   "kind": "room",
+   "params": {
+    "cam": "pipMed",
+    "pip": [
+     "confused",
+     "fall"
+    ],
+    "float": [
+     0.35,
+     0.35
+    ],
+    "day": 1.4
+   },
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "captions": true
+  },
+  {
+   "id": "s075",
+   "start": 339.68,
+   "end": 351.98,
+   "line": "Because they're moving sideways so fast that the ground curves away beneath them. They fall around the Earth, forever. Isaac Newton drew this more than three hundred years ago, with a cannon on a mountain.",
+   "scene": "board {\"type\": \"cannon\", \"day\": 1.4}",
+   "kind": "board",
+   "params": {
+    "type": "cannon",
+    "day": 1.4
+   },
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "captions": true
+  },
+  {
+   "id": "s076",
+   "start": 351.98,
+   "end": 355.92,
+   "line": "So with a fast enough spin, the whole equator becomes one big cannon.",
+   "scene": "room {\"cam\": \"pipMed\", \"pip\": [\"awe\", \"fall\"], \"float\": [0.35, 0.4], \"day\": 1.4}",
+   "kind": "room",
+   "params": {
+    "cam": "pipMed",
+    "pip": [
+     "awe",
+     "fall"
+    ],
+    "float": [
+     0.35,
+     0.4
+    ],
+    "day": 1.4
+   },
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "captions": true
+  },
+  {
+   "id": "s077",
+   "start": 355.92,
+   "end": 359.6,
+   "line": "Exactly. The ground, the oceans, the air. And you.",
+   "scene": "room {\"cam\": \"ink\", \"ink\": [\"smirk\", \"crossArms\"], \"day\": 1.4}",
+   "kind": "room",
+   "params": {
+    "cam": "ink",
+    "ink": [
+     "smirk",
+     "crossArms"
+    ],
+    "day": 1.4
+   },
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "captions": true
+  },
+  {
+   "id": "s078",
+   "start": 359.6,
+   "end": 362.0,
+   "line": "Last click. One hour. Now the equator spins at about twenty-four thousand nine hundred miles per hour.",
+   "scene": "dial {\"from\": 1.4, \"to\": 1, \"day\": 1}",
+   "kind": "dial",
+   "params": {
+    "from": 1.4,
+    "to": 1,
+    "day": 1
+   },
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.45,
+     "name": "tick",
+     "gain": -4
+    },
+    {
+     "at": 0.5,
+     "name": "hit",
+     "gain": -12,
+     "pitch": 1.6
+    },
+    {
+     "at": 0.55,
+     "name": "whoosh",
+     "gain": -14
+    }
+   ],
+   "captions": true
+  },
+  {
+   "id": "s079",
+   "start": 362.0,
+   "end": 366.68,
+   "line": "",
+   "scene": "earth {\"cam\": \"close\", \"spin\": 6.0, \"squash\": 0.4, \"label\": \"24,900 MPH\", \"day\": 1}",
+   "kind": "earth",
+   "params": {
+    "cam": "close",
+    "spin": 6.0,
+    "squash": 0.4,
+    "label": "24,900 MPH",
+    "day": 1
+   },
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "whoosh",
+     "gain": -16
+    }
+   ],
+   "captions": true
+  },
+  {
+   "id": "s080",
+   "start": 366.68,
+   "end": 368.23,
+   "line": "Why such a strange number?",
+   "scene": "room {\"cam\": \"pip\", \"pip\": [\"confused\", \"shrug\"], \"float\": [0.4, 0.4], \"day\": 1}",
+   "kind": "room",
+   "params": {
+    "cam": "pip",
+    "pip": [
+     "confused",
+     "shrug"
+    ],
+    "float": [
+     0.4,
+     0.4
+    ],
+    "day": 1
+   },
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "captions": true
+  },
+  {
+   "id": "s081",
+   "start": 368.23,
+   "end": 374.98,
+   "line": "Because the equator is about twenty-four thousand nine hundred miles around. One trip around, one hour.",
+   "scene": "board {\"type\": \"loop\", \"day\": 1}",
+   "kind": "board",
+   "params": {
+    "type": "loop",
+    "day": 1
+   },
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "captions": true
+  },
+  {
+   "id": "s082",
+   "start": 374.98,
+   "end": 376.1,
+   "line": "Is that a lot?",
+   "scene": "room {\"cam\": \"pip\", \"pip\": [\"thinking\", \"stand\"], \"float\": [0.4, 0.4], \"day\": 1}",
+   "kind": "room",
+   "params": {
+    "cam": "pip",
+    "pip": [
+     "thinking",
+     "stand"
+    ],
+    "float": [
+     0.4,
+     0.4
+    ],
+    "day": 1
+   },
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "captions": true
+  },
+  {
+   "id": "s083",
+   "start": 376.1,
+   "end": 381.33,
+   "line": "To leave Earth forever, a rocket needs about twenty-five thousand miles per hour.",
+   "scene": "board {\"type\": \"speed\", \"rows\": [[\"EQUATOR (1-HOUR DAY)\", 24900, \"#ffd47e\"], [\"ESCAPE SPEED\", 25000, \"#ff7a4a\"]], \"max\": 25000, \"day\": 1}",
+   "kind": "board",
+   "params": {
+    "type": "speed",
+    "rows": [
+     [
+      "EQUATOR (1-HOUR DAY)",
+      24900,
+      "#ffd47e"
+     ],
+     [
+      "ESCAPE SPEED",
+      25000,
+      "#ff7a4a"
+     ]
+    ],
+    "max": 25000,
+    "day": 1
+   },
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "pop",
+     "gain": -14
+    }
+   ],
+   "captions": true
+  },
+  {
+   "id": "s084",
+   "start": 381.33,
+   "end": 384.45,
+   "line": "So we'd be only a hundred miles per hour short of leaving Earth?",
+   "scene": "room {\"cam\": \"pip\", \"pip\": [\"shocked\", \"handsOnHead\"], \"float\": [0.4, 0.45], \"day\": 1}",
+   "kind": "room",
+   "params": {
+    "cam": "pip",
+    "pip": [
+     "shocked",
+     "handsOnHead"
+    ],
+    "float": [
+     0.4,
+     0.45
+    ],
+    "day": 1
+   },
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "captions": true
+  },
+  {
+   "id": "s085",
+   "start": 384.45,
+   "end": 394.38,
+   "line": "Almost. At the equator, you'd float, and then fly right off into space. And the oceans would pile up around the middle of the planet and stream out into space.",
+   "scene": "earth {\"cam\": \"fling\", \"spin\": 3.0, \"squash\": [0.0, 0.8], \"pipFly\": true, \"day\": 1}",
+   "kind": "earth",
+   "params": {
+    "cam": "fling",
+    "spin": 3.0,
+    "squash": [
+     0.0,
+     0.8
+    ],
+    "pipFly": true,
+    "day": 1
+   },
+   "in": {
+    "type": "whip",
+    "dir": 1,
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "whoosh",
+     "gain": -16
+    }
+   ],
+   "captions": true
+  },
+  {
+   "id": "s086",
+   "start": 394.38,
+   "end": 397.3,
+   "line": "That's who leaves the planet without a rocket! Me!",
+   "scene": "room {\"cam\": \"pipMed\", \"pip\": [\"scared\", \"fall\"], \"float\": [0.45, 0.9], \"day\": 1}",
+   "kind": "room",
+   "params": {
+    "cam": "pipMed",
+    "pip": [
+     "scared",
+     "fall"
+    ],
+    "float": [
+     0.45,
+     0.9
+    ],
+    "day": 1
+   },
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "captions": true
+  },
+  {
+   "id": "s087",
+   "start": 397.3,
+   "end": 404.23,
+   "line": "You, the ocean and half the air. The planet itself would bulge, crack and start losing pieces from its middle.",
+   "scene": "earth {\"cam\": \"close\", \"spin\": 3.0, \"squash\": 0.8, \"crack\": true, \"day\": 1}",
+   "kind": "earth",
+   "params": {
+    "cam": "close",
+    "spin": 3.0,
+    "squash": 0.8,
+    "crack": true,
+    "day": 1
+   },
+   "in": {
+    "type": "whip",
+    "dir": 1,
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "whoosh",
+     "gain": -16
+    }
+   ],
+   "captions": true
+  },
+  {
+   "id": "s088",
+   "start": 404.23,
+   "end": 405.69,
+   "line": "Is there anywhere safe?",
+   "scene": "room {\"cam\": \"pip\", \"pip\": [\"worried\", \"reach\"], \"float\": [0.3, 0.3], \"day\": 1}",
+   "kind": "room",
+   "params": {
+    "cam": "pip",
+    "pip": [
+     "worried",
+     "reach"
+    ],
+    "float": [
+     0.3,
+     0.3
+    ],
+    "day": 1
+   },
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "captions": true
+  },
+  {
+   "id": "s089",
+   "start": 405.69,
+   "end": 414.74,
+   "line": "The poles. At the North and South Pole, you're standing right on the spin axis, so there's almost no fling at all. You'd weigh the same as today.",
+   "scene": "earth {\"cam\": \"pole\", \"spin\": 2.0, \"squash\": 0.8, \"safe\": true, \"day\": 1}",
+   "kind": "earth",
+   "params": {
+    "cam": "pole",
+    "spin": 2.0,
+    "squash": 0.8,
+    "safe": true,
+    "day": 1
+   },
+   "in": {
+    "type": "whip",
+    "dir": 1,
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "whoosh",
+     "gain": -16
+    }
+   ],
+   "captions": true
+  },
+  {
+   "id": "s090",
+   "start": 414.74,
+   "end": 417.0,
+   "line": "So the whole world moves to the North Pole?",
+   "scene": "room {\"cam\": \"two\", \"pip\": [\"surprised\", \"talk\"], \"ink\": [\"smirk\", \"stand\"], \"float\": [0.3, 0.3], \"day\": 1}",
+   "kind": "room",
+   "params": {
+    "cam": "two",
+    "pip": [
+     "surprised",
+     "talk"
+    ],
+    "ink": [
+     "smirk",
+     "stand"
+    ],
+    "float": [
+     0.3,
+     0.3
+    ],
+    "day": 1
+   },
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "captions": true
+  },
+  {
+   "id": "s091",
+   "start": 417.0,
+   "end": 420.1,
+   "line": "Eight billion people, one very cold party.",
+   "scene": "room {\"cam\": \"ink\", \"ink\": [\"smirk\", \"crossArms\"], \"day\": 1}",
+   "kind": "room",
+   "params": {
+    "cam": "ink",
+    "ink": [
+     "smirk",
+     "crossArms"
+    ],
+    "day": 1
+   },
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "captions": true
+  },
+  {
+   "id": "s092",
+   "start": 420.1,
+   "end": 422.44,
+   "line": "",
+   "scene": "dial {\"from\": 1, \"to\": 24, \"day\": 24}",
+   "kind": "dial",
+   "params": {
+    "from": 1,
+    "to": 24,
+    "day": 24
+   },
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.45,
+     "name": "tick",
+     "gain": -4
+    },
+    {
+     "at": 0.5,
+     "name": "hit",
+     "gain": -12,
+     "pitch": 1.6
+    },
+    {
+     "at": 0.55,
+     "name": "whoosh",
+     "gain": -14
+    }
+   ],
+   "captions": true
+  },
+  {
+   "id": "s093",
+   "start": 422.44,
+   "end": 425.36,
+   "line": "Okay, okay. I'll keep the twenty-four hour day.",
+   "scene": "room {\"cam\": \"two\", \"pip\": [\"smile\", \"relaxed\"], \"ink\": [\"smirk\", \"crossArms\"]}",
+   "kind": "room",
+   "params": {
+    "cam": "two",
+    "pip": [
+     "smile",
+     "relaxed"
+    ],
+    "ink": [
+     "smirk",
+     "crossArms"
+    ]
+   },
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "captions": true
+  },
+  {
+   "id": "s094",
+   "start": 425.36,
+   "end": 431.43,
+   "line": "Good choice. And here's the twist: the real Earth is doing the opposite. It's slowing down.",
+   "scene": "room {\"cam\": \"ink\", \"ink\": [\"smirk\", \"explain\"]}",
+   "kind": "room",
+   "params": {
+    "cam": "ink",
+    "ink": [
+     "smirk",
+     "explain"
+    ]
+   },
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "captions": true
+  },
+  {
+   "id": "s095",
+   "start": 431.43,
+   "end": 433.39,
+   "line": "Slowing down? Who's braking it?",
+   "scene": "room {\"cam\": \"pip\", \"pip\": [\"surprised\", \"talk\"]}",
+   "kind": "room",
+   "params": {
+    "cam": "pip",
+    "pip": [
+     "surprised",
+     "talk"
+    ]
+   },
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "captions": true
+  },
+  {
+   "id": "s096",
+   "start": 433.39,
+   "end": 442.5,
+   "line": "The Moon. Its pull drags on our oceans like a tiny brake. Every century, the day gets about one point seven milliseconds longer.",
+   "scene": "earth {\"cam\": \"moon\", \"spin\": 0.3, \"moon\": \"brake\", \"label\": \"+1.7 MS PER CENTURY\"}",
+   "kind": "earth",
+   "params": {
+    "cam": "moon",
+    "spin": 0.3,
+    "moon": "brake",
+    "label": "+1.7 MS PER CENTURY"
+   },
+   "in": {
+    "type": "whip",
+    "dir": 1,
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "whoosh",
+     "gain": -16
+    }
+   ],
+   "captions": true
+  },
+  {
+   "id": "s097",
+   "start": 442.5,
+   "end": 443.54,
+   "line": "That's nothing!",
+   "scene": "room {\"cam\": \"pip\", \"pip\": [\"confused\", \"shrug\"]}",
+   "kind": "room",
+   "params": {
+    "cam": "pip",
+    "pip": [
+     "confused",
+     "shrug"
+    ]
+   },
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "captions": true
+  },
+  {
+   "id": "s098",
+   "start": 443.54,
+   "end": 451.28,
+   "line": "It adds up. Seventy million years ago, when dinosaurs were around, a day was about twenty-three and a half hours long.",
+   "scene": "board {\"type\": \"timeline\", \"focus\": \"dino\"}",
+   "kind": "board",
+   "params": {
+    "type": "timeline",
+    "focus": "dino"
+   },
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "pop",
+     "gain": -14
+    }
+   ],
+   "captions": true
+  },
+  {
+   "id": "s099",
+   "start": 451.28,
+   "end": 453.8,
+   "line": "So the T. rex had less time to do homework.",
+   "scene": "room {\"cam\": \"pip\", \"pip\": [\"happy\", \"point\"]}",
+   "kind": "room",
+   "params": {
+    "cam": "pip",
+    "pip": [
+     "happy",
+     "point"
+    ]
+   },
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "captions": true
+  },
+  {
+   "id": "s100",
+   "start": 453.8,
+   "end": 456.62,
+   "line": "Twenty-nine minutes less, every single day.",
+   "scene": "room {\"cam\": \"ink\", \"ink\": [\"smirk\", \"crossArms\"]}",
+   "kind": "room",
+   "params": {
+    "cam": "ink",
+    "ink": [
+     "smirk",
+     "crossArms"
+    ]
+   },
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "captions": true
+  },
+  {
+   "id": "s101",
+   "start": 456.62,
+   "end": 457.87,
+   "line": "And even earlier?",
+   "scene": "room {\"cam\": \"pip\", \"pip\": [\"thinking\", \"think\"]}",
+   "kind": "room",
+   "params": {
+    "cam": "pip",
+    "pip": [
+     "thinking",
+     "think"
+    ]
+   },
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "captions": true
+  },
+  {
+   "id": "s102",
+   "start": 457.87,
+   "end": 467.57,
+   "line": "Scientists found that for about a billion years, a day was stuck at around nineteen hours. Some researchers call that stretch of time 'the boring billion'.",
+   "scene": "board {\"type\": \"timeline\", \"focus\": \"boring\"}",
+   "kind": "board",
+   "params": {
+    "type": "timeline",
+    "focus": "boring"
+   },
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "pop",
+     "gain": -14
+    }
+   ],
+   "captions": true
+  },
+  {
+   "id": "s103",
+   "start": 467.57,
+   "end": 470.81,
+   "line": "A billion years of nineteen-hour days? That IS boring.",
+   "scene": "room {\"cam\": \"pip\", \"pip\": [\"sleepy\", \"relaxed\"]}",
+   "kind": "room",
+   "params": {
+    "cam": "pip",
+    "pip": [
+     "sleepy",
+     "relaxed"
+    ]
+   },
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "captions": true
+  },
+  {
+   "id": "s104",
+   "start": 470.81,
+   "end": 478.0,
+   "line": "And the Moon keeps drifting away from us, about three point eight centimeters every year. As it moves away, it keeps braking us. In about two hundred million years, a day could reach twenty-five hours.",
+   "scene": "earth {\"cam\": \"moon\", \"spin\": 0.3, \"moon\": \"drift\", \"label\": \"3.8 CM PER YEAR\"}",
+   "kind": "earth",
+   "params": {
+    "cam": "moon",
+    "spin": 0.3,
+    "moon": "drift",
+    "label": "3.8 CM PER YEAR"
+   },
+   "in": {
+    "type": "whip",
+    "dir": 1,
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "whoosh",
+     "gain": -16
+    }
+   ],
+   "captions": true
+  },
+  {
+   "id": "s105",
+   "start": 478.0,
+   "end": 483.81,
+   "line": "",
+   "scene": "board {\"type\": \"timeline\", \"focus\": \"future\"}",
+   "kind": "board",
+   "params": {
+    "type": "timeline",
+    "focus": "future"
+   },
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "pop",
+     "gain": -14
+    }
+   ],
+   "captions": true
+  },
+  {
+   "id": "s106",
+   "start": 483.81,
+   "end": 486.1,
+   "line": "Finally! One extra hour of sleep!",
+   "scene": "room {\"cam\": \"pip\", \"pip\": [\"joy\", \"cheer\"]}",
+   "kind": "room",
+   "params": {
+    "cam": "pip",
+    "pip": [
+     "joy",
+     "cheer"
+    ]
+   },
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "captions": true
+  },
+  {
+   "id": "s107",
+   "start": 486.1,
+   "end": 488.86,
+   "line": "You'll just have to wait two hundred million years.",
+   "scene": "room {\"cam\": \"ink\", \"ink\": [\"smirk\", \"crossArms\"]}",
+   "kind": "room",
+   "params": {
+    "cam": "ink",
+    "ink": [
+     "smirk",
+     "crossArms"
+    ]
+   },
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "captions": true
+  },
+  {
+   "id": "s108",
+   "start": 488.86,
+   "end": 505.09,
+   "line": "Okay, let me sum up. Twenty-two hours: jet lag and wet islands. Twelve hours: two bedtimes and angry hurricanes. Ten hours: Jupiter vibes. Four hours: egg planet. One hour twenty-four: free astronaut training. One hour: goodbye, Pip.",
+   "scene": "board {\"type\": \"summary\"}",
+   "kind": "board",
+   "params": {
+    "type": "summary"
+   },
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "pop",
+     "gain": -14
+    }
+   ],
+   "captions": true
+  },
+  {
+   "id": "s109",
+   "start": 505.09,
+   "end": 506.74,
+   "line": "And twenty-four hours?",
+   "scene": "room {\"cam\": \"two\", \"pip\": [\"smile\", \"relaxed\"], \"ink\": [\"smile\", \"talk\"]}",
+   "kind": "room",
+   "params": {
+    "cam": "two",
+    "pip": [
+     "smile",
+     "relaxed"
+    ],
+    "ink": [
+     "smile",
+     "talk"
+    ]
+   },
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "captions": true
+  },
+  {
+   "id": "s110",
+   "start": 506.74,
+   "end": 510.22,
+   "line": "Twenty-four hours is perfect. Thank you, Moon.",
+   "scene": "room {\"cam\": \"wide\", \"pip\": [\"happy\", \"wave\"], \"ink\": [\"smile\", \"relaxed\"]}",
+   "kind": "room",
+   "params": {
+    "cam": "wide",
+    "pip": [
+     "happy",
+     "wave"
+    ],
+    "ink": [
+     "smile",
+     "relaxed"
+    ]
+   },
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "captions": true
+  },
+  {
+   "id": "s111",
+   "start": 510.22,
+   "end": 522.39,
+   "line": "Subscribe, so you don't miss our next adventure! And tell us in the comments: what should we do next? The best idea becomes our next video!",
+   "scene": "board {\"type\": \"endscreen\"}",
+   "kind": "board",
+   "params": {
+    "type": "endscreen"
+   },
+   "in": {
+    "type": "flash",
+    "dur": 0.25
+   },
+   "sfx": [],
+   "captions": false
+  }
+ ],
+ "music": [
+  {
+   "start": 0,
+   "end": 34.4,
+   "mood": "playful",
+   "intensity": 0.5
+  },
+  {
+   "start": 34.4,
+   "end": 162.2,
+   "mood": "playful",
+   "intensity": 0.45
+  },
+  {
+   "start": 162.2,
+   "end": 236.0,
+   "mood": "wonder",
+   "intensity": 0.45
+  },
+  {
+   "start": 236.0,
+   "end": 359.6,
+   "mood": "mystery",
+   "intensity": 0.5
+  },
+  {
+   "start": 359.6,
+   "end": 422.4,
+   "mood": "tension",
+   "intensity": 0.6
+  },
+  {
+   "start": 422.4,
+   "end": 509.6,
+   "mood": "hopeful",
+   "intensity": 0.45
+  },
+  {
+   "start": 509.6,
+   "end": 522.392,
+   "mood": "triumph",
+   "intensity": 0.55
+  }
+ ]
+}

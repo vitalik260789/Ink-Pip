@@ -1,0 +1,758 @@
+{
+ "lines": [
+  {
+   "who": "PIP",
+   "text": "What if a whole day lasted just one hour?",
+   "start": 1.2,
+   "end": 3.186,
+   "section": "HOOK"
+  },
+  {
+   "who": "INK",
+   "text": "Then the sun would rise every hour. Breakfast, lunch, dinner and bedtime, all before your cartoon ends.",
+   "start": 3.486,
+   "end": 10.031,
+   "section": "HOOK"
+  },
+  {
+   "who": "PIP",
+   "text": "Ha! Short days mean short school!",
+   "start": 10.331,
+   "end": 11.997,
+   "section": "HOOK"
+  },
+  {
+   "who": "INK",
+   "text": "Short school... and a planet that tears itself apart. Want to find out how?",
+   "start": 12.297,
+   "end": 17.01,
+   "section": "HOOK"
+  },
+  {
+   "who": "PIP",
+   "text": "What is THAT?",
+   "start": 17.91,
+   "end": 18.618,
+   "section": "TITLE + PROMISE"
+  },
+  {
+   "who": "INK",
+   "text": "The Spin Dial. It sets how long a day is. Right now it says twenty-four hours. We'll turn it down, one click at a time, and watch what happens to Earth.",
+   "start": 18.918,
+   "end": 28.501,
+   "section": "TITLE + PROMISE"
+  },
+  {
+   "who": "PIP",
+   "text": "And at one hour?",
+   "start": 28.801,
+   "end": 29.547,
+   "section": "TITLE + PROMISE"
+  },
+  {
+   "who": "INK",
+   "text": "At one hour, one of us leaves the planet. Without a rocket.",
+   "start": 29.847,
+   "end": 33.2,
+   "section": "TITLE + PROMISE"
+  },
+  {
+   "who": "PIP",
+   "text": "Dibs on not me.",
+   "start": 33.5,
+   "end": 34.468,
+   "section": "TITLE + PROMISE"
+  },
+  {
+   "who": "INK",
+   "text": "First, a little nudge. Right now the equator spins at about one thousand miles per hour.",
+   "start": 35.368,
+   "end": 41.006,
+   "section": "STAGE 1: 22 HOURS"
+  },
+  {
+   "who": "PIP",
+   "text": "We're moving a thousand miles per hour? Right now? I'm sitting still!",
+   "start": 41.306,
+   "end": 44.742,
+   "section": "STAGE 1: 22 HOURS"
+  },
+  {
+   "who": "INK",
+   "text": "Everything around you moves with you, so you don't feel it. Now let's add one hundred miles per hour. That's enough to make a day about twenty-two hours long.",
+   "start": 45.042,
+   "end": 54.487,
+   "section": "STAGE 1: 22 HOURS"
+  },
+  {
+   "who": "PIP",
+   "text": "Two extra hours of nothing? I can live with that.",
+   "start": 54.787,
+   "end": 57.381,
+   "section": "STAGE 1: 22 HOURS"
+  },
+  {
+   "who": "INK",
+   "text": "Your body can't. It's like setting every clock back two hours, every single day. Permanent jet lag. Plants and animals get confused too.",
+   "start": 57.681,
+   "end": 66.718,
+   "section": "STAGE 1: 22 HOURS"
+  },
+  {
+   "who": "PIP",
+   "text": "Okay, so I'm grumpy. That's it?",
+   "start": 67.018,
+   "end": 68.85,
+   "section": "STAGE 1: 22 HOURS"
+  },
+  {
+   "who": "INK",
+   "text": "Not quite. A spinning planet pushes things outward, most of all at the equator. Water is the first to notice. The oceans start sliding toward the middle of the planet.",
+   "start": 69.15,
+   "end": 79.712,
+   "section": "STAGE 1: 22 HOURS"
+  },
+  {
+   "who": "PIP",
+   "text": "How much water?",
+   "start": 80.012,
+   "end": 80.87,
+   "section": "STAGE 1: 22 HOURS"
+  },
+  {
+   "who": "INK",
+   "text": "Scientists estimate the sea at the equator could rise by tens of feet. Low islands and coastal cities near the equator start to flood.",
+   "start": 81.17,
+   "end": 89.79,
+   "section": "STAGE 1: 22 HOURS"
+  },
+  {
+   "who": "PIP",
+   "text": "From one hundred miles per hour? That's a slow car!",
+   "start": 90.09,
+   "end": 92.775,
+   "section": "STAGE 1: 22 HOURS"
+  },
+  {
+   "who": "INK",
+   "text": "And look up. Weather and TV satellites hang over one spot of Earth because they circle exactly as fast as it spins. Speed Earth up even a little, and they drift out of place.",
+   "start": 93.075,
+   "end": 104.205,
+   "section": "STAGE 1: 22 HOURS"
+  },
+  {
+   "who": "PIP",
+   "text": "So no TV and no GPS?",
+   "start": 104.505,
+   "end": 106.495,
+   "section": "STAGE 1: 22 HOURS"
+  },
+  {
+   "who": "INK",
+   "text": "Not until engineers move every single one of them. Hope you know the way to school.",
+   "start": 106.795,
+   "end": 111.758,
+   "section": "STAGE 1: 22 HOURS"
+  },
+  {
+   "who": "INK",
+   "text": "Now let's double the speed. Two thousand miles per hour. A day is twelve hours long.",
+   "start": 112.658,
+   "end": 118.122,
+   "section": "STAGE 2: 12 HOURS"
+  },
+  {
+   "who": "PIP",
+   "text": "Sunrise at six, sunset at noon, sunrise again at six in the evening? I'd be so confused.",
+   "start": 118.422,
+   "end": 124.034,
+   "section": "STAGE 2: 12 HOURS"
+  },
+  {
+   "who": "INK",
+   "text": "You'd probably sleep in two shifts. One nap during the first night, one during the second.",
+   "start": 124.334,
+   "end": 129.621,
+   "section": "STAGE 2: 12 HOURS"
+  },
+  {
+   "who": "PIP",
+   "text": "Two bedtimes a day? Mom will love that.",
+   "start": 129.921,
+   "end": 132.166,
+   "section": "STAGE 2: 12 HOURS"
+  },
+  {
+   "who": "INK",
+   "text": "The oceans are more confused. Even more water rushes to the equator. Near the poles the seas get shallower, and new land appears.",
+   "start": 132.466,
+   "end": 140.842,
+   "section": "STAGE 2: 12 HOURS"
+  },
+  {
+   "who": "PIP",
+   "text": "Free beaches!",
+   "start": 141.142,
+   "end": 141.971,
+   "section": "STAGE 2: 12 HOURS"
+  },
+  {
+   "who": "INK",
+   "text": "Freezing beaches. And then there's the weather. You see, Earth's spin is what makes hurricanes turn. A faster spin bends the winds harder, so storms spin faster and carry more energy.",
+   "start": 142.271,
+   "end": 154.189,
+   "section": "STAGE 2: 12 HOURS"
+  },
+  {
+   "who": "PIP",
+   "text": "So: floods, freezing beaches, angry hurricanes. Can we stop here?",
+   "start": 154.489,
+   "end": 158.483,
+   "section": "STAGE 2: 12 HOURS"
+  },
+  {
+   "who": "INK",
+   "text": "We're only at twelve hours. Click.",
+   "start": 158.783,
+   "end": 160.831,
+   "section": "STAGE 2: 12 HOURS"
+  },
+  {
+   "who": "PIP",
+   "text": "Why do you always click?!",
+   "start": 161.131,
+   "end": 162.244,
+   "section": "STAGE 2: 12 HOURS"
+  },
+  {
+   "who": "INK",
+   "text": "Ten hours. Now Earth spins almost like Jupiter. Jupiter's day lasts just under ten hours.",
+   "start": 163.144,
+   "end": 169.468,
+   "section": "STAGE 3: 10 HOURS \u2014 THE JUPITER DAY"
+  },
+  {
+   "who": "PIP",
+   "text": "Jupiter is huge. Does the spin do anything to it?",
+   "start": 169.768,
+   "end": 172.528,
+   "section": "STAGE 3: 10 HOURS \u2014 THE JUPITER DAY"
+  },
+  {
+   "who": "INK",
+   "text": "First, imagine the speed. Jupiter is so big that its equator flies at about twenty-eight thousand miles per hour.",
+   "start": 172.828,
+   "end": 180.338,
+   "section": "STAGE 3: 10 HOURS \u2014 THE JUPITER DAY"
+  },
+  {
+   "who": "PIP",
+   "text": "And it doesn't fall apart?",
+   "start": 180.638,
+   "end": 181.872,
+   "section": "STAGE 3: 10 HOURS \u2014 THE JUPITER DAY"
+  },
+  {
+   "who": "INK",
+   "text": "Its gravity is strong enough to hold on. But the fast spin helps stretch its clouds into those long stripes you see in every picture. And it squashes the whole planet. Jupiter's middle is about four thousand seven hundred kilometers farther from its center than its poles are. You can see the bulge in a small backyard telescope.",
+   "start": 182.172,
+   "end": 202.099,
+   "section": "STAGE 3: 10 HOURS \u2014 THE JUPITER DAY"
+  },
+  {
+   "who": "INK",
+   "text": "Saturn is even flatter than Jupiter. It's almost ten percent wider than it is tall. You can see that in a backyard telescope too.",
+   "start": 202.249,
+   "end": 210.453,
+   "section": "STAGE 3: 10 HOURS \u2014 THE JUPITER DAY"
+  },
+  {
+   "who": "PIP",
+   "text": "So round planets are only round because they spin slowly?",
+   "start": 210.753,
+   "end": 213.927,
+   "section": "STAGE 3: 10 HOURS \u2014 THE JUPITER DAY"
+  },
+  {
+   "who": "INK",
+   "text": "Pretty much. Spin is a planet's hidden sculptor.",
+   "start": 214.227,
+   "end": 217.175,
+   "section": "STAGE 3: 10 HOURS \u2014 THE JUPITER DAY"
+  },
+  {
+   "who": "PIP",
+   "text": "So Earth starts getting squashed too?",
+   "start": 217.475,
+   "end": 219.092,
+   "section": "STAGE 3: 10 HOURS \u2014 THE JUPITER DAY"
+  },
+  {
+   "who": "INK",
+   "text": "The faster it spins, the more it bulges. Fun fact: right after the Moon formed, billions of years ago, Earth's day may have been less than ten hours long.",
+   "start": 219.392,
+   "end": 229.128,
+   "section": "STAGE 3: 10 HOURS \u2014 THE JUPITER DAY"
+  },
+  {
+   "who": "PIP",
+   "text": "So Earth has done this before?",
+   "start": 229.428,
+   "end": 230.89,
+   "section": "STAGE 3: 10 HOURS \u2014 THE JUPITER DAY"
+  },
+  {
+   "who": "INK",
+   "text": "A long time ago, with nobody around to complain.",
+   "start": 231.19,
+   "end": 234.301,
+   "section": "STAGE 3: 10 HOURS \u2014 THE JUPITER DAY"
+  },
+  {
+   "who": "PIP",
+   "text": "Whoa, what is that? A space potato?",
+   "start": 236.901,
+   "end": 238.924,
+   "section": "STAGE 4: 4 HOURS \u2014 THE EGG PLANET"
+  },
+  {
+   "who": "INK",
+   "text": "That's Haumea, a dwarf planet far beyond Neptune. It spins once every three point nine hours, the fastest of any big world we know in the solar system.",
+   "start": 239.224,
+   "end": 249.468,
+   "section": "STAGE 4: 4 HOURS \u2014 THE EGG PLANET"
+  },
+  {
+   "who": "PIP",
+   "text": "And that's why it looks like an egg?",
+   "start": 249.768,
+   "end": 251.239,
+   "section": "STAGE 4: 4 HOURS \u2014 THE EGG PLANET"
+  },
+  {
+   "who": "INK",
+   "text": "Exactly. It spins so fast that its middle stretches out. It's about twice as long as it is thin.",
+   "start": 251.539,
+   "end": 258.017,
+   "section": "STAGE 4: 4 HOURS \u2014 THE EGG PLANET"
+  },
+  {
+   "who": "PIP",
+   "text": "So if Earth spun every four hours...",
+   "start": 258.317,
+   "end": 260.163,
+   "section": "STAGE 4: 4 HOURS \u2014 THE EGG PLANET"
+  },
+  {
+   "who": "INK",
+   "text": "...our nice round planet would start stretching too. Mountains, cities, everything along the equator would be slowly pulled outward.",
+   "start": 260.463,
+   "end": 268.435,
+   "section": "STAGE 4: 4 HOURS \u2014 THE EGG PLANET"
+  },
+  {
+   "who": "PIP",
+   "text": "Okay, I officially miss round Earth.",
+   "start": 268.735,
+   "end": 270.562,
+   "section": "STAGE 4: 4 HOURS \u2014 THE EGG PLANET"
+  },
+  {
+   "who": "INK",
+   "text": "Spin a world like that even faster, and scientists think it could stretch into a dumbbell shape and split in two.",
+   "start": 270.862,
+   "end": 277.226,
+   "section": "STAGE 4: 4 HOURS \u2014 THE EGG PLANET"
+  },
+  {
+   "who": "PIP",
+   "text": "Into two Earths?!",
+   "start": 277.526,
+   "end": 278.423,
+   "section": "STAGE 4: 4 HOURS \u2014 THE EGG PLANET"
+  },
+  {
+   "who": "INK",
+   "text": "Two very bad Earths.",
+   "start": 278.723,
+   "end": 280.05,
+   "section": "STAGE 4: 4 HOURS \u2014 THE EGG PLANET"
+  },
+  {
+   "who": "INK",
+   "text": "Now it gets weird. You see, spinning tries to fling everything outward. Gravity holds us down. On normal Earth, gravity wins easily. At the equator you weigh just a tiny bit less than at the poles.",
+   "start": 280.95,
+   "end": 294.018,
+   "section": "STAGE 5: 1 HOUR 24 MINUTES \u2014 FLOATING"
+  },
+  {
+   "who": "PIP",
+   "text": "So I should go to the equator before every check-up.",
+   "start": 294.318,
+   "end": 296.845,
+   "section": "STAGE 5: 1 HOUR 24 MINUTES \u2014 FLOATING"
+  },
+  {
+   "who": "INK",
+   "text": "Ha. But keep turning the dial. At around seventeen thousand five hundred miles per hour, the fling becomes exactly as strong as gravity. That happens when a day lasts about one hour and twenty-four minutes.",
+   "start": 297.145,
+   "end": 310.566,
+   "section": "STAGE 5: 1 HOUR 24 MINUTES \u2014 FLOATING"
+  },
+  {
+   "who": "PIP",
+   "text": "And then?",
+   "start": 310.866,
+   "end": 311.403,
+   "section": "STAGE 5: 1 HOUR 24 MINUTES \u2014 FLOATING"
+  },
+  {
+   "who": "INK",
+   "text": "Then, at the equator, you weigh... nothing.",
+   "start": 311.703,
+   "end": 313.942,
+   "section": "STAGE 5: 1 HOUR 24 MINUTES \u2014 FLOATING"
+  },
+  {
+   "who": "PIP",
+   "text": "Wait. So I'd float?",
+   "start": 314.242,
+   "end": 315.341,
+   "section": "STAGE 5: 1 HOUR 24 MINUTES \u2014 FLOATING"
+  },
+  {
+   "who": "INK",
+   "text": "Like an astronaut. That's not a coincidence: seventeen thousand five hundred miles per hour is exactly how fast the space station flies to stay in orbit.",
+   "start": 315.641,
+   "end": 325.806,
+   "section": "STAGE 5: 1 HOUR 24 MINUTES \u2014 FLOATING"
+  },
+  {
+   "who": "PIP",
+   "text": "So on that Earth, the ground is basically in orbit?",
+   "start": 326.106,
+   "end": 328.8,
+   "section": "STAGE 5: 1 HOUR 24 MINUTES \u2014 FLOATING"
+  },
+  {
+   "who": "INK",
+   "text": "Here's the secret of orbit. Astronauts aren't floating because there's no gravity up there. There's plenty. They're falling, all the time.",
+   "start": 329.1,
+   "end": 337.213,
+   "section": "STAGE 5: 1 HOUR 24 MINUTES \u2014 FLOATING"
+  },
+  {
+   "who": "PIP",
+   "text": "Falling? Then why don't they hit the ground?",
+   "start": 337.513,
+   "end": 339.53,
+   "section": "STAGE 5: 1 HOUR 24 MINUTES \u2014 FLOATING"
+  },
+  {
+   "who": "INK",
+   "text": "Because they're moving sideways so fast that the ground curves away beneath them. They fall around the Earth, forever. Isaac Newton drew this more than three hundred years ago, with a cannon on a mountain.",
+   "start": 339.83,
+   "end": 351.83,
+   "section": "STAGE 5: 1 HOUR 24 MINUTES \u2014 FLOATING"
+  },
+  {
+   "who": "PIP",
+   "text": "So with a fast enough spin, the whole equator becomes one big cannon.",
+   "start": 352.13,
+   "end": 355.772,
+   "section": "STAGE 5: 1 HOUR 24 MINUTES \u2014 FLOATING"
+  },
+  {
+   "who": "INK",
+   "text": "Exactly. The ground, the oceans, the air. And you.",
+   "start": 356.072,
+   "end": 359.04,
+   "section": "STAGE 5: 1 HOUR 24 MINUTES \u2014 FLOATING"
+  },
+  {
+   "who": "INK",
+   "text": "Last click. One hour. Now the equator spins at about twenty-four thousand nine hundred miles per hour.",
+   "start": 359.94,
+   "end": 366.525,
+   "section": "STAGE 6: 1 HOUR"
+  },
+  {
+   "who": "PIP",
+   "text": "Why such a strange number?",
+   "start": 366.825,
+   "end": 368.08,
+   "section": "STAGE 6: 1 HOUR"
+  },
+  {
+   "who": "INK",
+   "text": "Because the equator is about twenty-four thousand nine hundred miles around. One trip around, one hour.",
+   "start": 368.38,
+   "end": 374.829,
+   "section": "STAGE 6: 1 HOUR"
+  },
+  {
+   "who": "PIP",
+   "text": "Is that a lot?",
+   "start": 375.129,
+   "end": 375.95,
+   "section": "STAGE 6: 1 HOUR"
+  },
+  {
+   "who": "INK",
+   "text": "To leave Earth forever, a rocket needs about twenty-five thousand miles per hour.",
+   "start": 376.25,
+   "end": 381.181,
+   "section": "STAGE 6: 1 HOUR"
+  },
+  {
+   "who": "PIP",
+   "text": "So we'd be only a hundred miles per hour short of leaving Earth?",
+   "start": 381.481,
+   "end": 384.303,
+   "section": "STAGE 6: 1 HOUR"
+  },
+  {
+   "who": "INK",
+   "text": "Almost. At the equator, you'd float, and then fly right off into space. And the oceans would pile up around the middle of the planet and stream out into space.",
+   "start": 384.603,
+   "end": 394.232,
+   "section": "STAGE 6: 1 HOUR"
+  },
+  {
+   "who": "PIP",
+   "text": "That's who leaves the planet without a rocket! Me!",
+   "start": 394.532,
+   "end": 397.147,
+   "section": "STAGE 6: 1 HOUR"
+  },
+  {
+   "who": "INK",
+   "text": "You, the ocean and half the air. The planet itself would bulge, crack and start losing pieces from its middle.",
+   "start": 397.447,
+   "end": 404.084,
+   "section": "STAGE 6: 1 HOUR"
+  },
+  {
+   "who": "PIP",
+   "text": "Is there anywhere safe?",
+   "start": 404.384,
+   "end": 405.544,
+   "section": "STAGE 6: 1 HOUR"
+  },
+  {
+   "who": "INK",
+   "text": "The poles. At the North and South Pole, you're standing right on the spin axis, so there's almost no fling at all. You'd weigh the same as today.",
+   "start": 405.844,
+   "end": 414.586,
+   "section": "STAGE 6: 1 HOUR"
+  },
+  {
+   "who": "PIP",
+   "text": "So the whole world moves to the North Pole?",
+   "start": 414.886,
+   "end": 416.849,
+   "section": "STAGE 6: 1 HOUR"
+  },
+  {
+   "who": "INK",
+   "text": "Eight billion people, one very cold party.",
+   "start": 417.149,
+   "end": 419.991,
+   "section": "STAGE 6: 1 HOUR"
+  },
+  {
+   "who": "PIP",
+   "text": "Okay, okay. I'll keep the twenty-four hour day.",
+   "start": 422.591,
+   "end": 425.208,
+   "section": "TWIST: THE REAL EARTH IS SLOWING DOWN"
+  },
+  {
+   "who": "INK",
+   "text": "Good choice. And here's the twist: the real Earth is doing the opposite. It's slowing down.",
+   "start": 425.508,
+   "end": 431.284,
+   "section": "TWIST: THE REAL EARTH IS SLOWING DOWN"
+  },
+  {
+   "who": "PIP",
+   "text": "Slowing down? Who's braking it?",
+   "start": 431.584,
+   "end": 433.236,
+   "section": "TWIST: THE REAL EARTH IS SLOWING DOWN"
+  },
+  {
+   "who": "INK",
+   "text": "The Moon. Its pull drags on our oceans like a tiny brake. Every century, the day gets about one point seven milliseconds longer.",
+   "start": 433.536,
+   "end": 442.353,
+   "section": "TWIST: THE REAL EARTH IS SLOWING DOWN"
+  },
+  {
+   "who": "PIP",
+   "text": "That's nothing!",
+   "start": 442.653,
+   "end": 443.385,
+   "section": "TWIST: THE REAL EARTH IS SLOWING DOWN"
+  },
+  {
+   "who": "INK",
+   "text": "It adds up. Seventy million years ago, when dinosaurs were around, a day was about twenty-three and a half hours long.",
+   "start": 443.685,
+   "end": 451.13,
+   "section": "TWIST: THE REAL EARTH IS SLOWING DOWN"
+  },
+  {
+   "who": "PIP",
+   "text": "So the T. rex had less time to do homework.",
+   "start": 451.43,
+   "end": 453.646,
+   "section": "TWIST: THE REAL EARTH IS SLOWING DOWN"
+  },
+  {
+   "who": "INK",
+   "text": "Twenty-nine minutes less, every single day.",
+   "start": 453.946,
+   "end": 456.474,
+   "section": "TWIST: THE REAL EARTH IS SLOWING DOWN"
+  },
+  {
+   "who": "PIP",
+   "text": "And even earlier?",
+   "start": 456.774,
+   "end": 457.72,
+   "section": "TWIST: THE REAL EARTH IS SLOWING DOWN"
+  },
+  {
+   "who": "INK",
+   "text": "Scientists found that for about a billion years, a day was stuck at around nineteen hours. Some researchers call that stretch of time 'the boring billion'.",
+   "start": 458.02,
+   "end": 467.416,
+   "section": "TWIST: THE REAL EARTH IS SLOWING DOWN"
+  },
+  {
+   "who": "PIP",
+   "text": "A billion years of nineteen-hour days? That IS boring.",
+   "start": 467.716,
+   "end": 470.66,
+   "section": "TWIST: THE REAL EARTH IS SLOWING DOWN"
+  },
+  {
+   "who": "INK",
+   "text": "And the Moon keeps drifting away from us, about three point eight centimeters every year. As it moves away, it keeps braking us. In about two hundred million years, a day could reach twenty-five hours.",
+   "start": 470.96,
+   "end": 483.664,
+   "section": "TWIST: THE REAL EARTH IS SLOWING DOWN"
+  },
+  {
+   "who": "PIP",
+   "text": "Finally! One extra hour of sleep!",
+   "start": 483.964,
+   "end": 485.95,
+   "section": "TWIST: THE REAL EARTH IS SLOWING DOWN"
+  },
+  {
+   "who": "INK",
+   "text": "You'll just have to wait two hundred million years.",
+   "start": 486.25,
+   "end": 488.709,
+   "section": "TWIST: THE REAL EARTH IS SLOWING DOWN"
+  },
+  {
+   "who": "PIP",
+   "text": "Okay, let me sum up. Twenty-two hours: jet lag and wet islands. Twelve hours: two bedtimes and angry hurricanes. Ten hours: Jupiter vibes. Four hours: egg planet. One hour twenty-four: free astronaut training. One hour: goodbye, Pip.",
+   "start": 489.009,
+   "end": 504.942,
+   "section": "TWIST: THE REAL EARTH IS SLOWING DOWN"
+  },
+  {
+   "who": "INK",
+   "text": "And twenty-four hours?",
+   "start": 505.242,
+   "end": 506.586,
+   "section": "TWIST: THE REAL EARTH IS SLOWING DOWN"
+  },
+  {
+   "who": "PIP",
+   "text": "Twenty-four hours is perfect. Thank you, Moon.",
+   "start": 506.886,
+   "end": 509.474,
+   "section": "TWIST: THE REAL EARTH IS SLOWING DOWN"
+  },
+  {
+   "who": "PIP",
+   "text": "Subscribe, so you don't miss our next adventure!",
+   "start": 510.374,
+   "end": 512.677,
+   "section": "ENDING + CTA (end screen)"
+  },
+  {
+   "who": "INK",
+   "text": "And tell us in the comments: what should we do next? The best idea becomes our next video!",
+   "start": 512.977,
+   "end": 518.392,
+   "section": "ENDING + CTA (end screen)"
+  }
+ ],
+ "sections": [
+  {
+   "title": "HOOK",
+   "pending_gap": 0.9,
+   "t": 0.3
+  },
+  {
+   "title": "TITLE + PROMISE",
+   "pending_gap": 0.9,
+   "t": 17.01
+  },
+  {
+   "title": "STAGE 1: 22 HOURS",
+   "pending_gap": 0.9,
+   "t": 34.468
+  },
+  {
+   "title": "STAGE 2: 12 HOURS",
+   "pending_gap": 0.9,
+   "t": 111.758
+  },
+  {
+   "title": "STAGE 3: 10 HOURS \u2014 THE JUPITER DAY",
+   "pending_gap": 0.9,
+   "t": 162.244
+  },
+  {
+   "title": "(natural pause \u2014 mid-roll slot)",
+   "pending_gap": 2.6
+  },
+  {
+   "title": "STAGE 4: 4 HOURS \u2014 THE EGG PLANET",
+   "pending_gap": 2.6,
+   "t": 236.001
+  },
+  {
+   "title": "STAGE 5: 1 HOUR 24 MINUTES \u2014 FLOATING",
+   "pending_gap": 0.9,
+   "t": 280.05
+  },
+  {
+   "title": "STAGE 6: 1 HOUR",
+   "pending_gap": 0.9,
+   "t": 359.04
+  },
+  {
+   "title": "(natural pause \u2014 mid-roll slot)",
+   "pending_gap": 2.6
+  },
+  {
+   "title": "TWIST: THE REAL EARTH IS SLOWING DOWN",
+   "pending_gap": 2.6,
+   "t": 421.691
+  },
+  {
+   "title": "ENDING + CTA (end screen)",
+   "pending_gap": 0.9,
+   "t": 509.474
+  }
+ ],
+ "duration": 522.392
+}
