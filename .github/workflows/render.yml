@@ -30,7 +30,7 @@ concurrency:
 
 jobs:
   plan:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     outputs:
       shards: ${{ steps.p.outputs.shards }}
       n: ${{ steps.p.outputs.n }}
@@ -43,7 +43,7 @@ jobs:
           echo "shards=$(seq -s, 0 $((N-1)) | sed 's/^/[/;s/$/]/')" >> "$GITHUB_OUTPUT"
 
   audio:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -52,7 +52,7 @@ jobs:
       - run: pip install -q numpy scipy
       - name: Mix voice + music + SFX
         working-directory: studio
-        run: python audio/mix.py --project projects/${{ github.event.inputs.project }}
+        run: mkdir -p projects/${{ github.event.inputs.project }}/build && python audio/mix.py --project projects/${{ github.event.inputs.project }}
       - uses: actions/upload-artifact@v4
         with:
           name: mix
@@ -61,7 +61,7 @@ jobs:
 
   render:
     needs: plan
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     timeout-minutes: 340
     strategy:
       fail-fast: false
@@ -87,7 +87,7 @@ jobs:
 
   final:
     needs: [plan, render, audio]
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
