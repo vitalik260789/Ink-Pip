@@ -1,0 +1,4 @@
+node_modules/
+studio/projects/*/build/
+studio/projects/*/out/
+__pycache__/

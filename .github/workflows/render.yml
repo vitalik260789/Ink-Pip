@@ -1,0 +1,121 @@
+# Ink & Pip — render a video on many GitHub machines at once.
+#   Run: Actions → "Render video" → Run workflow (project = folder in studio/projects, shards = machines, 1–20).
+#   1) audio:   music + SFX + voice mix (build/mix.wav)
+#   2) render:  every machine renders its own 4-second chunks (render.mjs --resume --shard k/N)
+#   3) final:   join chunks, add sound, publish a GitHub Release with the MP4 (public download link)
+name: Render video
+
+on:
+  workflow_dispatch:
+    inputs:
+      project:
+        description: "Project folder in studio/projects"
+        required: true
+        default: "day-1-hour"
+      shards:
+        description: "How many machines render in parallel (1-20)"
+        required: true
+        default: "12"
+      scale:
+        description: "Resolution scale (1 = 1080p, 0.5 = 540p preview)"
+        required: true
+        default: "1"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: render-${{ github.event.inputs.project }}
+  cancel-in-progress: false
+
+jobs:
+  plan:
+    runs-on: ubuntu-latest
+    outputs:
+      shards: ${{ steps.p.outputs.shards }}
+      n: ${{ steps.p.outputs.n }}
+    steps:
+      - id: p
+        run: |
+          N=${{ github.event.inputs.shards }}
+          N=$(( N < 1 ? 1 : (N > 20 ? 20 : N) ))
+          echo "n=$N" >> "$GITHUB_OUTPUT"
+          echo "shards=$(seq -s, 0 $((N-1)) | sed 's/^/[/;s/$/]/')" >> "$GITHUB_OUTPUT"
+
+  audio:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+      - run: pip install -q numpy scipy
+      - name: Mix voice + music + SFX
+        working-directory: studio
+        run: python audio/mix.py --project projects/${{ github.event.inputs.project }}
+      - uses: actions/upload-artifact@v4
+        with:
+          name: mix
+          path: studio/projects/${{ github.event.inputs.project }}/build/mix.wav
+          retention-days: 3
+
+  render:
+    needs: plan
+    runs-on: ubuntu-latest
+    timeout-minutes: 340
+    strategy:
+      fail-fast: false
+      max-parallel: 20
+      matrix:
+        shard: ${{ fromJSON(needs.plan.outputs.shards) }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: "22" }
+      - run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+      - name: Install studio
+        working-directory: studio
+        run: npm install --no-audit --no-fund && npx playwright install --with-deps chromium
+      - name: Render my chunks
+        working-directory: studio
+        run: node render.mjs --project projects/${{ github.event.inputs.project }} --resume --shard ${{ matrix.shard }}/${{ needs.plan.outputs.n }} --workers 2 --format jpeg --scale ${{ github.event.inputs.scale }}
+      - uses: actions/upload-artifact@v4
+        with:
+          name: chunks-${{ matrix.shard }}
+          path: studio/projects/${{ github.event.inputs.project }}/build/chunks/c_*.mp4
+          retention-days: 3
+
+  final:
+    needs: [plan, render, audio]
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: "22" }
+      - run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: chunks-*
+          merge-multiple: true
+          path: studio/projects/${{ github.event.inputs.project }}/build/chunks
+      - uses: actions/download-artifact@v4
+        with:
+          name: mix
+          path: studio/projects/${{ github.event.inputs.project }}/build
+      - name: Join chunks + add sound
+        working-directory: studio
+        run: |
+          P=projects/${{ github.event.inputs.project }}
+          node render.mjs --project $P --concat
+          ffmpeg -y -v error -i $P/build/video_silent.mp4 -i $P/build/mix.wav -map 0:v:0 -map 1:a:0 -c:v copy -c:a aac -b:a 192k -shortest -movflags +faststart $P/build/final.mp4
+          ls -la $P/build/final.mp4
+      - name: Publish release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          P=studio/projects/${{ github.event.inputs.project }}
+          TAG="${{ github.event.inputs.project }}-r${{ github.run_number }}"
+          TITLE=$(python3 -c "import json;print(json.load(open('$P/config.json'))['title'])")
+          cp "$P/build/final.mp4" "${{ github.event.inputs.project }}.mp4"
+          gh release create "$TAG" "${{ github.event.inputs.project }}.mp4" --title "$TITLE (render ${{ github.run_number }})" --notes "Rendered by GitHub Actions on ${{ needs.plan.outputs.n }} machines. Scale ${{ github.event.inputs.scale }}."
+          echo "Download: https://github.com/${{ github.repository }}/releases/download/$TAG/${{ github.event.inputs.project }}.mp4" >> "$GITHUB_STEP_SUMMARY"

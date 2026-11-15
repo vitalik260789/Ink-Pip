@@ -1,0 +1,74 @@
+[
+ {
+  "who": "PIP",
+  "text": "What if a whole day lasted just one hour?",
+  "start": 0.25,
+  "end": 2.236
+ },
+ {
+  "who": "INK",
+  "text": "Then the sun would rise every hour. Breakfast, lunch, dinner and bedtime, all before your cartoon ends.",
+  "start": 2.456,
+  "end": 9.001
+ },
+ {
+  "who": "PIP",
+  "text": "Ha! Short days mean short school!",
+  "start": 9.221,
+  "end": 10.887
+ },
+ {
+  "who": "INK",
+  "text": "Not so fast. To squeeze a day into one hour, Earth has to spin twenty-four times faster.",
+  "start": 11.107,
+  "end": 16.832
+ },
+ {
+  "who": "PIP",
+  "text": "So how fast is that?",
+  "start": 17.052,
+  "end": 18.213
+ },
+ {
+  "who": "INK",
+  "text": "Today the equator spins at about a thousand miles per hour. Times twenty-four... twenty-four thousand miles per hour.",
+  "start": 18.433,
+  "end": 25.98
+ },
+ {
+  "who": "PIP",
+  "text": "Whoa!",
+  "start": 26.2,
+  "end": 26.618
+ },
+ {
+  "who": "INK",
+  "text": "You see, spinning tries to fling everything outward. Gravity holds us down. At around seventeen thousand miles per hour, the fling wins.",
+  "start": 26.838,
+  "end": 35.76
+ },
+ {
+  "who": "PIP",
+  "text": "Wait. So I'd float?",
+  "start": 35.98,
+  "end": 37.08
+ },
+ {
+  "who": "INK",
+  "text": "At the equator, you'd float, and then fly right off into space. And the oceans would pile up around the middle of the planet.",
+  "start": 37.3,
+  "end": 44.806
+ },
+ {
+  "who": "PIP",
+  "text": "Okay, okay. I'll keep the twenty-four hour day.",
+  "start": 45.026,
+  "end": 47.643
+ },
+ {
+  "who": "INK",
+  "text": "Good choice. So would the rest of the planet.",
+  "start": 47.863,
+  "end": 50.279
+ }
+]

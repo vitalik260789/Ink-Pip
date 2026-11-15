@@ -1,0 +1,230 @@
+{
+ "title": "What If a Day Lasted 1 Hour",
+ "duration": 51.0,
+ "shots": [
+  {
+   "id": "s01",
+   "start": 0,
+   "end": 2.35,
+   "line": "What if a whole day lasted just one hour?",
+   "scene": "space hook: Earth spinning",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "whoosh",
+     "gain": -12
+    }
+   ]
+  },
+  {
+   "id": "s02",
+   "start": 2.35,
+   "end": 9.1,
+   "line": "Then the sun would rise every hour. Breakfast, lunch, dinner and bedtime, all before your cartoon ends.",
+   "scene": "room: day/night cycles every few seconds",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "shimmer",
+     "gain": -16
+    }
+   ]
+  },
+  {
+   "id": "s03",
+   "start": 9.1,
+   "end": 11.0,
+   "line": "Ha! Short days mean short school!",
+   "scene": "CU Pip cheers",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "pop",
+     "gain": -12
+    }
+   ]
+  },
+  {
+   "id": "s04",
+   "start": 11.0,
+   "end": 16.95,
+   "line": "Not so fast. To squeeze a day into one hour, Earth has to spin twenty-four times faster.",
+   "scene": "space: Earth spins up x24",
+   "in": {
+    "type": "whip",
+    "dir": 1,
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 2.6,
+     "name": "riser",
+     "gain": -10
+    }
+   ]
+  },
+  {
+   "id": "s05",
+   "start": 16.95,
+   "end": 18.3,
+   "line": "So how fast is that?",
+   "scene": "two-shot: Pip asks",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s06",
+   "start": 18.3,
+   "end": 26.1,
+   "line": "Today the equator spins at about a thousand miles per hour. Times twenty-four... twenty-four thousand miles per hour.",
+   "scene": "2D: equator speed bars 1,000 vs 24,000 mph",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.4,
+     "name": "pop",
+     "gain": -12
+    },
+    {
+     "at": 3.9,
+     "name": "counter",
+     "gain": -12
+    }
+   ]
+  },
+  {
+   "id": "s07",
+   "start": 26.1,
+   "end": 26.75,
+   "line": "Whoa!",
+   "scene": "CU Pip: whoa",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "hit",
+     "gain": -12
+    }
+   ]
+  },
+  {
+   "id": "s08",
+   "start": 26.75,
+   "end": 35.85,
+   "line": "You see, spinning tries to fling everything outward. Gravity holds us down. At around seventeen thousand miles per hour, the fling wins.",
+   "scene": "2D: gravity vs fling arrows, fling wins",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "whoosh",
+     "gain": -14
+    },
+    {
+     "at": 5.4,
+     "name": "counter",
+     "gain": -12
+    },
+    {
+     "at": 8.2,
+     "name": "ding",
+     "gain": -12
+    }
+   ]
+  },
+  {
+   "id": "s09",
+   "start": 35.85,
+   "end": 37.2,
+   "line": "Wait. So I'd float?",
+   "scene": "Pip starts to float",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "shimmer",
+     "gain": -14
+    }
+   ]
+  },
+  {
+   "id": "s10",
+   "start": 37.2,
+   "end": 44.9,
+   "line": "At the equator, you'd float, and then fly right off into space. And the oceans would pile up around the middle of the planet.",
+   "scene": "space: Earth squashes, oceans bulge, Pip flies off",
+   "in": {
+    "type": "whip",
+    "dir": 1,
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 1.6,
+     "name": "whoosh",
+     "gain": -8
+    },
+    {
+     "at": 4.6,
+     "name": "slowmo",
+     "gain": -14
+    }
+   ]
+  },
+  {
+   "id": "s11",
+   "start": 44.9,
+   "end": 47.75,
+   "line": "Okay, okay. I'll keep the twenty-four hour day.",
+   "scene": "two-shot: Pip gives up",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s12",
+   "start": 47.75,
+   "end": 51.0,
+   "line": "Good choice. So would the rest of the planet.",
+   "scene": "CU Ink: good choice",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 1.2,
+     "name": "ding",
+     "gain": -16
+    }
+   ]
+  }
+ ],
+ "music": [
+  {
+   "start": 0,
+   "end": 51,
+   "mood": "playful",
+   "intensity": 0.45
+  }
+ ]
+}

@@ -1,0 +1,23 @@
+{
+ "title": "What If a Day Lasted 1 Hour",
+ "aspect": "16:9",
+ "resolution": "1080p",
+ "fps": 24,
+ "style": "golden",
+ "voiceover": "input/voiceover.wav",
+ "duration": 51.0,
+ "captions": true,
+ "bars": null,
+ "fadeIn": 0.3,
+ "fadeOut": 0.8,
+ "music": {
+  "enabled": true,
+  "gainDb": -20,
+  "seed": 4
+ },
+ "sfx": {
+  "enabled": true,
+  "gainDb": -6
+ },
+ "loudness": -14
+}

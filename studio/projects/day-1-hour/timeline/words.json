@@ -1,0 +1,705 @@
+{
+"source": "kokoro lines (proportional word timing)",
+"words": [
+{
+"word": "What",
+"start": 0.3,
+"end": 0.504
+},
+{
+"word": "if",
+"start": 0.522,
+"end": 0.652
+},
+{
+"word": "a",
+"start": 0.663,
+"end": 0.756
+},
+{
+"word": "whole",
+"start": 0.764,
+"end": 1.005
+},
+{
+"word": "day",
+"start": 1.026,
+"end": 1.193
+},
+{
+"word": "lasted",
+"start": 1.208,
+"end": 1.486
+},
+{
+"word": "just",
+"start": 1.511,
+"end": 1.715
+},
+{
+"word": "one",
+"start": 1.732,
+"end": 1.9
+},
+{
+"word": "hour?",
+"start": 1.914,
+"end": 2.118
+},
+{
+"word": "Then",
+"start": 2.506,
+"end": 2.807
+},
+{
+"word": "the",
+"start": 2.833,
+"end": 3.079
+},
+{
+"word": "sun",
+"start": 3.101,
+"end": 3.347
+},
+{
+"word": "would",
+"start": 3.369,
+"end": 3.724
+},
+{
+"word": "rise",
+"start": 3.755,
+"end": 4.056
+},
+{
+"word": "every",
+"start": 4.082,
+"end": 4.438
+},
+{
+"word": "hour.",
+"start": 4.469,
+"end": 4.77
+},
+{
+"word": "Breakfast,",
+"start": 4.796,
+"end": 5.371
+},
+{
+"word": "lunch,",
+"start": 5.421,
+"end": 5.777
+},
+{
+"word": "dinner",
+"start": 5.808,
+"end": 6.218
+},
+{
+"word": "and",
+"start": 6.254,
+"end": 6.5
+},
+{
+"word": "bedtime,",
+"start": 6.521,
+"end": 6.987
+},
+{
+"word": "all",
+"start": 7.027,
+"end": 7.273
+},
+{
+"word": "before",
+"start": 7.295,
+"end": 7.705
+},
+{
+"word": "your",
+"start": 7.741,
+"end": 8.042
+},
+{
+"word": "cartoon",
+"start": 8.068,
+"end": 8.533
+},
+{
+"word": "ends.",
+"start": 8.574,
+"end": 8.875
+},
+{
+"word": "Ha!",
+"start": 9.271,
+"end": 9.41
+},
+{
+"word": "Short",
+"start": 9.423,
+"end": 9.682
+},
+{
+"word": "days",
+"start": 9.704,
+"end": 9.923
+},
+{
+"word": "mean",
+"start": 9.942,
+"end": 10.162
+},
+{
+"word": "short",
+"start": 10.181,
+"end": 10.44
+},
+{
+"word": "school!",
+"start": 10.462,
+"end": 10.761
+},
+{
+"word": "Not",
+"start": 11.157,
+"end": 11.404
+},
+{
+"word": "so",
+"start": 11.425,
+"end": 11.617
+},
+{
+"word": "fast.",
+"start": 11.634,
+"end": 11.936
+},
+{
+"word": "To",
+"start": 11.962,
+"end": 12.154
+},
+{
+"word": "squeeze",
+"start": 12.171,
+"end": 12.637
+},
+{
+"word": "a",
+"start": 12.677,
+"end": 12.815
+},
+{
+"word": "day",
+"start": 12.827,
+"end": 13.073
+},
+{
+"word": "into",
+"start": 13.095,
+"end": 13.397
+},
+{
+"word": "one",
+"start": 13.423,
+"end": 13.67
+},
+{
+"word": "hour,",
+"start": 13.691,
+"end": 13.993
+},
+{
+"word": "Earth",
+"start": 14.019,
+"end": 14.376
+},
+{
+"word": "has",
+"start": 14.407,
+"end": 14.653
+},
+{
+"word": "to",
+"start": 14.675,
+"end": 14.867
+},
+{
+"word": "spin",
+"start": 14.884,
+"end": 15.185
+},
+{
+"word": "twenty-four",
+"start": 15.212,
+"end": 15.842
+},
+{
+"word": "times",
+"start": 15.897,
+"end": 16.254
+},
+{
+"word": "faster.",
+"start": 16.285,
+"end": 16.696
+},
+{
+"word": "So",
+"start": 17.102,
+"end": 17.247
+},
+{
+"word": "how",
+"start": 17.259,
+"end": 17.445
+},
+{
+"word": "fast",
+"start": 17.461,
+"end": 17.689
+},
+{
+"word": "is",
+"start": 17.709,
+"end": 17.853
+},
+{
+"word": "that?",
+"start": 17.866,
+"end": 18.093
+},
+{
+"word": "Today",
+"start": 18.483,
+"end": 18.852
+},
+{
+"word": "the",
+"start": 18.884,
+"end": 19.139
+},
+{
+"word": "equator",
+"start": 19.161,
+"end": 19.643
+},
+{
+"word": "spins",
+"start": 19.685,
+"end": 20.054
+},
+{
+"word": "at",
+"start": 20.086,
+"end": 20.284
+},
+{
+"word": "about",
+"start": 20.301,
+"end": 20.67
+},
+{
+"word": "a",
+"start": 20.702,
+"end": 20.844
+},
+{
+"word": "thousand",
+"start": 20.856,
+"end": 21.395
+},
+{
+"word": "miles",
+"start": 21.442,
+"end": 21.81
+},
+{
+"word": "per",
+"start": 21.842,
+"end": 22.098
+},
+{
+"word": "hour.",
+"start": 22.12,
+"end": 22.432
+},
+{
+"word": "Times",
+"start": 22.459,
+"end": 22.828
+},
+{
+"word": "twenty-four...",
+"start": 22.86,
+"end": 23.512
+},
+{
+"word": "twenty-four",
+"start": 23.568,
+"end": 24.221
+},
+{
+"word": "thousand",
+"start": 24.277,
+"end": 24.816
+},
+{
+"word": "miles",
+"start": 24.863,
+"end": 25.232
+},
+{
+"word": "per",
+"start": 25.264,
+"end": 25.519
+},
+{
+"word": "hour.",
+"start": 25.541,
+"end": 25.853
+},
+{
+"word": "Whoa!",
+"start": 26.25,
+"end": 26.497
+},
+{
+"word": "You",
+"start": 26.888,
+"end": 27.142
+},
+{
+"word": "see,",
+"start": 27.164,
+"end": 27.418
+},
+{
+"word": "spinning",
+"start": 27.44,
+"end": 27.976
+},
+{
+"word": "tries",
+"start": 28.023,
+"end": 28.39
+},
+{
+"word": "to",
+"start": 28.422,
+"end": 28.619
+},
+{
+"word": "fling",
+"start": 28.636,
+"end": 29.003
+},
+{
+"word": "everything",
+"start": 29.035,
+"end": 29.684
+},
+{
+"word": "outward.",
+"start": 29.74,
+"end": 30.22
+},
+{
+"word": "Gravity",
+"start": 30.262,
+"end": 30.742
+},
+{
+"word": "holds",
+"start": 30.783,
+"end": 31.15
+},
+{
+"word": "us",
+"start": 31.182,
+"end": 31.38
+},
+{
+"word": "down.",
+"start": 31.397,
+"end": 31.707
+},
+{
+"word": "At",
+"start": 31.734,
+"end": 31.932
+},
+{
+"word": "around",
+"start": 31.949,
+"end": 32.372
+},
+{
+"word": "seventeen",
+"start": 32.409,
+"end": 33.001
+},
+{
+"word": "thousand",
+"start": 33.053,
+"end": 33.589
+},
+{
+"word": "miles",
+"start": 33.636,
+"end": 34.003
+},
+{
+"word": "per",
+"start": 34.034,
+"end": 34.288
+},
+{
+"word": "hour,",
+"start": 34.31,
+"end": 34.621
+},
+{
+"word": "the",
+"start": 34.648,
+"end": 34.902
+},
+{
+"word": "fling",
+"start": 34.924,
+"end": 35.291
+},
+{
+"word": "wins.",
+"start": 35.323,
+"end": 35.633
+},
+{
+"word": "Wait.",
+"start": 36.03,
+"end": 36.283
+},
+{
+"word": "So",
+"start": 36.305,
+"end": 36.466
+},
+{
+"word": "I'd",
+"start": 36.48,
+"end": 36.641
+},
+{
+"word": "float?",
+"start": 36.655,
+"end": 36.954
+},
+{
+"word": "At",
+"start": 37.35,
+"end": 37.528
+},
+{
+"word": "the",
+"start": 37.544,
+"end": 37.773
+},
+{
+"word": "equator,",
+"start": 37.792,
+"end": 38.225
+},
+{
+"word": "you'd",
+"start": 38.263,
+"end": 38.542
+},
+{
+"word": "float,",
+"start": 38.567,
+"end": 38.898
+},
+{
+"word": "and",
+"start": 38.926,
+"end": 39.155
+},
+{
+"word": "then",
+"start": 39.175,
+"end": 39.455
+},
+{
+"word": "fly",
+"start": 39.479,
+"end": 39.708
+},
+{
+"word": "right",
+"start": 39.728,
+"end": 40.059
+},
+{
+"word": "off",
+"start": 40.088,
+"end": 40.317
+},
+{
+"word": "into",
+"start": 40.337,
+"end": 40.617
+},
+{
+"word": "space.",
+"start": 40.641,
+"end": 40.972
+},
+{
+"word": "And",
+"start": 41.0,
+"end": 41.229
+},
+{
+"word": "the",
+"start": 41.249,
+"end": 41.478
+},
+{
+"word": "oceans",
+"start": 41.498,
+"end": 41.88
+},
+{
+"word": "would",
+"start": 41.913,
+"end": 42.244
+},
+{
+"word": "pile",
+"start": 42.272,
+"end": 42.552
+},
+{
+"word": "up",
+"start": 42.577,
+"end": 42.755
+},
+{
+"word": "around",
+"start": 42.77,
+"end": 43.152
+},
+{
+"word": "the",
+"start": 43.185,
+"end": 43.414
+},
+{
+"word": "middle",
+"start": 43.434,
+"end": 43.816
+},
+{
+"word": "of",
+"start": 43.849,
+"end": 44.027
+},
+{
+"word": "the",
+"start": 44.042,
+"end": 44.271
+},
+{
+"word": "planet.",
+"start": 44.291,
+"end": 44.673
+},
+{
+"word": "Okay,",
+"start": 45.076,
+"end": 45.342
+},
+{
+"word": "okay.",
+"start": 45.365,
+"end": 45.63
+},
+{
+"word": "I'll",
+"start": 45.653,
+"end": 45.871
+},
+{
+"word": "keep",
+"start": 45.89,
+"end": 46.155
+},
+{
+"word": "the",
+"start": 46.178,
+"end": 46.396
+},
+{
+"word": "twenty-four",
+"start": 46.414,
+"end": 46.97
+},
+{
+"word": "hour",
+"start": 47.018,
+"end": 47.284
+},
+{
+"word": "day.",
+"start": 47.307,
+"end": 47.524
+},
+{
+"word": "Good",
+"start": 47.913,
+"end": 48.149
+},
+{
+"word": "choice.",
+"start": 48.17,
+"end": 48.492
+},
+{
+"word": "So",
+"start": 48.52,
+"end": 48.671
+},
+{
+"word": "would",
+"start": 48.684,
+"end": 48.963
+},
+{
+"word": "the",
+"start": 48.988,
+"end": 49.181
+},
+{
+"word": "rest",
+"start": 49.198,
+"end": 49.434
+},
+{
+"word": "of",
+"start": 49.455,
+"end": 49.605
+},
+{
+"word": "the",
+"start": 49.618,
+"end": 49.812
+},
+{
+"word": "planet.",
+"start": 49.829,
+"end": 50.151
+}
+]
+}
