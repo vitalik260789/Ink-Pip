@@ -20,9 +20,18 @@ on:
         description: "Resolution scale (1 = 1080p, 0.5 = 540p preview)"
         required: true
         default: "1"
+      chunks:
+        description: "Optional: re-render only these 4-second chunks (comma list, e.g. 8,28,39)"
+        required: false
+        default: ""
+      reuse_run:
+        description: "Optional: run id whose chunks are reused for everything not re-rendered"
+        required: false
+        default: ""
 
 permissions:
   contents: write
+  actions: read
 
 concurrency:
   group: render-${{ github.event.inputs.project }}
@@ -78,12 +87,13 @@ jobs:
         run: npm install --no-audit --no-fund && npx playwright install --with-deps chromium
       - name: Render my chunks
         working-directory: studio
-        run: node render.mjs --project projects/${{ github.event.inputs.project }} --resume --shard ${{ matrix.shard }}/${{ needs.plan.outputs.n }} --workers 2 --format jpeg --scale ${{ github.event.inputs.scale }}
+        run: node render.mjs --project projects/${{ github.event.inputs.project }} --resume --shard ${{ matrix.shard }}/${{ needs.plan.outputs.n }} --workers 2 --format jpeg --scale ${{ github.event.inputs.scale }} ${{ github.event.inputs.chunks != '' && format('--chunks {0}', github.event.inputs.chunks) || '' }}
       - uses: actions/upload-artifact@v4
         with:
           name: chunks-${{ matrix.shard }}
           path: studio/projects/${{ github.event.inputs.project }}/build/chunks/c_*.mp4
           retention-days: 3
+          if-no-files-found: ignore
 
   final:
     needs: [plan, render, audio]
@@ -93,11 +103,22 @@ jobs:
       - uses: actions/setup-node@v4
         with: { node-version: "22" }
       - run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+      - name: Reuse chunks from an earlier run
+        if: ${{ github.event.inputs.reuse_run != '' }}
+        uses: actions/download-artifact@v4
+        with:
+          pattern: chunks-*
+          merge-multiple: true
+          run-id: ${{ github.event.inputs.reuse_run }}
+          github-token: ${{ github.token }}
+          path: studio/projects/${{ github.event.inputs.project }}/build/chunks
       - uses: actions/download-artifact@v4
         with:
           pattern: chunks-*
           merge-multiple: true
-          path: studio/projects/${{ github.event.inputs.project }}/build/chunks
+          path: new-chunks
+      - name: Overlay freshly rendered chunks
+        run: mkdir -p studio/projects/${{ github.event.inputs.project }}/build/chunks && cp -f new-chunks/c_*.mp4 studio/projects/${{ github.event.inputs.project }}/build/chunks/ && ls studio/projects/${{ github.event.inputs.project }}/build/chunks | wc -l
       - uses: actions/download-artifact@v4
         with:
           name: mix

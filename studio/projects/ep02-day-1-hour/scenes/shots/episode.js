@@ -71,7 +71,7 @@ function dialDraw(s, t, info) {
   W3.kick(s.stage, t, 0.5, 0.02);
   s.stage.lens(1.65, 12);
   const a0 = s.dial.angOf(prm.from), a1 = s.dial.angOf(prm.to), k = ease.outBack(clamp((t - 0.45) / 0.35));
-  s.dial.setAngle(lerp(a0, a1, k)); s.dial.lamp.intensity = prm.from !== prm.to ? 2.5 * Math.max(0, 1 - Math.abs(t - 0.6) * 2) : 0;
+  s.dial.setAngle(lerp(a0, a1, k)); s.dial.lamp.intensity = prm.from !== prm.to ? 0.35 * Math.max(0, 1 - Math.abs(t - 0.6) * 3) : 0;
   const g = info.globalT; s.pip.set({ pose: POSES.stand, expr: 'neutral', facing: 1, blink: W3.blinkAt(g, 1) }); s.ink.set({ pose: POSES.stand, expr: 'smirk', facing: -1, blink: W3.blinkAt(g, 2) });
 }
 function dialOverlay(g, t, info) { if (info.from !== info.to) kText(g, t, dayLabel(info.to), E.W * 0.8, E.H * 0.42, { start: 0.55, mode: 'slam', size: 150, color: GOLD, glow: 30 }); else kText(g, t, 'SPIN DIAL', E.W * 0.78, E.H * 0.3, { start: 0.4, mode: 'drop', size: 110, color: GOLD, glow: 26 }); }

@@ -86,8 +86,10 @@ async function renderResumable() {
   const queue = []; for (let a = 0; a < total; a += CH) queue.push([a, Math.min(total, a + CH)]);
   const name = (a) => path.join(dir, `c_${String(a).padStart(6, '0')}.mp4`);
   const [sk, sn] = String(args.shard || '0/1').split('/').map(Number);   // --shard k/N: this machine takes every N-th chunk
-  const todo = queue.filter(([a], i) => i % sn === sk && !fs.existsSync(name(a) + '.ok')); const W = Math.max(1, Math.min(+(args.workers || 2), todo.length));
-  const mine = queue.filter((_, i) => i % sn === sk).length; console.log(`Resumable render${sn > 1 ? ` shard ${sk}/${sn}` : ''}: ${mine} chunks for this machine, ${mine - todo.length} already done, ${todo.length} to go, ${W} worker(s)`);
+  const only = args.chunks ? String(args.chunks).split(',').filter(Boolean).map(Number) : null;   // --chunks 8,28: re-render only these chunk indices
+  const pick = only ? queue.map((_, i) => i).filter(i => only.includes(i)) : queue.map((_, i) => i);
+  const todo = queue.filter(([a], i) => pick.indexOf(i) >= 0 && pick.indexOf(i) % sn === sk && !fs.existsSync(name(a) + '.ok')); const W = Math.max(1, Math.min(+(args.workers || 2), todo.length));
+  const mine = pick.filter((_, j) => j % sn === sk).length; console.log(`Resumable render${sn > 1 ? ` shard ${sk}/${sn}` : ''}: ${mine} chunks for this machine, ${mine - todo.length} already done, ${todo.length} to go, ${W} worker(s)`);
   let done = 0; const goal = todo.reduce((n, [a, b]) => n + b - a, 0), t0 = Date.now();
   const one = async ([a, b]) => {
     const browser = await chromium.launch(LAUNCH);
