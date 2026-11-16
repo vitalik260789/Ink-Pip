@@ -1,0 +1,840 @@
+{
+ "lines": [
+  {
+   "who": "PIP",
+   "text": "If the Moon vanished tonight, what would you notice first?",
+   "start": 0.08,
+   "end": 2.376,
+   "section": "HOOK"
+  },
+  {
+   "who": "INK",
+   "text": "Nothing. And that's the scary part.",
+   "start": 2.516,
+   "end": 3.951,
+   "section": "HOOK"
+  },
+  {
+   "who": "PIP",
+   "text": "Nothing? It's the Moon! It's huge!",
+   "start": 4.091,
+   "end": 5.635,
+   "section": "HOOK"
+  },
+  {
+   "who": "INK",
+   "text": "It's huge, but it's quiet. It doesn't buzz, it doesn't beep. It just keeps a lot of things on Earth in order. And when it's gone, the trouble doesn't come all at once.",
+   "start": 5.775,
+   "end": 14.342,
+   "section": "HOOK"
+  },
+  {
+   "who": "PIP",
+   "text": "Okay, now I'm scared. Show me.",
+   "start": 14.482,
+   "end": 15.916,
+   "section": "HOOK"
+  },
+  {
+   "who": "INK",
+   "text": "Tonight we delete the Moon. One second it's there, the next it's gone. Then we follow what happens: the first night, the next years, and millions of years later.",
+   "start": 16.416,
+   "end": 24.529,
+   "section": "TITLE"
+  },
+  {
+   "who": "PIP",
+   "text": "And at the end?",
+   "start": 24.669,
+   "end": 25.29,
+   "section": "TITLE"
+  },
+  {
+   "who": "INK",
+   "text": "At the end, Earth lies down on its side. Literally.",
+   "start": 25.43,
+   "end": 28.028,
+   "section": "TITLE"
+  },
+  {
+   "who": "PIP",
+   "text": "Wait. Wouldn't something explode when it disappears?",
+   "start": 28.528,
+   "end": 30.587,
+   "section": "THE FIRST SECOND"
+  },
+  {
+   "who": "INK",
+   "text": "Nope. No boom, no shockwave. Here's a secret: Earth and the Moon dance around each other. They both circle a balance point, and it's not in the middle of Earth. It's about four thousand seven hundred kilometers off-center, deep underground.",
+   "start": 30.727,
+   "end": 43.659,
+   "section": "THE FIRST SECOND"
+  },
+  {
+   "who": "PIP",
+   "text": "Earth is dancing? I've never felt it.",
+   "start": 43.799,
+   "end": 45.42,
+   "section": "THE FIRST SECOND"
+  },
+  {
+   "who": "INK",
+   "text": "Nobody has. When the Moon disappears, Earth just stops wobbling around that point and keeps sailing around the Sun. Nobody would feel a thing.",
+   "start": 45.56,
+   "end": 52.954,
+   "section": "THE FIRST SECOND"
+  },
+  {
+   "who": "PIP",
+   "text": "So far, so good.",
+   "start": 53.094,
+   "end": 54.068,
+   "section": "THE FIRST SECOND"
+  },
+  {
+   "who": "INK",
+   "text": "So far.",
+   "start": 54.208,
+   "end": 54.885,
+   "section": "THE FIRST SECOND"
+  },
+  {
+   "who": "PIP",
+   "text": "So the Moon disappears. Then what?",
+   "start": 55.385,
+   "end": 56.932,
+   "section": "NIGHT ONE: THE DARK"
+  },
+  {
+   "who": "INK",
+   "text": "First, the nights get dark. Really dark. A full Moon lights the ground about a hundred times brighter than the stars alone.",
+   "start": 57.072,
+   "end": 63.527,
+   "section": "NIGHT ONE: THE DARK"
+  },
+  {
+   "who": "PIP",
+   "text": "A hundred times? I thought it was just a decoration.",
+   "start": 63.667,
+   "end": 66.022,
+   "section": "NIGHT ONE: THE DARK"
+  },
+  {
+   "who": "INK",
+   "text": "It's a giant mirror. The Moon doesn't make light, it bounces sunlight down to us. No mirror, no night-light.",
+   "start": 66.162,
+   "end": 71.797,
+   "section": "NIGHT ONE: THE DARK"
+  },
+  {
+   "who": "PIP",
+   "text": "Well, at least astronomers would be happy. Way more stars!",
+   "start": 71.937,
+   "end": 74.518,
+   "section": "NIGHT ONE: THE DARK"
+  },
+  {
+   "who": "INK",
+   "text": "Astronomers would throw a party. Werewolves would lose their jobs.",
+   "start": 74.658,
+   "end": 78.215,
+   "section": "NIGHT ONE: THE DARK"
+  },
+  {
+   "who": "PIP",
+   "text": "Ha! Who else would notice?",
+   "start": 78.355,
+   "end": 79.406,
+   "section": "NIGHT ONE: THE DARK"
+  },
+  {
+   "who": "INK",
+   "text": "Animals. Lots of them. But first, your calendar.",
+   "start": 79.546,
+   "end": 81.917,
+   "section": "NIGHT ONE: THE DARK"
+  },
+  {
+   "who": "PIP",
+   "text": "My calendar?",
+   "start": 82.057,
+   "end": 82.714,
+   "section": "NIGHT ONE: THE DARK"
+  },
+  {
+   "who": "INK",
+   "text": "The word \"month\" comes from \"moon\". People counted time by watching the Moon change shape: new, half, full, and back again, about every twenty-nine and a half days.",
+   "start": 82.854,
+   "end": 91.961,
+   "section": "NIGHT ONE: THE DARK"
+  },
+  {
+   "who": "PIP",
+   "text": "So without the Moon, months are just random piles of days.",
+   "start": 92.101,
+   "end": 94.917,
+   "section": "NIGHT ONE: THE DARK"
+  },
+  {
+   "who": "INK",
+   "text": "Pretty much. Like your sock drawer.",
+   "start": 95.057,
+   "end": 96.608,
+   "section": "NIGHT ONE: THE DARK"
+  },
+  {
+   "who": "PIP",
+   "text": "Hey! And nobody would ever have walked on it!",
+   "start": 96.748,
+   "end": 98.621,
+   "section": "NIGHT ONE: THE DARK"
+  },
+  {
+   "who": "INK",
+   "text": "Right. Twelve astronauts walked on the Moon between 1969 and 1972. Without it, the first giant leap would have to go a lot farther. Mars is at least a hundred and forty times farther away.",
+   "start": 98.761,
+   "end": 111.436,
+   "section": "NIGHT ONE: THE DARK"
+  },
+  {
+   "who": "PIP",
+   "text": "That's a long trip for a picnic. Okay, now the animals.",
+   "start": 111.576,
+   "end": 114.253,
+   "section": "NIGHT ONE: THE DARK"
+  },
+  {
+   "who": "INK",
+   "text": "Meet the dung beetle. At night, some dung beetles roll their ball in a perfectly straight line, steering by moonlight.",
+   "start": 114.753,
+   "end": 120.812,
+   "section": "THE BEETLE AND THE CORAL"
+  },
+  {
+   "who": "PIP",
+   "text": "Steering by the Moon? With a ball of... you know.",
+   "start": 120.952,
+   "end": 122.875,
+   "section": "THE BEETLE AND THE CORAL"
+  },
+  {
+   "who": "INK",
+   "text": "With a ball of you-know. Scientists caught them doing it. On dark nights, the beetles wander in crooked paths.",
+   "start": 123.015,
+   "end": 128.896,
+   "section": "THE BEETLE AND THE CORAL"
+  },
+  {
+   "who": "PIP",
+   "text": "Poor guy. Lost with his lunch.",
+   "start": 129.036,
+   "end": 130.535,
+   "section": "THE BEETLE AND THE CORAL"
+  },
+  {
+   "who": "INK",
+   "text": "Now let's dive. Once a year, on the Great Barrier Reef, more than a hundred kinds of coral release their eggs on the same few nights.",
+   "start": 130.675,
+   "end": 137.648,
+   "section": "THE BEETLE AND THE CORAL"
+  },
+  {
+   "who": "PIP",
+   "text": "All at the same time? How do they know when?",
+   "start": 137.788,
+   "end": 139.61,
+   "section": "THE BEETLE AND THE CORAL"
+  },
+  {
+   "who": "INK",
+   "text": "The water temperature tells them the month. The Moon tells them the night. Corals don't have eyes, but they can sense moonlight.",
+   "start": 139.75,
+   "end": 145.766,
+   "section": "THE BEETLE AND THE CORAL"
+  },
+  {
+   "who": "PIP",
+   "text": "So without the Moon...",
+   "start": 145.906,
+   "end": 146.739,
+   "section": "THE BEETLE AND THE CORAL"
+  },
+  {
+   "who": "INK",
+   "text": "The biggest party in the ocean loses its invitation. Some corals might miss each other completely.",
+   "start": 146.879,
+   "end": 152.171,
+   "section": "THE BEETLE AND THE CORAL"
+  },
+  {
+   "who": "PIP",
+   "text": "That's the saddest party I've ever heard of.",
+   "start": 152.311,
+   "end": 154.15,
+   "section": "THE BEETLE AND THE CORAL"
+  },
+  {
+   "who": "PIP",
+   "text": "Okay, but the ocean doesn't need moonlight. Right?",
+   "start": 154.65,
+   "end": 156.938,
+   "section": "THE TIDES"
+  },
+  {
+   "who": "INK",
+   "text": "The ocean needs the Moon more than anyone. You see, the Moon's gravity pulls on the water. The ocean closest to the Moon gets pulled into a bulge, and there's a second bulge on the far side.",
+   "start": 157.078,
+   "end": 167.39,
+   "section": "THE TIDES"
+  },
+  {
+   "who": "PIP",
+   "text": "Two bulges?",
+   "start": 167.53,
+   "end": 168.21,
+   "section": "THE TIDES"
+  },
+  {
+   "who": "INK",
+   "text": "Two. And Earth spins through both of them every day. That's why most beaches get two high tides and two low tides.",
+   "start": 168.35,
+   "end": 174.419,
+   "section": "THE TIDES"
+  },
+  {
+   "who": "PIP",
+   "text": "So without the Moon, no tides at all?",
+   "start": 174.559,
+   "end": 176.226,
+   "section": "THE TIDES"
+  },
+  {
+   "who": "INK",
+   "text": "Not quite. The Sun pulls on the oceans too, but its tides are less than half as strong. The beach would still breathe, just much more shallowly.",
+   "start": 176.366,
+   "end": 183.954,
+   "section": "THE TIDES"
+  },
+  {
+   "who": "PIP",
+   "text": "Who cares about a little less water on the beach?",
+   "start": 184.094,
+   "end": 186.022,
+   "section": "THE TIDES"
+  },
+  {
+   "who": "INK",
+   "text": "The crabs do. And the snails, the starfish, and the birds that hunt at low tide. The strip between high and low tide is a whole world. Shrink it, and lots of them lose their home.",
+   "start": 186.162,
+   "end": 196.063,
+   "section": "THE TIDES"
+  },
+  {
+   "who": "PIP",
+   "text": "Poor crabs. Again.",
+   "start": 196.203,
+   "end": 197.214,
+   "section": "THE TIDES"
+  },
+  {
+   "who": "PIP",
+   "text": "Is that it for the ocean?",
+   "start": 197.714,
+   "end": 198.693,
+   "section": "THE OCEAN'S SPOON"
+  },
+  {
+   "who": "INK",
+   "text": "Not even close. Tides don't just move water up and down the beach. Out in the deep ocean, they flow over underwater mountains and stir the water like a giant spoon.",
+   "start": 198.833,
+   "end": 207.769,
+   "section": "THE OCEAN'S SPOON"
+  },
+  {
+   "who": "PIP",
+   "text": "A spoon? Why does the ocean need stirring?",
+   "start": 207.909,
+   "end": 209.681,
+   "section": "THE OCEAN'S SPOON"
+  },
+  {
+   "who": "INK",
+   "text": "To mix warm water with cold water and carry heat around the planet. Scientists think about half of the energy that stirs the deep ocean comes from the tides.",
+   "start": 209.821,
+   "end": 218.559,
+   "section": "THE OCEAN'S SPOON"
+  },
+  {
+   "who": "PIP",
+   "text": "So without the Moon, the spoon slows down.",
+   "start": 218.699,
+   "end": 220.577,
+   "section": "THE OCEAN'S SPOON"
+  },
+  {
+   "who": "INK",
+   "text": "Exactly. Ocean currents would change, and so would the weather in lots of places. Nobody knows exactly how. That's what makes it scary.",
+   "start": 220.717,
+   "end": 228.422,
+   "section": "THE OCEAN'S SPOON"
+  },
+  {
+   "who": "PIP",
+   "text": "Wait. Did the Moon help life get started?",
+   "start": 228.562,
+   "end": 230.362,
+   "section": "THE OCEAN'S SPOON"
+  },
+  {
+   "who": "INK",
+   "text": "Some scientists think it might have. Long ago, the Moon was much closer, and the tides were enormous. They flooded the shore and drained away again, over and over, leaving little warm pools behind.",
+   "start": 230.502,
+   "end": 241.285,
+   "section": "THE OCEAN'S SPOON"
+  },
+  {
+   "who": "PIP",
+   "text": "Like a giant bathtub that fills and empties twice a day.",
+   "start": 241.425,
+   "end": 244.095,
+   "section": "THE OCEAN'S SPOON"
+  },
+  {
+   "who": "INK",
+   "text": "Exactly. In those pools, chemicals got mixed, dried, and mixed again. Some scientists think that's a great recipe for the first building blocks of life. It's still an open question.",
+   "start": 244.235,
+   "end": 254.371,
+   "section": "THE OCEAN'S SPOON"
+  },
+  {
+   "who": "PIP",
+   "text": "So without the Moon, maybe there'd be no crabs to feel sorry for.",
+   "start": 254.511,
+   "end": 257.477,
+   "section": "THE OCEAN'S SPOON"
+  },
+  {
+   "who": "INK",
+   "text": "Or no us to feel sorry for them.",
+   "start": 257.617,
+   "end": 259.209,
+   "section": "THE OCEAN'S SPOON"
+  },
+  {
+   "who": "PIP",
+   "text": "What about the days? Would they change?",
+   "start": 261.209,
+   "end": 262.781,
+   "section": "THE BRAKE"
+  },
+  {
+   "who": "INK",
+   "text": "Funny thing: right now, the Moon is a brake. The tides rub against the sea floor and slow Earth's spin a tiny bit. Every century, the day gets about two thousandths of a second longer.",
+   "start": 262.921,
+   "end": 272.905,
+   "section": "THE BRAKE"
+  },
+  {
+   "who": "PIP",
+   "text": "Two thousandths? I can't even blink that fast.",
+   "start": 273.045,
+   "end": 275.169,
+   "section": "THE BRAKE"
+  },
+  {
+   "who": "INK",
+   "text": "Nobody can. But over millions of years it adds up. When the last dinosaurs were around, a day was about half an hour shorter.",
+   "start": 275.309,
+   "end": 282.31,
+   "section": "THE BRAKE"
+  },
+  {
+   "who": "PIP",
+   "text": "So without the brake?",
+   "start": 282.45,
+   "end": 283.301,
+   "section": "THE BRAKE"
+  },
+  {
+   "who": "INK",
+   "text": "Days would stay about this long for a very long time. That's the good news.",
+   "start": 283.441,
+   "end": 287.196,
+   "section": "THE BRAKE"
+  },
+  {
+   "who": "PIP",
+   "text": "There's bad news?",
+   "start": 287.336,
+   "end": 288.149,
+   "section": "THE BRAKE"
+  },
+  {
+   "who": "INK",
+   "text": "There's always bad news.",
+   "start": 288.289,
+   "end": 289.617,
+   "section": "THE BRAKE"
+  },
+  {
+   "who": "INK",
+   "text": "Earth doesn't stand up straight. It's tilted, about twenty-three and a half degrees. That tilt gives us seasons. When your half of the planet leans toward the Sun, it's summer.",
+   "start": 290.117,
+   "end": 299.115,
+   "section": "THE WOBBLE"
+  },
+  {
+   "who": "PIP",
+   "text": "And when it leans away, it's winter. I know that one!",
+   "start": 299.255,
+   "end": 301.313,
+   "section": "THE WOBBLE"
+  },
+  {
+   "who": "INK",
+   "text": "Here's the part people don't know. The other planets keep tugging on Earth, trying to make that tilt swing. The Moon is the heavy hand that keeps it steady, like a hand holding a spinning top.",
+   "start": 301.453,
+   "end": 311.528,
+   "section": "THE WOBBLE"
+  },
+  {
+   "who": "PIP",
+   "text": "And with no hand?",
+   "start": 311.668,
+   "end": 312.501,
+   "section": "THE WOBBLE"
+  },
+  {
+   "who": "INK",
+   "text": "Over millions of years, the top could wobble. Look at Mars. It only has two tiny moons, and its tilt has swung much more than ours.",
+   "start": 312.641,
+   "end": 319.688,
+   "section": "THE WOBBLE"
+  },
+  {
+   "who": "INK",
+   "text": "For Earth, some models say the tilt could swing from almost zero to eighty-five degrees. Other models say it would be gentler. Nobody knows for sure, and nobody wants to find out.",
+   "start": 319.768,
+   "end": 329.743,
+   "section": "THE WOBBLE"
+  },
+  {
+   "who": "PIP",
+   "text": "Eighty-five? That's Earth lying on its side!",
+   "start": 329.883,
+   "end": 331.879,
+   "section": "THE WOBBLE"
+  },
+  {
+   "who": "PIP",
+   "text": "What would that even feel like?",
+   "start": 332.379,
+   "end": 333.455,
+   "section": "SEASONS FROM A HORROR MOVIE"
+  },
+  {
+   "who": "INK",
+   "text": "Imagine you live near the North Pole on a sideways Earth. For half a year, the Sun never sets. It just circles around the sky. Then, for the other half, it never rises.",
+   "start": 333.595,
+   "end": 342.953,
+   "section": "SEASONS FROM A HORROR MOVIE"
+  },
+  {
+   "who": "PIP",
+   "text": "Six months of night? I'd sleep for six months!",
+   "start": 343.093,
+   "end": 345.217,
+   "section": "SEASONS FROM A HORROR MOVIE"
+  },
+  {
+   "who": "INK",
+   "text": "You'd freeze for six months. Then you'd bake for six months. Seasons from a horror movie.",
+   "start": 345.357,
+   "end": 349.808,
+   "section": "SEASONS FROM A HORROR MOVIE"
+  },
+  {
+   "who": "PIP",
+   "text": "And if the tilt went the other way, all the way to zero?",
+   "start": 349.948,
+   "end": 352.371,
+   "section": "SEASONS FROM A HORROR MOVIE"
+  },
+  {
+   "who": "INK",
+   "text": "Then no seasons at all. The same weather all year. The poles always freezing, the tropics always hot. No spring flowers, no autumn leaves.",
+   "start": 352.511,
+   "end": 360.81,
+   "section": "SEASONS FROM A HORROR MOVIE"
+  },
+  {
+   "who": "PIP",
+   "text": "No snow days?! Okay, that's the real horror.",
+   "start": 360.95,
+   "end": 363.081,
+   "section": "SEASONS FROM A HORROR MOVIE"
+  },
+  {
+   "who": "INK",
+   "text": "There's one more thing we'd lose. The solar eclipse.",
+   "start": 363.581,
+   "end": 366.173,
+   "section": "NO MORE ECLIPSES"
+  },
+  {
+   "who": "PIP",
+   "text": "When the Moon covers the Sun!",
+   "start": 366.313,
+   "end": 367.448,
+   "section": "NO MORE ECLIPSES"
+  },
+  {
+   "who": "INK",
+   "text": "Exactly. The Sun is about four hundred times wider than the Moon, but it's also about four hundred times farther away. So from Earth they look almost exactly the same size. A perfect fit.",
+   "start": 367.588,
+   "end": 378.44,
+   "section": "NO MORE ECLIPSES"
+  },
+  {
+   "who": "PIP",
+   "text": "That's a crazy coincidence.",
+   "start": 378.58,
+   "end": 379.844,
+   "section": "NO MORE ECLIPSES"
+  },
+  {
+   "who": "INK",
+   "text": "A beautiful one. And without the Moon, it's gone forever. No more eclipses. No more whole cities going outside to look up together.",
+   "start": 379.984,
+   "end": 387.104,
+   "section": "NO MORE ECLIPSES"
+  },
+  {
+   "who": "PIP",
+   "text": "But the Moon protects us from asteroids, right? It's covered in craters!",
+   "start": 387.604,
+   "end": 390.84,
+   "section": "MYTH: THE MOON SHIELD"
+  },
+  {
+   "who": "INK",
+   "text": "That's a popular myth. The craters are real, but the Moon is a tiny target. From Earth, it covers a very small part of the sky. Almost every space rock heading our way would miss it completely.",
+   "start": 390.98,
+   "end": 401.698,
+   "section": "MYTH: THE MOON SHIELD"
+  },
+  {
+   "who": "PIP",
+   "text": "So it's a shield with a giant hole in it.",
+   "start": 401.838,
+   "end": 403.469,
+   "section": "MYTH: THE MOON SHIELD"
+  },
+  {
+   "who": "INK",
+   "text": "A shield the size of a coin, held at arm's length. The craters just show that the Moon has no air to burn up small rocks, and almost no weather to erase the scars.",
+   "start": 403.609,
+   "end": 412.717,
+   "section": "MYTH: THE MOON SHIELD"
+  },
+  {
+   "who": "PIP",
+   "text": "Okay, myth busted. Moon: not a shield. Still awesome.",
+   "start": 412.857,
+   "end": 415.595,
+   "section": "MYTH: THE MOON SHIELD"
+  },
+  {
+   "who": "PIP",
+   "text": "Okay, I have a plan. We build a new Moon!",
+   "start": 416.095,
+   "end": 418.005,
+   "section": "CAN WE BUILD A NEW ONE?"
+  },
+  {
+   "who": "INK",
+   "text": "Love it. What's it made of?",
+   "start": 418.145,
+   "end": 419.293,
+   "section": "CAN WE BUILD A NEW ONE?"
+  },
+  {
+   "who": "PIP",
+   "text": "A giant disco ball! Mirrors for the light, and it pulls the tides too.",
+   "start": 419.433,
+   "end": 422.792,
+   "section": "CAN WE BUILD A NEW ONE?"
+  },
+  {
+   "who": "INK",
+   "text": "One small problem. To pull the tides, it has to be heavy. Really heavy. Everything humans have ever built, every house, road and car, weighs about one trillion tonnes.",
+   "start": 422.932,
+   "end": 432.265,
+   "section": "CAN WE BUILD A NEW ONE?"
+  },
+  {
+   "who": "PIP",
+   "text": "That sounds like a lot!",
+   "start": 432.405,
+   "end": 433.449,
+   "section": "CAN WE BUILD A NEW ONE?"
+  },
+  {
+   "who": "INK",
+   "text": "The Moon is about seventy million times heavier.",
+   "start": 433.589,
+   "end": 435.915,
+   "section": "CAN WE BUILD A NEW ONE?"
+  },
+  {
+   "who": "PIP",
+   "text": "Okay. Smaller disco ball. Night-light only.",
+   "start": 436.055,
+   "end": 438.262,
+   "section": "CAN WE BUILD A NEW ONE?"
+  },
+  {
+   "who": "INK",
+   "text": "Deal. The werewolves will be thrilled.",
+   "start": 438.402,
+   "end": 440.026,
+   "section": "CAN WE BUILD A NEW ONE?"
+  },
+  {
+   "who": "PIP",
+   "text": "Good thing the Moon can't really disappear. Right?",
+   "start": 440.526,
+   "end": 442.755,
+   "section": "TWIST: THE MOON IS ALREADY LEAVING"
+  },
+  {
+   "who": "INK",
+   "text": "It can't vanish. But it is leaving. Very, very slowly. Every year, the Moon drifts about three point eight centimeters farther away from Earth.",
+   "start": 442.895,
+   "end": 450.688,
+   "section": "TWIST: THE MOON IS ALREADY LEAVING"
+  },
+  {
+   "who": "PIP",
+   "text": "That's about how fast my fingernails grow!",
+   "start": 450.828,
+   "end": 452.727,
+   "section": "TWIST: THE MOON IS ALREADY LEAVING"
+  },
+  {
+   "who": "INK",
+   "text": "Exactly. And in a few hundred million years, the Moon will look too small to cover the whole Sun. The last total eclipse will happen, and nobody will know it's the last one.",
+   "start": 452.867,
+   "end": 461.971,
+   "section": "TWIST: THE MOON IS ALREADY LEAVING"
+  },
+  {
+   "who": "PIP",
+   "text": "So enjoy the eclipses while you can.",
+   "start": 462.111,
+   "end": 463.713,
+   "section": "TWIST: THE MOON IS ALREADY LEAVING"
+  },
+  {
+   "who": "PIP",
+   "text": "So the Moon isn't a night-light.",
+   "start": 464.213,
+   "end": 465.559,
+   "section": "OUTRO"
+  },
+  {
+   "who": "INK",
+   "text": "Nope. It's a seatbelt. It keeps the tides breathing, the corals on time, the beetles going straight, and the whole planet sitting up straight.",
+   "start": 465.699,
+   "end": 472.816,
+   "section": "OUTRO"
+  },
+  {
+   "who": "PIP",
+   "text": "Then let's keep it buckled.",
+   "start": 472.956,
+   "end": 474.058,
+   "section": "OUTRO"
+  },
+  {
+   "who": "INK",
+   "text": "If you learned something new, subscribe so you don't miss our next \"what if\".",
+   "start": 474.198,
+   "end": 477.612,
+   "section": "OUTRO"
+  },
+  {
+   "who": "PIP",
+   "text": "And tell us in the comments: what should we make disappear next? The best idea becomes our next video!",
+   "start": 477.752,
+   "end": 482.573,
+   "section": "OUTRO"
+  }
+ ],
+ "sections": [
+  {
+   "title": "HOOK",
+   "t": 0.08
+  },
+  {
+   "title": "TITLE",
+   "t": 16.416
+  },
+  {
+   "title": "THE FIRST SECOND",
+   "t": 28.528
+  },
+  {
+   "title": "NIGHT ONE: THE DARK",
+   "t": 55.385
+  },
+  {
+   "title": "THE BEETLE AND THE CORAL",
+   "t": 114.753
+  },
+  {
+   "title": "THE TIDES",
+   "t": 154.65
+  },
+  {
+   "title": "THE OCEAN'S SPOON",
+   "t": 197.714
+  },
+  {
+   "title": "mid-roll"
+  },
+  {
+   "title": "THE BRAKE",
+   "t": 261.209
+  },
+  {
+   "title": "THE WOBBLE",
+   "t": 290.117
+  },
+  {
+   "title": "SEASONS FROM A HORROR MOVIE",
+   "t": 332.379
+  },
+  {
+   "title": "NO MORE ECLIPSES",
+   "t": 363.581
+  },
+  {
+   "title": "MYTH: THE MOON SHIELD",
+   "t": 387.604
+  },
+  {
+   "title": "CAN WE BUILD A NEW ONE?",
+   "t": 416.095
+  },
+  {
+   "title": "TWIST: THE MOON IS ALREADY LEAVING",
+   "t": 440.526
+  },
+  {
+   "title": "OUTRO",
+   "t": 464.213
+  }
+ ],
+ "duration": 486.073
+}

@@ -1,0 +1,455 @@
+{
+ "title": "What If the Moon Disappeared?",
+ "duration": 486.073,
+ "shots": [
+  {
+   "id": "s001",
+   "start": 0.0,
+   "end": 16.4,
+   "line": "If the Moon vanished tonight, what would you notice first? Nothing. And that's the scary part. Nothing? It's the Moon! It's huge! It's huge, but it's quiet. It doesn't buzz, it doesn't beep. It just keeps a lot of things on Earth in order. And when it's gone, the trouble doesn't come all at once. Okay, now I'm scared. Show me.",
+   "scene": "room",
+   "kind": "room",
+   "params": {
+    "part": "start"
+   },
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 1.6,
+     "name": "pop",
+     "gain": -10
+    },
+    {
+     "at": 15.9,
+     "name": "whoosh",
+     "gain": -10
+    }
+   ],
+   "captions": true
+  },
+  {
+   "id": "s002",
+   "start": 16.4,
+   "end": 28.4,
+   "line": "Tonight we delete the Moon. One second it's there, the next it's gone. Then we follow what happens: the first night, the next years, and millions of years later. And at the end? At the end, Earth lies down on its side. Literally.",
+   "scene": "space",
+   "kind": "space",
+   "params": {
+    "set": "title"
+   },
+   "in": {
+    "type": "fade",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true
+  },
+  {
+   "id": "s003",
+   "start": 28.4,
+   "end": 55.3,
+   "line": "Wait. Wouldn't something explode when it disappears? Nope. No boom, no shockwave. Here's a secret: Earth and the Moon dance around each other. They both circle a balance point, and it's not in the middle of Earth. It's about four thousand seven hundred kilometers off-center, deep underground. Earth is dancing? I've never felt it. Nobody has. When the Moon disappears, Earth just stops wobbling around that point and keeps sailing around the Sun. Nobody would feel a thing. So far, so good. So far.",
+   "scene": "space",
+   "kind": "space",
+   "params": {
+    "set": "bary"
+   },
+   "in": {
+    "type": "fade",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 17.95,
+     "name": "pop",
+     "gain": -12
+    }
+   ],
+   "captions": true
+  },
+  {
+   "id": "s004",
+   "start": 55.3,
+   "end": 98.6,
+   "line": "So the Moon disappears. Then what? First, the nights get dark. Really dark. A full Moon lights the ground about a hundred times brighter than the stars alone. A hundred times? I thought it was just a decoration. It's a giant mirror. The Moon doesn't make light, it bounces sunlight down to us. No mirror, no night-light. Well, at least astronomers would be happy. Way more stars! Astronomers would throw a party. Werewolves would lose their jobs. Ha! Who else would notice? Animals. Lots of them. But first, your calendar. My calendar? The word \"month\" comes from \"moon\". People counted time by watching the Moon change shape: new, half, full, and back again, about every twenty-nine and a half days. So without the Moon, months are just random piles of days. Pretty much. Like your sock drawer. Hey! And nobody would ever have walked on it!",
+   "scene": "room",
+   "kind": "room",
+   "params": {
+    "part": "mid"
+   },
+   "in": {
+    "type": "fade",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true
+  },
+  {
+   "id": "s005",
+   "start": 98.6,
+   "end": 114.6,
+   "line": "Right. Twelve astronauts walked on the Moon between 1969 and 1972. Without it, the first giant leap would have to go a lot farther. Mars is at least a hundred and forty times farther away. That's a long trip for a picnic. Okay, now the animals.",
+   "scene": "space",
+   "kind": "space",
+   "params": {
+    "set": "mars"
+   },
+   "in": {
+    "type": "fade",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.4,
+     "name": "pop",
+     "gain": -16
+    }
+   ],
+   "captions": true
+  },
+  {
+   "id": "s006",
+   "start": 114.6,
+   "end": 130.5,
+   "line": "Meet the dung beetle. At night, some dung beetles roll their ball in a perfectly straight line, steering by moonlight. Steering by the Moon? With a ball of... you know. With a ball of you-know. Scientists caught them doing it. On dark nights, the beetles wander in crooked paths. Poor guy. Lost with his lunch.",
+   "scene": "dune",
+   "kind": "dune",
+   "params": {},
+   "in": {
+    "type": "fade",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 9.2,
+     "name": "whoosh",
+     "gain": -18
+    }
+   ],
+   "captions": true
+  },
+  {
+   "id": "s007",
+   "start": 130.5,
+   "end": 154.5,
+   "line": "Now let's dive. Once a year, on the Great Barrier Reef, more than a hundred kinds of coral release their eggs on the same few nights. All at the same time? How do they know when? The water temperature tells them the month. The Moon tells them the night. Corals don't have eyes, but they can sense moonlight. So without the Moon... The biggest party in the ocean loses its invitation. Some corals might miss each other completely. That's the saddest party I've ever heard of.",
+   "scene": "reef",
+   "kind": "reef",
+   "params": {},
+   "in": {
+    "type": "fade",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 8.5,
+     "name": "whoosh",
+     "gain": -18
+    }
+   ],
+   "captions": true
+  },
+  {
+   "id": "s008",
+   "start": 154.5,
+   "end": 160.0,
+   "line": "Okay, but the ocean doesn't need moonlight. Right? The ocean needs the Moon more than anyone. You see, the Moon's gravity pulls on the water. The ocean closest to the Moon gets pulled into a bulge, and there's a second bulge on the far side.",
+   "scene": "beach",
+   "kind": "beach",
+   "params": {
+    "mode": "day"
+   },
+   "in": {
+    "type": "fade",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true
+  },
+  {
+   "id": "s009",
+   "start": 160.0,
+   "end": 176.2,
+   "line": "Two bulges? Two. And Earth spins through both of them every day. That's why most beaches get two high tides and two low tides. So without the Moon, no tides at all?",
+   "scene": "space",
+   "kind": "space",
+   "params": {
+    "set": "bulge"
+   },
+   "in": {
+    "type": "fade",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true
+  },
+  {
+   "id": "s010",
+   "start": 176.2,
+   "end": 197.6,
+   "line": "Not quite. The Sun pulls on the oceans too, but its tides are less than half as strong. The beach would still breathe, just much more shallowly. Who cares about a little less water on the beach? The crabs do. And the snails, the starfish, and the birds that hunt at low tide. The strip between high and low tide is a whole world. Shrink it, and lots of them lose their home. Poor crabs. Again.",
+   "scene": "beach",
+   "kind": "beach",
+   "params": {
+    "mode": "day"
+   },
+   "in": {
+    "type": "fade",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 4.8,
+     "name": "hit",
+     "gain": -16
+    }
+   ],
+   "captions": true
+  },
+  {
+   "id": "s011",
+   "start": 197.6,
+   "end": 228.4,
+   "line": "Is that it for the ocean? Not even close. Tides don't just move water up and down the beach. Out in the deep ocean, they flow over underwater mountains and stir the water like a giant spoon. A spoon? Why does the ocean need stirring? To mix warm water with cold water and carry heat around the planet. Scientists think about half of the energy that stirs the deep ocean comes from the tides. So without the Moon, the spoon slows down. Exactly. Ocean currents would change, and so would the weather in lots of places. Nobody knows exactly how. That's what makes it scary.",
+   "scene": "reef",
+   "kind": "reef",
+   "params": {
+    "deep": true
+   },
+   "in": {
+    "type": "fade",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true
+  },
+  {
+   "id": "s012",
+   "start": 228.4,
+   "end": 261.0,
+   "line": "Wait. Did the Moon help life get started? Some scientists think it might have. Long ago, the Moon was much closer, and the tides were enormous. They flooded the shore and drained away again, over and over, leaving little warm pools behind. Like a giant bathtub that fills and empties twice a day. Exactly. In those pools, chemicals got mixed, dried, and mixed again. Some scientists think that's a great recipe for the first building blocks of life. It's still an open question. So without the Moon, maybe there'd be no crabs to feel sorry for. Or no us to feel sorry for them.",
+   "scene": "beach",
+   "kind": "beach",
+   "params": {
+    "mode": "ancient"
+   },
+   "in": {
+    "type": "fade",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true
+  },
+  {
+   "id": "s013",
+   "start": 261.0,
+   "end": 290.0,
+   "line": "What about the days? Would they change? Funny thing: right now, the Moon is a brake. The tides rub against the sea floor and slow Earth's spin a tiny bit. Every century, the day gets about two thousandths of a second longer. Two thousandths? I can't even blink that fast. Nobody can. But over millions of years it adds up. When the last dinosaurs were around, a day was about half an hour shorter. So without the brake? Days would stay about this long for a very long time. That's the good news. There's bad news? There's always bad news.",
+   "scene": "space",
+   "kind": "space",
+   "params": {
+    "set": "brake"
+   },
+   "in": {
+    "type": "fade",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 1.9,
+     "name": "hit",
+     "gain": -16
+    }
+   ],
+   "captions": true
+  },
+  {
+   "id": "s014",
+   "start": 290.0,
+   "end": 363.4,
+   "line": "Earth doesn't stand up straight. It's tilted, about twenty-three and a half degrees. That tilt gives us seasons. When your half of the planet leans toward the Sun, it's summer. And when it leans away, it's winter. I know that one! Here's the part people don't know. The other planets keep tugging on Earth, trying to make that tilt swing. The Moon is the heavy hand that keeps it steady, like a hand holding a spinning top. And with no hand? Over millions of years, the top could wobble. Look at Mars. It only has two tiny moons, and its tilt has swung much more than ours. For Earth, some models say the tilt could swing from almost zero to eighty-five degrees. Other models say it would be gentler. Nobody knows for sure, and nobody wants to find out. Eighty-five? That's Earth lying on its side! What would that even feel like? Imagine you live near the North Pole on a sideways Earth. For half a year, the Sun never sets. It just circles around the sky. Then, for the other half, it never rises. Six months of night? I'd sleep for six months! You'd freeze for six months. Then you'd bake for six months. Seasons from a horror movie. And if the tilt went the other way, all the way to zero? Then no seasons at all. The same weather all year. The poles always freezing, the tropics always hot. No spring flowers, no autumn leaves. No snow days?! Okay, that's the real horror.",
+   "scene": "space",
+   "kind": "space",
+   "params": {
+    "set": "tilt"
+   },
+   "in": {
+    "type": "fade",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 22.35,
+     "name": "pop",
+     "gain": -14
+    },
+    {
+     "at": 39.9,
+     "name": "hit",
+     "gain": -12
+    }
+   ],
+   "captions": true
+  },
+  {
+   "id": "s015",
+   "start": 363.4,
+   "end": 387.4,
+   "line": "There's one more thing we'd lose. The solar eclipse. When the Moon covers the Sun! Exactly. The Sun is about four hundred times wider than the Moon, but it's also about four hundred times farther away. So from Earth they look almost exactly the same size. A perfect fit. That's a crazy coincidence. A beautiful one. And without the Moon, it's gone forever. No more eclipses. No more whole cities going outside to look up together.",
+   "scene": "beach",
+   "kind": "beach",
+   "params": {
+    "mode": "sky"
+   },
+   "in": {
+    "type": "fade",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 12.6,
+     "name": "whoosh",
+     "gain": -14
+    }
+   ],
+   "captions": true
+  },
+  {
+   "id": "s016",
+   "start": 387.4,
+   "end": 416.0,
+   "line": "But the Moon protects us from asteroids, right? It's covered in craters! That's a popular myth. The craters are real, but the Moon is a tiny target. From Earth, it covers a very small part of the sky. Almost every space rock heading our way would miss it completely. So it's a shield with a giant hole in it. A shield the size of a coin, held at arm's length. The craters just show that the Moon has no air to burn up small rocks, and almost no weather to erase the scars. Okay, myth busted. Moon: not a shield. Still awesome.",
+   "scene": "space",
+   "kind": "space",
+   "params": {
+    "set": "myth"
+   },
+   "in": {
+    "type": "fade",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.8,
+     "name": "hit",
+     "gain": -12
+    }
+   ],
+   "captions": true
+  },
+  {
+   "id": "s017",
+   "start": 416.0,
+   "end": 440.4,
+   "line": "Okay, I have a plan. We build a new Moon! Love it. What's it made of? A giant disco ball! Mirrors for the light, and it pulls the tides too. One small problem. To pull the tides, it has to be heavy. Really heavy. Everything humans have ever built, every house, road and car, weighs about one trillion tonnes. That sounds like a lot! The Moon is about seventy million times heavier. Okay. Smaller disco ball. Night-light only. Deal. The werewolves will be thrilled.",
+   "scene": "room",
+   "kind": "room",
+   "params": {
+    "part": "disco",
+    "disco": true
+   },
+   "in": {
+    "type": "fade",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 3.6,
+     "name": "pop",
+     "gain": -12
+    },
+    {
+     "at": 17.8,
+     "name": "hit",
+     "gain": -14
+    }
+   ],
+   "captions": true
+  },
+  {
+   "id": "s018",
+   "start": 440.4,
+   "end": 464.1,
+   "line": "Good thing the Moon can't really disappear. Right? It can't vanish. But it is leaving. Very, very slowly. Every year, the Moon drifts about three point eight centimeters farther away from Earth. That's about how fast my fingernails grow! Exactly. And in a few hundred million years, the Moon will look too small to cover the whole Sun. The last total eclipse will happen, and nobody will know it's the last one. So enjoy the eclipses while you can.",
+   "scene": "space",
+   "kind": "space",
+   "params": {
+    "set": "drift"
+   },
+   "in": {
+    "type": "fade",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true
+  },
+  {
+   "id": "s019",
+   "start": 464.1,
+   "end": 486.07,
+   "line": "So the Moon isn't a night-light. Nope. It's a seatbelt. It keeps the tides breathing, the corals on time, the beetles going straight, and the whole planet sitting up straight. Then let's keep it buckled. If you learned something new, subscribe so you don't miss our next \"what if\". And tell us in the comments: what should we make disappear next? The best idea becomes our next video!",
+   "scene": "room",
+   "kind": "room",
+   "params": {
+    "part": "end"
+   },
+   "in": {
+    "type": "fade",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 2.3,
+     "name": "pop",
+     "gain": -10
+    },
+    {
+     "at": 10.2,
+     "name": "pop",
+     "gain": -12
+    }
+   ],
+   "captions": true
+  }
+ ],
+ "music": [
+  {
+   "start": 0,
+   "end": 28.4,
+   "mood": "mystery",
+   "intensity": 0.45
+  },
+  {
+   "start": 28.4,
+   "end": 154.5,
+   "mood": "wonder",
+   "intensity": 0.45
+  },
+  {
+   "start": 154.5,
+   "end": 261.0,
+   "mood": "playful",
+   "intensity": 0.45
+  },
+  {
+   "start": 261.0,
+   "end": 363.4,
+   "mood": "tension",
+   "intensity": 0.5
+  },
+  {
+   "start": 363.4,
+   "end": 440.4,
+   "mood": "wonder",
+   "intensity": 0.45
+  },
+  {
+   "start": 440.4,
+   "end": 486.073,
+   "mood": "hopeful",
+   "intensity": 0.5
+  }
+ ]
+}
