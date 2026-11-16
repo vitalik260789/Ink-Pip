@@ -17,8 +17,8 @@ const num = (v) => Math.round(v).toLocaleString('en-US');
 // ---------- shared 2D overlays ----------
 function dayBadge(g, day) {
   if (day == null) return; const s = 'DAY = ' + dayLabel(day);
-  g.save(); rr(g, 40, 96, 40 + s.length * 21, 66, 18); g.fillStyle = 'rgba(12,16,34,.72)'; g.fill(); g.lineWidth = 3; g.strokeStyle = alpha(GOLD, 0.8); g.stroke();
-  text(g, s, 62, 130, { size: 36, color: GOLD, align: 'left', font: FONTS.ui, weight: 900 }); g.restore();
+  const by = E.vertical ? 300 : 96, bx = E.vertical ? (E.W - (40 + s.length * 21)) / 2 : 40; g.save(); rr(g, bx, by, 40 + s.length * 21, 66, 18); g.fillStyle = 'rgba(12,16,34,.72)'; g.fill(); g.lineWidth = 3; g.strokeStyle = alpha(GOLD, 0.8); g.stroke();
+  text(g, s, bx + 22, by + 34, { size: 36, color: GOLD, align: 'left', font: FONTS.ui, weight: 900 }); g.restore();
 }
 const label = (g, t, s, o = {}) => s && kText(g, t, s, E.vertical ? E.W / 2 : (o.x ?? E.W * 0.74), E.vertical ? 420 : (o.y ?? 190), { start: o.start ?? 0.35, mode: 'slam', size: o.size ?? 78, color: o.color ?? GOLD, glow: 24 });
 const toScreen = (v, cam) => { const p = v.clone().project(cam); return [(p.x + 1) / 2 * E.W, (1 - p.y) / 2 * E.H]; };
@@ -157,7 +157,7 @@ function planetOverlay(g, t, info, s) {
   }
   if (info.axes) { const c = toScreen(new THREE.Vector3(0, 0, 0), cam), xa = toScreen(new THREE.Vector3(2, 0, 0), cam), ya = toScreen(new THREE.Vector3(0, 1, 0), cam), a = clamp((t - 0.5) / 0.6);
     g.save(); g.globalAlpha = a; seg(g, [[2 * c[0] - xa[0], c[1]], [xa[0], c[1]]], 7, GOLD); seg(g, [[c[0], 2 * c[1] - ya[1]], [c[0], ya[1]]], 7, BLUE); g.restore();
-    kText(g, t, '2×', xa[0] + 70, c[1] - 10, { start: 1.0, mode: 'slam', size: 110, color: GOLD, glow: 24 }); }
+    kText(g, t, '2×', E.vertical ? Math.min(E.W - 90, xa[0] + 70) : xa[0] + 70, E.vertical ? c[1] + 140 : c[1] - 10, { start: 1.0, mode: 'slam', size: 110, color: GOLD, glow: 24 }); }
 }
 
 // ---------- BOARDS (2D) ----------
