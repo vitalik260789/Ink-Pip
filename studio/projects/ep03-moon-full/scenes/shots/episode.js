@@ -16,7 +16,11 @@ const GOLD = '#ffd47e', CORAL = '#ff7a4a', MINT = '#7cf2a8', SKY = '#9fd0ff', CR
 const sstep = (u) => u * u * u * (u * (u * 6 - 15) + 10);
 const toScreen = (v, cam) => { const p = v.clone().project(cam); return [(p.x + 1) / 2 * E.W, (1 - p.y) / 2 * E.H, p.z]; };
 const win = (g, a, b) => g >= a && g < b;
-const lab = (g, G, s, a, b, x, y, o = {}) => { if (win(G, a, b)) kText(g, G - a, s, x, y, { start: 0.05, mode: o.mode || 'drop', size: o.size || 64, color: o.color || GOLD, glow: 22 }); };
+// vertical (Shorts) layout: labels stack in the centre column under the Short's question
+const VY0 = 400;
+function vPos(x, y, o) { if (!E.vertical || o.anchor) return [E.vertical ? Math.max(220, Math.min(E.W - 220, x)) : x, y]; const side = x < E.W * 0.35 ? 0 : x > E.W * 0.65 ? 1 : 0; return [E.W / 2, VY0 + (y - 150) + side * 92]; }
+const vSize = (s, size) => E.vertical ? Math.min(size * 0.9, 980 / (0.6 * s.length)) : size;
+const lab = (g, G, s, a, b, x, y, o = {}) => { if (win(G, a, b)) { const [px, py] = vPos(x, y, o); kText(g, G - a, s, px, py, { start: 0.05, mode: o.mode || 'drop', size: vSize(s, o.size || 64), color: o.color || GOLD, glow: 22 }); } };
 
 // ---------- camera: framings + glides + creep ----------
 const CREEP = 0.035, CREEP_MAX = 0.2;
@@ -32,7 +36,9 @@ function camState(F, t) {
   st.pos = st.pos.map((v, j) => st.look[j] + (v - st.look[j]) * (1 - k));
   return st;
 }
-function applyCam(W, s) { const c = W.camera; c.position.set(...s.pos); c.up.set(0, 1, 0); c.lookAt(...s.look); if (s.roll) c.rotateZ(s.roll * Math.PI / 180); c.fov = s.fov; c.updateProjectionMatrix(); W.lens(s.lens[0], s.lens[1]); }
+let CAM_PUSH = 1;   // vertical: space shots pull back a little
+function applyCam(W, s) { const c = W.camera; if (E.vertical) { const k = CAM_PUSH, sp = CAM_PUSH > 1; const dx = sp ? s.look[0] * 0.8 : 0;   // space: centre the Earth; room/beach: tighter, look a bit lower
+    const look = [s.look[0] - dx, s.look[1] - (sp ? 0 : 0.08), s.look[2]]; s = { ...s, look, pos: s.pos.map((v, j) => look[j] + (v - (j === 0 ? dx : 0) - s.look[j]) * k), fov: Math.min(70, s.fov * (sp ? 1.4 : 1.22)) }; } c.position.set(...s.pos); c.up.set(0, 1, 0); c.lookAt(...s.look); if (s.roll) c.rotateZ(s.roll * Math.PI / 180); c.fov = s.fov; c.updateProjectionMatrix(); W.lens(s.lens[0], s.lens[1]); }
 // move times: every line start inside the shot, plus a reframe if a hold would exceed ~2.6 s
 function moveTimes(a, b) {
   const ts = [0]; for (const l of LINES) if (l[1] > a + 0.6 && l[1] < b - 0.8) ts.push(l[1] - a - 0.1);
@@ -129,14 +135,14 @@ function roomOverlay(g, t, info, s) {
   lab(g, G, 'A GIANT MIRROR', 66.5, 71.8, E.W * 0.72, 150, { color: CREAM });
   lab(g, G, 'WAY MORE STARS', 72.2, 78.2, E.W * 0.74, 150);
   if (win(G, 83.0, 96.7)) monthStrip(g, G - 83.0);
-  if (win(G, 99.0, 111.5)) card2d(g, E.W * 0.6, 110, 640, 150, () => { text(g, '12 MOONWALKERS', E.W * 0.6 + 320, 175, { size: 54, color: GOLD, font: FONTS.ui, weight: 900 }); text(g, '1969 – 1972', E.W * 0.6 + 320, 228, { size: 40, color: CREAM, font: FONTS.ui, weight: 800 }); });
+  if (win(G, 99.0, 111.5)) { const cx = E.vertical ? E.W / 2 - 320 : E.W * 0.6, cy = E.vertical ? VY0 - 60 : 110; card2d(g, cx, cy, 640, 150, () => { text(g, '12 MOONWALKERS', cx + 320, cy + 65, { size: 54, color: GOLD, font: FONTS.ui, weight: 900 }); text(g, '1969 – 1972', cx + 320, cy + 118, { size: 40, color: CREAM, font: FONTS.ui, weight: 800 }); }); }
   lab(g, G, 'EVERYTHING HUMANS BUILT', 423.5, 433.0, E.W * 0.5, 130, { size: 56, color: CREAM }); lab(g, G, '≈ 1.1 TRILLION TONNES', 425.0, 433.0, E.W * 0.5, 205, { size: 64 });
   lab(g, G, 'MOON: ~70,000,000× HEAVIER', 433.8, 440.5, E.W * 0.5, 160, { size: 70, color: CORAL, mode: 'slam' });
   lab(g, G, 'THE SEATBELT', 466.6, 474.0, E.W * 0.74, 170, { size: 76, color: MINT, mode: 'slam' });
   if (G > 474.3) endScreen(g, G - 474.3);
 }
 function monthStrip(g, t) {
-  const n = 8, x0 = E.W / 2 - 420, y = 170, k = ease.out(clamp(t / 0.4));
+  const n = 8, x0 = E.W / 2 - 420, y = E.vertical ? VY0 : 170, k = ease.out(clamp(t / 0.4));
   card2d(g, x0 - 40, y - 80, 920, 200, () => {
     for (let i = 0; i < n; i++) { const x = x0 + i * 120, ph = i / (n - 1); g.globalAlpha = clamp(k * 3 - i * 0.25); g.fillStyle = '#2a2a4a'; g.beginPath(); g.arc(x, y, 38, 0, 7); g.fill();
       g.fillStyle = '#fbf4e4'; g.beginPath(); const c = Math.cos(ph * Math.PI * 2); g.arc(x, y, 38, -Math.PI / 2, Math.PI / 2, ph > 0.5); g.ellipse(x, y, Math.abs(c) * 38, 38, 0, Math.PI / 2, -Math.PI / 2, (ph > 0.5) === (c > 0)); g.fill(); g.strokeStyle = '#0d0a14'; g.lineWidth = 4; g.beginPath(); g.arc(x, y, 38, 0, 7); g.stroke(); }
@@ -190,7 +196,7 @@ function spaceFram(p, a, b) { const set = SPACE_SETS[p.set] || SPACE_SETS.tilt; 
   return F; }
 function spaceDraw(s, t, info) {
   const g = info.globalT, p = info;
-  s.F ||= spaceFram(p, info.shot.start, info.shot.end); applyCam(s.stage, camState(s.F, t));
+  s.F ||= spaceFram(p, info.shot.start, info.shot.end); CAM_PUSH = 1.3; applyCam(s.stage, camState(s.F, t)); CAM_PUSH = 1;
   if (win(g, 329.8, 330.3)) W3.kick(s.stage, g, 329.9, 0.03);
   const tilt = tiltAt(g), wob = win(g, 319, 352) ? Math.sin((g - 319) * 1.6) * 0.25 * clamp((g - 319) / 2) : 0;
   s.sp.tilt.rotation.set(wob * 0.6, 0, tilt * Math.PI / 180);
@@ -214,23 +220,23 @@ function spaceDraw(s, t, info) {
 }
 function spaceOverlay(g, t, info, s) {
   const G = info.globalT, cam = s.stage.camera;
-  if (win(G, 16.6, 27.5)) { const k = ease.outBack(clamp((G - 16.7) / 0.5)); g.save(); g.translate(E.W / 2, E.H * 0.42); g.scale(k, k); text(g, 'WHAT IF THE MOON', 0, -40, { size: 104, color: CREAM, font: FONTS.ui, weight: 900 }); text(g, 'DISAPPEARED?', 0, 70, { size: 128, color: GOLD, font: FONTS.ui, weight: 900 }); g.restore(); }
+  if (win(G, 16.6, 27.5)) { const k = ease.outBack(clamp((G - 16.7) / 0.5)); g.save(); g.translate(E.W / 2, E.H * 0.42); g.scale(k * (E.vertical ? 0.8 : 1), k * (E.vertical ? 0.8 : 1)); text(g, 'WHAT IF THE MOON', 0, -40, { size: 104, color: CREAM, font: FONTS.ui, weight: 900 }); text(g, 'DISAPPEARED?', 0, 70, { size: 128, color: GOLD, font: FONTS.ui, weight: 900 }); g.restore(); }
   if (info.set === 'bary' && G < 47.5 && s.ear) { // balance point marker: 73 % of Earth's radius toward the Moon
     const bp = toScreen(new THREE.Vector3(1.46, 0, 0), cam); g.save(); g.strokeStyle = MINT; g.lineWidth = 6; g.globalAlpha = clamp((G - 32) / 0.5) * (1 - clamp((G - 46.5) / 0.8)); g.beginPath(); g.moveTo(bp[0] - 18, bp[1] - 18); g.lineTo(bp[0] + 18, bp[1] + 18); g.moveTo(bp[0] + 18, bp[1] - 18); g.lineTo(bp[0] - 18, bp[1] + 18); g.stroke(); g.restore();
     lab(g, G, 'BALANCE POINT · 4,700 KM FROM CENTRE', 33.5, 46.5, E.W * 0.5, 150, { size: 54, color: MINT }); }
   if (s.ms && (win(G, 46.3, 47.0))) burst(g, G, 46.35, s.ms[0], s.ms[1], '#fff6d8', 16, 150);
   if (info.set === 'mars' && s.marsS) { g.save(); g.setLineDash([16, 14]); g.strokeStyle = alpha(CREAM, 0.7); g.lineWidth = 5; g.beginPath(); g.moveTo(s.ear[0], s.ear[1]); g.lineTo(s.ms[0], s.ms[1]); g.stroke(); g.strokeStyle = alpha(CORAL, 0.8); g.beginPath(); g.moveTo(s.ms[0], s.ms[1]); g.lineTo(s.marsS[0], s.marsS[1]); g.stroke(); g.restore();
-    lab(g, G, 'MOON', 99.5, 115, s.ms[0], s.ms[1] - 70, { size: 44, color: CREAM }); lab(g, G, 'MARS: 140× FARTHER', 104.5, 115, Math.min(E.W - 300, s.marsS[0]), s.marsS[1] - 70, { size: 52, color: CORAL }); }
+    lab(g, G, 'MOON', 99.5, 115, s.ms[0], s.ms[1] - 70, { size: 44, color: CREAM, anchor: 1 }); lab(g, G, 'MARS: 140× FARTHER', 104.5, 115, Math.min(E.W - 300, s.marsS[0]), s.marsS[1] - 70, { size: 52, color: CORAL, anchor: 1 }); }
   lab(g, G, 'TWO TIDE BULGES', 162.0, 175.5, E.W * 0.5, 150, { size: 64 });
   lab(g, G, 'TIDAL BRAKE', 262.9, 273.0, E.W * 0.5, 140, { size: 66, color: CORAL }); lab(g, G, '+2 MILLISECONDS PER CENTURY', 266.0, 273.0, E.W * 0.5, 215, { size: 50, color: CREAM });
   lab(g, G, '70 MILLION YEARS AGO: DAY ≈ 23.5 H', 276.5, 283.3, E.W * 0.5, 150, { size: 56 });
-  if (win(G, 291.5, 335.5)) { const d = tiltAt(G); kText(g, G - 291.5, `TILT ${d.toFixed(d < 30 ? 1 : 0)}°`, E.W * 0.8, 190, { start: 0.05, mode: 'drop', size: 70, color: d > 40 ? CORAL : GOLD, glow: 22 }); }
+  if (win(G, 291.5, 335.5)) { const d = tiltAt(G); const [tx, ty] = vPos(E.W * 0.8, 190, {}); kText(g, G - 291.5, `TILT ${d.toFixed(d < 30 ? 1 : 0)}°`, tx, ty, { start: 0.05, mode: 'drop', size: 70, color: d > 40 ? CORAL : GOLD, glow: 22 }); }
   lab(g, G, 'SEASONS', 296.0, 301.3, E.W * 0.2, 190, { size: 60, color: MINT });
   lab(g, G, 'MARS: TILT SWINGS FAR MORE', 314.0, 319.6, E.W * 0.32, 190, { size: 50, color: CORAL });
   if (s.ms && win(G, 312.2, 313.0)) burst(g, G, 312.35, s.ms[0], s.ms[1], '#fff6d8', 12, 110);
   lab(g, G, '6 MONTHS DAY', 336.0, 349.8, E.W * 0.22, 170, { size: 56 }); lab(g, G, '6 MONTHS NIGHT', 337.0, 349.8, E.W * 0.78, 170, { size: 56, color: '#9fb6ff' });
-  if (win(G, 352.5, 363.6)) { kText(g, G - 352.5, `TILT ${tiltAt(G).toFixed(0)}°`, E.W * 0.8, 190, { start: 0.05, mode: 'drop', size: 70, color: GOLD, glow: 22 }); lab(g, G, 'NO SEASONS', 355.0, 363.6, E.W * 0.22, 190, { size: 60, color: SKY }); }
-  if (win(G, 388.0, 401.0)) { const k = ease.outBack(clamp((G - 388.2) / 0.35)); g.save(); g.translate(E.W * 0.2, 190); g.rotate(-0.12); g.scale(k, k); rr(g, -150, -55, 300, 110, 16); g.lineWidth = 9; g.strokeStyle = CORAL; g.stroke(); text(g, 'MYTH', 0, 24, { size: 78, color: CORAL, font: FONTS.ui, weight: 900 }); g.restore(); }
+  if (win(G, 352.5, 363.6)) { const [tx, ty] = vPos(E.W * 0.8, 190, {}); kText(g, G - 352.5, `TILT ${tiltAt(G).toFixed(0)}°`, tx, ty, { start: 0.05, mode: 'drop', size: 70, color: GOLD, glow: 22 }); lab(g, G, 'NO SEASONS', 355.0, 363.6, E.W * 0.22, 190, { size: 60, color: SKY }); }
+  if (win(G, 388.0, 401.0)) { const k = ease.outBack(clamp((G - 388.2) / 0.35)); g.save(); g.translate(E.vertical ? E.W / 2 : E.W * 0.2, E.vertical ? VY0 : 190); g.rotate(-0.12); g.scale(k, k); rr(g, -150, -55, 300, 110, 16); g.lineWidth = 9; g.strokeStyle = CORAL; g.stroke(); text(g, 'MYTH', 0, 24, { size: 78, color: CORAL, font: FONTS.ui, weight: 900 }); g.restore(); }
   lab(g, G, 'MOON SHIELD: BUSTED', 412.9, 416.1, E.W * 0.5, 160, { size: 66, color: MINT, mode: 'slam' });
   lab(g, G, '3.8 CM PER YEAR', 444.0, 452.8, E.W * 0.5, 150, { size: 72 });
   lab(g, G, 'THE LAST TOTAL ECLIPSE: ~600 MILLION YEARS', 454.5, 464.2, E.W * 0.5, 150, { size: 50, color: CREAM });

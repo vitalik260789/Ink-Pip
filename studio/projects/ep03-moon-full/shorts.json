@@ -1,0 +1,7 @@
+[
+ {"name": "short_a", "from": 0.0, "to": 28.2, "q1": "WHAT IF THE MOON", "q2": "VANISHED TONIGHT?"},
+ {"name": "short_b", "from": 114.6, "to": 154.3, "q1": "THESE ANIMALS", "q2": "NEED THE MOON"},
+ {"name": "short_c", "from": 290.0, "to": 331.9, "q1": "WHAT IF EARTH", "q2": "FELL ON ITS SIDE?"},
+ {"name": "short_d", "from": 363.4, "to": 387.3, "q1": "THE ECLIPSE IS", "q2": "A PERFECT FIT"},
+ {"name": "short_e", "from": 387.4, "to": 416.0, "q1": "DOES THE MOON", "q2": "PROTECT US?"}
+]
