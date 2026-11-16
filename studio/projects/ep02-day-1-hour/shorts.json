@@ -1,0 +1,5 @@
+[
+ {"name": "short_a", "from": 0.0, "to": 17.0, "q1": "WHAT IF A DAY LASTED", "q2": "JUST 1 HOUR?"},
+ {"name": "short_b", "from": 236.6, "to": 258.3, "q1": "THIS PLANET IS", "q2": "SHAPED LIKE AN EGG?!"},
+ {"name": "short_c", "from": 280.2, "to": 315.6, "q1": "COULD YOU FLOAT", "q2": "AT THE EQUATOR?"}
+]

@@ -20,7 +20,7 @@ function dayBadge(g, day) {
   g.save(); rr(g, 40, 96, 40 + s.length * 21, 66, 18); g.fillStyle = 'rgba(12,16,34,.72)'; g.fill(); g.lineWidth = 3; g.strokeStyle = alpha(GOLD, 0.8); g.stroke();
   text(g, s, 62, 130, { size: 36, color: GOLD, align: 'left', font: FONTS.ui, weight: 900 }); g.restore();
 }
-const label = (g, t, s, o = {}) => s && kText(g, t, s, o.x ?? E.W * 0.74, o.y ?? 190, { start: o.start ?? 0.35, mode: 'slam', size: o.size ?? 78, color: o.color ?? GOLD, glow: 24 });
+const label = (g, t, s, o = {}) => s && kText(g, t, s, E.vertical ? E.W / 2 : (o.x ?? E.W * 0.74), E.vertical ? 420 : (o.y ?? 190), { start: o.start ?? 0.35, mode: 'slam', size: o.size ?? 78, color: o.color ?? GOLD, glow: 24 });
 const toScreen = (v, cam) => { const p = v.clone().project(cam); return [(p.x + 1) / 2 * E.W, (1 - p.y) / 2 * E.H]; };
 
 // ---------- ROOM ----------
@@ -74,7 +74,7 @@ function dialDraw(s, t, info) {
   s.dial.setAngle(lerp(a0, a1, k)); s.dial.lamp.intensity = prm.from !== prm.to ? 0.35 * Math.max(0, 1 - Math.abs(t - 0.6) * 3) : 0;
   const g = info.globalT; s.pip.set({ pose: POSES.stand, expr: 'neutral', facing: 1, blink: W3.blinkAt(g, 1) }); s.ink.set({ pose: POSES.stand, expr: 'smirk', facing: -1, blink: W3.blinkAt(g, 2) });
 }
-function dialOverlay(g, t, info) { if (info.from !== info.to) kText(g, t, dayLabel(info.to), E.W * 0.8, E.H * 0.42, { start: 0.55, mode: 'slam', size: 150, color: GOLD, glow: 30 }); else kText(g, t, 'SPIN DIAL', E.W * 0.78, E.H * 0.3, { start: 0.4, mode: 'drop', size: 110, color: GOLD, glow: 26 }); }
+function dialOverlay(g, t, info) { const vx = E.vertical ? E.W / 2 : null; if (info.from !== info.to) kText(g, t, dayLabel(info.to), vx ?? E.W * 0.8, E.vertical ? 420 : E.H * 0.42, { start: 0.55, mode: 'slam', size: 150, color: GOLD, glow: 30 }); else kText(g, t, 'SPIN DIAL', vx ?? E.W * 0.78, E.vertical ? 420 : E.H * 0.3, { start: 0.4, mode: 'drop', size: 110, color: GOLD, glow: 26 }); }
 
 // ---------- EARTH ----------
 const EC = {
@@ -88,7 +88,7 @@ const EC = {
   fling:   { a: [0.4, 0.6, 7.6], b: [0.2, 0.9, 9.6], look: [0.4, 0.3, 0], fov: 38, r: [0, -3] },
 };
 function buildEarth(prm) {
-  const W = W3.inkWorld({ look: 'space', fov: 35, bloom: 0.7 }); const sp = space3d(W); const s = { stage: W, sp };
+  const W = W3.inkWorld({ look: 'space', fov: 35, bloom: 0.7 }); W.vfov = 1.75; const sp = space3d(W); const s = { stage: W, sp };
   if (prm.storms) s.storms = stormLayer(sp.spin);
   if (prm.sats) { s.sats = satellites(W); s.sats.forEach(x => sp.tilt.add(x)); }
   if (prm.crack) { s.debris = debris(W); s.debris.forEach(x => sp.tilt.add(x)); }
@@ -129,7 +129,7 @@ const PC = {
   dumbbell: { a: [0, 1.2, 10], b: [0, 0.8, 9.2], look: [0, 0, 0], fov: 38 },
 };
 function buildPlanet(prm) {
-  const W = W3.inkWorld({ look: 'space', fov: 35, bloom: 0.6 }); const sp = space3d(W); const s = { stage: W, sp };
+  const W = W3.inkWorld({ look: 'space', fov: 35, bloom: 0.6 }); W.vfov = 1.75; const sp = space3d(W); const s = { stage: W, sp };
   const k = prm.body;
   if (k === 'earthJupiter') { s.body = planet(W, 'jupiter', 4); sp.tilt.scale.setScalar(0.18); sp.tilt.position.set(6.6, 0, 0.5); sp.glow.position.set(6.6, 0, 0.5); sp.glow.scale.setScalar(1.0); }
   else { sp.tilt.visible = false; sp.glow.visible = false; s.body = planet(W, k === 'dumbbell' ? 'dumbbell' : k, 2); }
@@ -288,6 +288,11 @@ const BOARDS = {
   },
 };
 
+// vertical (Shorts): 2D boards are laid out for 1920x1080 — draw them in that space, scaled into the middle of the 9:16 frame
+function vbox(fn) { return (g, t, info) => { if (!E.vertical) return fn(g, t, info);
+  const W0 = E.W, H0 = E.H, k = W0 / 1920; g.fillStyle = linGrad(g, 0, 0, 0, H0, ['#14204a', NAVY]); g.fillRect(0, 0, W0, H0);
+  g.save(); g.translate(W0 / 2 - 960 * k, H0 * 0.47 - 540 * k); g.scale(k, k); E.W = 1920; E.H = 1080; try { fn(g, t, info); } finally { E.W = W0; E.H = H0; g.restore(); } }; }
+
 // ---------- registration ----------
 E.shots.forEach((shot, i) => {
   shot._i = i; const p = shot.params || {}, kind = shot.kind;
@@ -295,5 +300,5 @@ E.shots.forEach((shot, i) => {
   if (kind === 'dial') registerShot(shot.id, { kind: '3d', init: () => buildRoom({ dialValue: p.from }), draw: (s, t, info) => dialDraw(s, t, info), overlay: (g, t, info) => { dialOverlay(g, t, info); dayBadge(g, t > 0.6 ? p.to : p.from); } });
   if (kind === 'earth') registerShot(shot.id, { kind: '3d', init: () => buildEarth(p), draw: (s, t, info) => earthDraw(s, t, info), overlay: (g, t, info, s) => { earthOverlay(g, t, info, s); dayBadge(g, p.day); } });
   if (kind === 'planet') registerShot(shot.id, { kind: '3d', init: () => buildPlanet(p), draw: (s, t, info) => planetDraw(s, t, info), overlay: (g, t, info, s) => { planetOverlay(g, t, info, s); dayBadge(g, p.day); } });
-  if (kind === 'board') registerShot(shot.id, { draw: (g, t, info) => { BOARDS[p.type](g, t, info); if (!['title', 'endscreen'].includes(p.type)) dayBadge(g, p.day); } });
+  if (kind === 'board') registerShot(shot.id, { draw: (g, t, info) => { vbox(BOARDS[p.type])(g, t, info); if (!['title', 'endscreen'].includes(p.type)) dayBadge(g, p.day); } });
 });

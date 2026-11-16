@@ -282,7 +282,7 @@ export function camKeys(W, t, keys) {
   let i = 0; while (i < keys.length - 2 && t > keys[i + 1][0]) i++;
   const [t0, a] = keys[i], [t1, b] = keys[Math.min(i + 1, keys.length - 1)]; const u = t1 > t0 ? clamp((t - t0) / (t1 - t0)) : 1, k = u * u * u * (u * (u * 6 - 15) + 10);
   const L3 = (p, q) => p.map((v, j) => lerp(v, q[j], k));
-  const pos = L3(a.pos, b.pos), look = L3(a.look, b.look), fov = lerp(a.fov || 38, b.fov || a.fov || 38, k), roll = lerp(a.roll || 0, b.roll ?? a.roll ?? 0, k);
+  const pos = L3(a.pos, b.pos), look = L3(a.look, b.look), fov = lerp(a.fov || 38, b.fov || a.fov || 38, k) * (E.vertical ? (W.vfov || 1.3) : 1), roll = lerp(a.roll || 0, b.roll ?? a.roll ?? 0, k);
   const c = W.camera; c.position.set(...pos); c.up.set(0, 1, 0); c.lookAt(...look); if (roll) c.rotateZ(roll * Math.PI / 180); c.fov = fov; c.updateProjectionMatrix();
 }
 
