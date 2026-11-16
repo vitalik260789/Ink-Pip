@@ -46,7 +46,6 @@ Use REST only (`gh api …`); GraphQL (`gh run view/watch`, `gh release download
 - Render: `gh api -X POST repos/vitalik260789/Ink-Pip/actions/workflows/shorts.yml/dispatches -f ref=main -f 'inputs[project]=<slug>'` (optional `-f 'inputs[only]=short_b'`). Result: release `<slug>-shorts-rN` with `short_*.mp4` (1080×1920, question on top, "FULL VIDEO ON THE CHANNEL" in the last 3 s) → use those URLs in Metricool.
 
 ## 6. Publishing (Metricool, brand blogId 7075155, timezone Europe/Budapest)
-- Schedule: **long videos Tue, Thu, Sat at 00:00** (sometimes Sun); **Shorts on all other nights at 00:00**, one per night. Never two posts the same night.
+- Schedule (free Metricool: max 20 posts per calendar month, long + Shorts together): **long videos Tue and Sat at 00:00; Shorts Mon, Thu, Sun at 00:00**, one per night. Never two posts the same night. Shorts over the monthly limit wait for the next month.
 - Long: youtubeData {title, type video, privacy public, category EDUCATION, madeForKids false, isAiGeneratedContent false, tags}, videoThumbnailUrl = raw thumbnail jpg.
 - Short: youtubeData {type short, …}, text with "Full video: <title>" (later replaced by the youtu.be link).
-- The same Metricool brand is also used by the "Скажи Да" routines — keep an eye on the plan's monthly post limit.
