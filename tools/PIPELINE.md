@@ -40,9 +40,10 @@ Fix a few chunks: `-f 'inputs[chunks]=8,28' -f 'inputs[reuse_run]=<run id>'` (ch
 Use REST only (`gh api …`); GraphQL (`gh run view/watch`, `gh release download`) is blocked in Claude sessions → download with curl.
 
 ## 5. Thumbnail + Shorts
-- Thumbnail: a 3D still (see `studio/projects/thumb03`) + 2–3 word title in Fredoka 700 (`tools/Fredoka700.ttf`), white + gold #ffd47e, 16 px dark stroke; 1280×720 jpg.
-- Shorts: `tools/make_shorts.sh` (edit the `mk` lines: name, start, end, two title lines), 20–58 s each, 3–5 per episode.
-- Put thumbnail + shorts into `media/<slug>/` of the repo (raw URLs for Metricool).
+- Thumbnail: a 3D still (see `studio/projects/thumb03`) + 2–3 word title in Fredoka 700 (`tools/Fredoka700.ttf`), white + gold #ffd47e, 16 px dark stroke; 1280×720 jpg → `media/<slug>/thumbnail.jpg`.
+- **Shorts are rendered natively in 9:16 — never cropped from the 16:9 video.** The scene code must be vertical-aware (see the top of `ep03-moon-full/scenes/shots/episode.js`: `E.vertical`, `vPos`/`vSize` for labels, `applyCam` widens the fov and centres the subject; space shots pull back). Check with a vertical copy: copy the project, set `"aspect": "9:16"` in its config.json, render `--stills` and look.
+- List the Shorts in `studio/projects/<slug>/shorts.json`: `[{"name":"short_a","from":0.0,"to":28.2,"q1":"WHAT IF THE MOON","q2":"VANISHED TONIGHT?"}, …]` (20–58 s each, a complete thought, 3–4 per episode).
+- Render: `gh api -X POST repos/vitalik260789/Ink-Pip/actions/workflows/shorts.yml/dispatches -f ref=main -f 'inputs[project]=<slug>'` (optional `-f 'inputs[only]=short_b'`). Result: release `<slug>-shorts-rN` with `short_*.mp4` (1080×1920, question on top, "FULL VIDEO ON THE CHANNEL" in the last 3 s) → use those URLs in Metricool.
 
 ## 6. Publishing (Metricool, brand blogId 7075155, timezone Europe/Budapest)
 - Schedule: **long videos Tue, Thu, Sat at 00:00** (sometimes Sun); **Shorts on all other nights at 00:00**, one per night. Never two posts the same night.
