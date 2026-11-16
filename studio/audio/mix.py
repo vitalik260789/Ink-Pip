@@ -91,7 +91,8 @@ def main():
     if peak > 0.95: mix = np.tanh(mix / peak * 1.2) / np.tanh(1.2) * 0.95
     raw = os.path.join(P, "build", "mix_raw.wav"); write_wav(raw, mix)
     out_wav = os.path.join(P, "build", "mix.wav"); lufs = cfg.get("loudness", -14)
-    subprocess.run(["ffmpeg", "-y", "-v", "error", "-i", raw, "-af", f"loudnorm=I={lufs}:TP=-1.5:LRA=11", "-ar", str(SR), out_wav], check=True)
+    comp = "acompressor=threshold=0.05:ratio=5:attack=6:release=160:knee=4:makeup=3," if cfg.get("compress") else ""   # broadcast-style LRA (~2-3 LU) like the reference
+    subprocess.run(["ffmpeg", "-y", "-v", "error", "-i", raw, "-af", f"{comp}loudnorm=I={lufs}:TP=-1.5:LRA={cfg.get('lra', 11)}", "-ar", str(SR), out_wav], check=True)
     print(f"wrote {out_wav}  ({total:.1f}s, target {lufs} LUFS)")
     video = a.video or os.path.join(P, "build", "video_silent.mp4")
     if os.path.exists(video):

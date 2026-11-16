@@ -25,6 +25,8 @@ export const LOOKS = {
             cardTint: '#f6eef2', cardShade: '#b8b0e0', contact: '#3a2a55', ink: '#030303' },
   space:  { skyTop: '#060a22', skyHor: '#18224e', fog: '#18224e', key: '#fff1dc', keyI: 2.4, hemiSky: '#4a5aa0', hemiGround: '#120a20', hemiI: 0.45,
             cardTint: '#ffffff', cardShade: '#c0c8e8', contact: '#000000', ink: '#030303' },
+  night:  { skyTop: '#2a3474', skyHor: '#5a5aa6', fog: '#4a4a8a', key: '#b8c4ff', keyI: 2.2, hemiSky: '#9a98e0', hemiGround: '#5a4058', hemiI: 1.7,
+            cardTint: '#fff4ee', cardShade: '#b8b0e0', contact: '#2a2050', ink: '#030303' },
   day:    { skyTop: '#3e7fd2', skyHor: '#b8d0ec', fog: '#b8d0ec', key: '#fff1dc', keyI: 3.6, hemiSky: '#a8c0f0', hemiGround: '#5a5048', hemiI: 1.1,
             cardTint: '#fff6ea', cardShade: '#c0c8e8', contact: '#33354f', ink: '#030303' },
 };

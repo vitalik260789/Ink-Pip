@@ -1,0 +1,117 @@
+{
+ "title": "What If the Moon Disappeared?",
+ "duration": 52.806,
+ "shots": [
+  {
+   "id": "s001",
+   "start": 0.0,
+   "end": 13.0,
+   "line": "If the Moon vanished tonight, what would you notice first? Nothing. And that's the scary part. Nothing? It's the Moon! For a few nights, you'd just see darker skies. Way more stars, way fewer werewolves. Ha! So the Moon is just a giant night-light? Wait for the beach. You see, the Moon's gravity pulls the oceans into two bulges, and Earth spins right through them. That's the tide.",
+   "scene": "room",
+   "kind": "room",
+   "params": {
+    "part": "start"
+   },
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 1.6,
+     "name": "pop",
+     "gain": -10
+    },
+    {
+     "at": 12.55,
+     "name": "whoosh",
+     "gain": -10
+    }
+   ],
+   "captions": true
+  },
+  {
+   "id": "s002",
+   "start": 13.0,
+   "end": 48.3,
+   "line": "And without it? The Sun makes tides too, but they're less than half as strong. Crabs, birds and fish that live by the tide would be in big trouble. Poor crabs. Anything bigger? Much bigger. The Moon keeps Earth's tilt steady, like a hand holding a spinning top. That tilt gives us our seasons. And with no hand? Over millions of years, the top could wobble. Some models say the tilt could swing from almost zero to eighty-five degrees. Eighty-five? That's Earth lying on its side! Half a year of daylight, half a year of night. Seasons from a horror movie.",
+   "scene": "space",
+   "kind": "space",
+   "params": {},
+   "in": {
+    "type": "fade",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 6.95,
+     "name": "pop",
+     "gain": -12
+    },
+    {
+     "at": 22.95,
+     "name": "pop",
+     "gain": -14
+    },
+    {
+     "at": 29.65,
+     "name": "hit",
+     "gain": -12
+    }
+   ],
+   "captions": true
+  },
+  {
+   "id": "s003",
+   "start": 48.3,
+   "end": 52.81,
+   "line": "So the Moon isn't a night-light. Nope. It's a seatbelt. Then let's keep it buckled.",
+   "scene": "room",
+   "kind": "room",
+   "params": {
+    "part": "end"
+   },
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "whoosh",
+     "gain": -16
+    },
+    {
+     "at": 1.75,
+     "name": "pop",
+     "gain": -10
+    }
+   ],
+   "captions": true
+  }
+ ],
+ "music": [
+  {
+   "start": 0,
+   "end": 13.0,
+   "mood": "mystery",
+   "intensity": 0.45
+  },
+  {
+   "start": 13.0,
+   "end": 35.9,
+   "mood": "wonder",
+   "intensity": 0.5
+  },
+  {
+   "start": 35.9,
+   "end": 48.3,
+   "mood": "tension",
+   "intensity": 0.55
+  },
+  {
+   "start": 48.3,
+   "end": 52.806,
+   "mood": "playful",
+   "intensity": 0.5
+  }
+ ]
+}

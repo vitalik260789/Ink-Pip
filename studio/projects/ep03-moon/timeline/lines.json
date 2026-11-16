@@ -1,0 +1,107 @@
+{
+ "lines": [
+  {
+   "who": "PIP",
+   "text": "If the Moon vanished tonight, what would you notice first?",
+   "start": 0.08,
+   "end": 2.376
+  },
+  {
+   "who": "INK",
+   "text": "Nothing. And that's the scary part.",
+   "start": 2.516,
+   "end": 3.951
+  },
+  {
+   "who": "PIP",
+   "text": "Nothing? It's the Moon!",
+   "start": 4.091,
+   "end": 5.101
+  },
+  {
+   "who": "INK",
+   "text": "For a few nights, you'd just see darker skies. Way more stars, way fewer werewolves.",
+   "start": 5.241,
+   "end": 9.532
+  },
+  {
+   "who": "PIP",
+   "text": "Ha! So the Moon is just a giant night-light?",
+   "start": 9.672,
+   "end": 11.773
+  },
+  {
+   "who": "INK",
+   "text": "Wait for the beach. You see, the Moon's gravity pulls the oceans into two bulges, and Earth spins right through them. That's the tide.",
+   "start": 11.913,
+   "end": 18.886
+  },
+  {
+   "who": "PIP",
+   "text": "And without it?",
+   "start": 19.026,
+   "end": 19.633
+  },
+  {
+   "who": "INK",
+   "text": "The Sun makes tides too, but they're less than half as strong. Crabs, birds and fish that live by the tide would be in big trouble.",
+   "start": 19.773,
+   "end": 26.882
+  },
+  {
+   "who": "PIP",
+   "text": "Poor crabs. Anything bigger?",
+   "start": 27.022,
+   "end": 28.363
+  },
+  {
+   "who": "INK",
+   "text": "Much bigger. The Moon keeps Earth's tilt steady, like a hand holding a spinning top. That tilt gives us our seasons.",
+   "start": 28.503,
+   "end": 34.759
+  },
+  {
+   "who": "PIP",
+   "text": "And with no hand?",
+   "start": 34.899,
+   "end": 35.731
+  },
+  {
+   "who": "INK",
+   "text": "Over millions of years, the top could wobble. Some models say the tilt could swing from almost zero to eighty-five degrees.",
+   "start": 35.871,
+   "end": 42.493
+  },
+  {
+   "who": "PIP",
+   "text": "Eighty-five? That's Earth lying on its side!",
+   "start": 42.633,
+   "end": 44.629
+  },
+  {
+   "who": "INK",
+   "text": "Half a year of daylight, half a year of night. Seasons from a horror movie.",
+   "start": 44.769,
+   "end": 48.245
+  },
+  {
+   "who": "PIP",
+   "text": "So the Moon isn't a night-light.",
+   "start": 48.385,
+   "end": 49.731
+  },
+  {
+   "who": "INK",
+   "text": "Nope. It's a seatbelt.",
+   "start": 49.871,
+   "end": 50.965
+  },
+  {
+   "who": "PIP",
+   "text": "Then let's keep it buckled.",
+   "start": 51.105,
+   "end": 52.206
+  }
+ ],
+ "duration": 52.806
+}

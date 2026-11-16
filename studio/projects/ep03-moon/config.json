@@ -1,0 +1,25 @@
+{
+ "title": "What If the Moon Disappeared?",
+ "aspect": "16:9",
+ "resolution": "1080p",
+ "fps": 24,
+ "style": "inkworld",
+ "voiceover": "input/voiceover.wav",
+ "duration": 52.806,
+ "captions": true,
+ "bars": 0,
+ "fadeIn": 0.0,
+ "fadeOut": 0.4,
+ "music": {
+  "enabled": true,
+  "gainDb": -16,
+  "seed": 3
+ },
+ "sfx": {
+  "enabled": true,
+  "gainDb": -6
+ },
+ "loudness": -14,
+ "compress": true,
+ "lra": 3
+}
