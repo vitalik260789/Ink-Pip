@@ -1,0 +1,839 @@
+{
+ "lines": [
+  {
+   "who": "PIP",
+   "text": "If every bee on Earth vanished tonight, what would disappear from your breakfast first?",
+   "start": 0.08,
+   "end": 3.765,
+   "section": "HOOK"
+  },
+  {
+   "who": "INK",
+   "text": "Look at your plate.",
+   "start": 3.905,
+   "end": 4.732,
+   "section": "HOOK"
+  },
+  {
+   "who": "PIP",
+   "text": "My apple! My honey! My blueberries! Where did they go?",
+   "start": 4.872,
+   "end": 7.2,
+   "section": "HOOK"
+  },
+  {
+   "who": "INK",
+   "text": "That's the bees' work. They don't just make honey. They help make a huge part of what you eat.",
+   "start": 7.34,
+   "end": 11.781,
+   "section": "HOOK"
+  },
+  {
+   "who": "PIP",
+   "text": "But my toast is still here. Ha!",
+   "start": 11.921,
+   "end": 13.522,
+   "section": "HOOK"
+  },
+  {
+   "who": "INK",
+   "text": "For now. Let's find out how deep this goes.",
+   "start": 13.662,
+   "end": 15.889,
+   "section": "HOOK"
+  },
+  {
+   "who": "INK",
+   "text": "Tonight we delete every bee on the planet. All of them, at once. Then we follow what happens: the first morning, the orchards, the supermarket, and the whole food chain.",
+   "start": 16.389,
+   "end": 25.073,
+   "section": "TITLE"
+  },
+  {
+   "who": "PIP",
+   "text": "And at the end?",
+   "start": 25.213,
+   "end": 25.833,
+   "section": "TITLE"
+  },
+  {
+   "who": "INK",
+   "text": "At the end, we find out who would have to do the bees' job. Spoiler: it's us.",
+   "start": 25.973,
+   "end": 29.759,
+   "section": "TITLE"
+  },
+  {
+   "who": "PIP",
+   "text": "Okay, the bees are gone. What's the first thing I'd notice?",
+   "start": 30.259,
+   "end": 32.838,
+   "section": "THE FIRST MORNING"
+  },
+  {
+   "who": "INK",
+   "text": "Silence. A summer meadow without buzzing. And the flowers wouldn't know anything is wrong yet.",
+   "start": 32.978,
+   "end": 37.843,
+   "section": "THE FIRST MORNING"
+  },
+  {
+   "who": "PIP",
+   "text": "Wait, how many bees are we talking about? Like, a few hives?",
+   "start": 37.983,
+   "end": 40.817,
+   "section": "THE FIRST MORNING"
+  },
+  {
+   "who": "INK",
+   "text": "Way more. Scientists know more than twenty thousand species of bees. The honeybee is just one of them.",
+   "start": 40.957,
+   "end": 46.394,
+   "section": "THE FIRST MORNING"
+  },
+  {
+   "who": "PIP",
+   "text": "Twenty thousand kinds? I thought a bee was a bee!",
+   "start": 46.534,
+   "end": 48.839,
+   "section": "THE FIRST MORNING"
+  },
+  {
+   "who": "INK",
+   "text": "Most bees don't live in hives at all. They live alone, in tiny holes in the ground or in old wood. Most of them never make honey, and many of them can barely sting.",
+   "start": 48.979,
+   "end": 58.131,
+   "section": "THE FIRST MORNING"
+  },
+  {
+   "who": "PIP",
+   "text": "So bees are mostly quiet loners. Like you.",
+   "start": 58.271,
+   "end": 60.505,
+   "section": "THE FIRST MORNING"
+  },
+  {
+   "who": "INK",
+   "text": "Exactly like me. And we do important work.",
+   "start": 60.645,
+   "end": 63.111,
+   "section": "THE FIRST MORNING"
+  },
+  {
+   "who": "PIP",
+   "text": "Okay, but what is that important work? Bees just drink flower juice.",
+   "start": 63.611,
+   "end": 66.797,
+   "section": "WHAT BEES ACTUALLY DO"
+  },
+  {
+   "who": "INK",
+   "text": "You see, a flower has a problem. To make a fruit and seeds, it needs pollen from another flower. But flowers can't walk.",
+   "start": 66.937,
+   "end": 73.336,
+   "section": "WHAT BEES ACTUALLY DO"
+  },
+  {
+   "who": "PIP",
+   "text": "So they order delivery.",
+   "start": 73.476,
+   "end": 74.501,
+   "section": "WHAT BEES ACTUALLY DO"
+  },
+  {
+   "who": "INK",
+   "text": "Exactly. The flower pays the bee with sweet nectar, and while the bee is drinking, pollen sticks to its fuzzy body. Then the bee flies to the next flower and drops some of it off. That's pollination.",
+   "start": 74.641,
+   "end": 85.131,
+   "section": "WHAT BEES ACTUALLY DO"
+  },
+  {
+   "who": "PIP",
+   "text": "So every apple starts with a bee delivery.",
+   "start": 85.271,
+   "end": 87.07,
+   "section": "WHAT BEES ACTUALLY DO"
+  },
+  {
+   "who": "INK",
+   "text": "Lots of them. And bees are really good at it. Their hairy bodies even carry a little static electricity, so pollen jumps onto them like dust onto a balloon.",
+   "start": 87.21,
+   "end": 95.914,
+   "section": "WHAT BEES ACTUALLY DO"
+  },
+  {
+   "who": "PIP",
+   "text": "Bees are tiny fuzzy balloons. I love it.",
+   "start": 96.054,
+   "end": 98.024,
+   "section": "WHAT BEES ACTUALLY DO"
+  },
+  {
+   "who": "INK",
+   "text": "And flowers help them. Bees can see ultraviolet light. Many flowers have hidden ultraviolet patterns, like landing lights, pointing straight to the nectar.",
+   "start": 98.164,
+   "end": 106.712,
+   "section": "WHAT BEES ACTUALLY DO"
+  },
+  {
+   "who": "PIP",
+   "text": "Flowers have secret runways? That's so cool.",
+   "start": 106.852,
+   "end": 108.854,
+   "section": "WHAT BEES ACTUALLY DO"
+  },
+  {
+   "who": "INK",
+   "text": "Runways nobody uses anymore. Without bees, many flowers wait, and wait, and never make seeds.",
+   "start": 108.994,
+   "end": 114.623,
+   "section": "WHAT BEES ACTUALLY DO"
+  },
+  {
+   "who": "PIP",
+   "text": "Okay, but the honey. Tell me about the honey.",
+   "start": 115.123,
+   "end": 117.118,
+   "section": "THE HONEY AND THE DANCE"
+  },
+  {
+   "who": "INK",
+   "text": "Honey is the bees' food for winter. A honeybee makes about one twelfth of a teaspoon of honey in her whole life.",
+   "start": 117.258,
+   "end": 123.047,
+   "section": "THE HONEY AND THE DANCE"
+  },
+  {
+   "who": "PIP",
+   "text": "Her whole life? That's one tiny spoon!",
+   "start": 123.187,
+   "end": 125.02,
+   "section": "THE HONEY AND THE DANCE"
+  },
+  {
+   "who": "INK",
+   "text": "One tiny drop. A jar of honey is the life's work of hundreds of bees.",
+   "start": 125.16,
+   "end": 129.299,
+   "section": "THE HONEY AND THE DANCE"
+  },
+  {
+   "who": "PIP",
+   "text": "Now I feel bad for eating it.",
+   "start": 129.439,
+   "end": 130.784,
+   "section": "THE HONEY AND THE DANCE"
+  },
+  {
+   "who": "INK",
+   "text": "Then eat it slowly. And honey almost never goes bad. Archaeologists have found honey in ancient Egyptian tombs that was thousands of years old.",
+   "start": 130.924,
+   "end": 138.977,
+   "section": "THE HONEY AND THE DANCE"
+  },
+  {
+   "who": "PIP",
+   "text": "Ancient honey? Would you eat it?",
+   "start": 139.117,
+   "end": 140.511,
+   "section": "THE HONEY AND THE DANCE"
+  },
+  {
+   "who": "INK",
+   "text": "Scientists say it could still be safe. I'd still say no thanks.",
+   "start": 140.651,
+   "end": 143.851,
+   "section": "THE HONEY AND THE DANCE"
+  },
+  {
+   "who": "PIP",
+   "text": "And how do bees find the flowers? Do they have maps?",
+   "start": 143.991,
+   "end": 146.408,
+   "section": "THE HONEY AND THE DANCE"
+  },
+  {
+   "who": "INK",
+   "text": "Better. When a honeybee finds great flowers, she flies home and dances. A wiggly run, again and again. The direction of the run tells the others which way to fly, and how long she wiggles tells them how far.",
+   "start": 146.548,
+   "end": 158.247,
+   "section": "THE HONEY AND THE DANCE"
+  },
+  {
+   "who": "PIP",
+   "text": "Bees give directions by dancing? I'd get lost so fast.",
+   "start": 158.387,
+   "end": 161.156,
+   "section": "THE HONEY AND THE DANCE"
+  },
+  {
+   "who": "INK",
+   "text": "A scientist named Karl von Frisch figured that out, and he won a Nobel Prize for it in 1973.",
+   "start": 161.296,
+   "end": 167.54,
+   "section": "THE HONEY AND THE DANCE"
+  },
+  {
+   "who": "PIP",
+   "text": "A Nobel Prize for watching bees dance. That's my dream job.",
+   "start": 167.68,
+   "end": 170.884,
+   "section": "THE HONEY AND THE DANCE"
+  },
+  {
+   "who": "PIP",
+   "text": "Okay, so which foods are in trouble?",
+   "start": 171.384,
+   "end": 172.987,
+   "section": "THE ORCHARD"
+  },
+  {
+   "who": "INK",
+   "text": "Scientists looked at the world's most important crops. Out of a hundred and fifteen of them, eighty-seven get help from animals that carry pollen. And bees are the biggest helpers by far.",
+   "start": 173.127,
+   "end": 183.021,
+   "section": "THE ORCHARD"
+  },
+  {
+   "who": "PIP",
+   "text": "Eighty-seven! That's almost all of them!",
+   "start": 183.161,
+   "end": 184.88,
+   "section": "THE ORCHARD"
+  },
+  {
+   "who": "INK",
+   "text": "Apples, cherries, almonds, blueberries, pumpkins, melons, avocados. In the United States, more than half of all the bee colonies that farmers rent go to one crop: the almond orchards of California.",
+   "start": 185.02,
+   "end": 196.901,
+   "section": "THE ORCHARD"
+  },
+  {
+   "who": "PIP",
+   "text": "The bees go on a road trip for almonds?",
+   "start": 197.041,
+   "end": 198.807,
+   "section": "THE ORCHARD"
+  },
+  {
+   "who": "INK",
+   "text": "Millions of hives, on trucks, every spring. And some fruits need a very special trick. Bumblebees grab a tomato flower and shake it, really fast, until the pollen falls out.",
+   "start": 198.947,
+   "end": 208.647,
+   "section": "THE ORCHARD"
+  },
+  {
+   "who": "PIP",
+   "text": "The bee does a little dance on the flower?",
+   "start": 208.787,
+   "end": 210.241,
+   "section": "THE ORCHARD"
+  },
+  {
+   "who": "INK",
+   "text": "Buzz pollination. Honeybees can't do it. So greenhouses all over the world use bumblebees to grow tomatoes.",
+   "start": 210.381,
+   "end": 216.684,
+   "section": "THE ORCHARD"
+  },
+  {
+   "who": "PIP",
+   "text": "Okay, let's go shopping in a world without bees.",
+   "start": 218.684,
+   "end": 220.839,
+   "section": "THE SUPERMARKET"
+  },
+  {
+   "who": "INK",
+   "text": "Let's. Scientists calculated what happens if all the animals that pollinate crops disappeared. The world would lose about a fifth of its fruit.",
+   "start": 220.979,
+   "end": 228.663,
+   "section": "THE SUPERMARKET"
+  },
+  {
+   "who": "PIP",
+   "text": "A fifth? Like every fifth apple, gone?",
+   "start": 228.803,
+   "end": 230.463,
+   "section": "THE SUPERMARKET"
+  },
+  {
+   "who": "INK",
+   "text": "Roughly. About twenty-three percent of the fruit, sixteen percent of the vegetables, and twenty-two percent of the nuts and seeds.",
+   "start": 230.603,
+   "end": 237.134,
+   "section": "THE SUPERMARKET"
+  },
+  {
+   "who": "PIP",
+   "text": "My almonds! My cherries! My guacamole!",
+   "start": 237.274,
+   "end": 239.387,
+   "section": "THE SUPERMARKET"
+  },
+  {
+   "who": "INK",
+   "text": "The shelves wouldn't be empty. But the colorful part of the store would shrink, and what's left would cost a lot more.",
+   "start": 239.527,
+   "end": 245.213,
+   "section": "THE SUPERMARKET"
+  },
+  {
+   "who": "PIP",
+   "text": "What about coffee? My mom can't live without her coffee.",
+   "start": 245.353,
+   "end": 247.832,
+   "section": "THE SUPERMARKET"
+  },
+  {
+   "who": "INK",
+   "text": "Coffee flowers can pollinate themselves, but when bees visit, the plants grow more coffee beans. So coffee would get rarer and more expensive too.",
+   "start": 247.972,
+   "end": 255.794,
+   "section": "THE SUPERMARKET"
+  },
+  {
+   "who": "PIP",
+   "text": "Okay. Nobody tell Mom.",
+   "start": 255.934,
+   "end": 257.197,
+   "section": "THE SUPERMARKET"
+  },
+  {
+   "who": "PIP",
+   "text": "So who cares? I'll just eat bread and pasta.",
+   "start": 257.277,
+   "end": 259.283,
+   "section": "THE SUPERMARKET"
+  },
+  {
+   "who": "INK",
+   "text": "Funny you should say that, because there's a famous scary quote about this.",
+   "start": 259.423,
+   "end": 262.877,
+   "section": "THE SUPERMARKET"
+  },
+  {
+   "who": "PIP",
+   "text": "Oh, I know it! Einstein said that if the bees disappear, humans have only four years left!",
+   "start": 263.377,
+   "end": 268.031,
+   "section": "MYTH: FOUR YEARS LEFT"
+  },
+  {
+   "who": "INK",
+   "text": "That's the myth. There's no evidence Einstein ever said it. The quote first shows up in a French magazine in 1965. Einstein died ten years earlier.",
+   "start": 268.171,
+   "end": 277.613,
+   "section": "MYTH: FOUR YEARS LEFT"
+  },
+  {
+   "who": "PIP",
+   "text": "So someone just borrowed his hair.",
+   "start": 277.753,
+   "end": 279.137,
+   "section": "MYTH: FOUR YEARS LEFT"
+  },
+  {
+   "who": "INK",
+   "text": "Borrowed his famous name. And the four years part is wrong too. The biggest foods on Earth, wheat, rice and corn, are pollinated by the wind. No bees needed.",
+   "start": 279.277,
+   "end": 288.389,
+   "section": "MYTH: FOUR YEARS LEFT"
+  },
+  {
+   "who": "PIP",
+   "text": "So humans wouldn't die out.",
+   "start": 288.529,
+   "end": 289.769,
+   "section": "MYTH: FOUR YEARS LEFT"
+  },
+  {
+   "who": "INK",
+   "text": "No. Myth busted. But wait, the story isn't over.",
+   "start": 289.909,
+   "end": 292.669,
+   "section": "MYTH: FOUR YEARS LEFT"
+  },
+  {
+   "who": "PIP",
+   "text": "There's more? I still have my bread!",
+   "start": 293.169,
+   "end": 294.749,
+   "section": "THE HIDDEN CHAIN"
+  },
+  {
+   "who": "INK",
+   "text": "Look at the cows. They eat clover and alfalfa, and farmers need bees to grow the seeds for those plants. Fewer seeds, less cow food.",
+   "start": 294.889,
+   "end": 302.553,
+   "section": "THE HIDDEN CHAIN"
+  },
+  {
+   "who": "PIP",
+   "text": "Less cow food means...",
+   "start": 302.693,
+   "end": 303.718,
+   "section": "THE HIDDEN CHAIN"
+  },
+  {
+   "who": "INK",
+   "text": "Less milk, less cheese, less ice cream.",
+   "start": 303.858,
+   "end": 305.634,
+   "section": "THE HIDDEN CHAIN"
+  },
+  {
+   "who": "PIP",
+   "text": "Not the ice cream!",
+   "start": 305.774,
+   "end": 306.634,
+   "section": "THE HIDDEN CHAIN"
+  },
+  {
+   "who": "INK",
+   "text": "And cotton plants grow more cotton when bees visit them. So even your T-shirt has a little bee in it.",
+   "start": 306.774,
+   "end": 311.767,
+   "section": "THE HIDDEN CHAIN"
+  },
+  {
+   "who": "PIP",
+   "text": "My shirt is part bee? I'm wearing a bee?",
+   "start": 311.907,
+   "end": 313.75,
+   "section": "THE HIDDEN CHAIN"
+  },
+  {
+   "who": "INK",
+   "text": "In a way. But here's the serious part. Fruit, vegetables and nuts are where we get lots of our vitamins. One big study estimated that without pollinators, more than a million extra people could die every year from diseases linked to a worse diet.",
+   "start": 313.89,
+   "end": 328.104,
+   "section": "THE HIDDEN CHAIN"
+  },
+  {
+   "who": "PIP",
+   "text": "Whoa. So the bees don't keep us alive. They keep us healthy.",
+   "start": 328.244,
+   "end": 330.854,
+   "section": "THE HIDDEN CHAIN"
+  },
+  {
+   "who": "INK",
+   "text": "Exactly. Bread keeps you full. Fruit keeps you strong.",
+   "start": 330.994,
+   "end": 333.571,
+   "section": "THE HIDDEN CHAIN"
+  },
+  {
+   "who": "PIP",
+   "text": "Okay, I need to ask the most important question. What about chocolate?",
+   "start": 334.071,
+   "end": 337.222,
+   "section": "THE CHOCOLATE QUESTION"
+  },
+  {
+   "who": "INK",
+   "text": "Good news. Chocolate doesn't need bees.",
+   "start": 337.362,
+   "end": 339.469,
+   "section": "THE CHOCOLATE QUESTION"
+  },
+  {
+   "who": "PIP",
+   "text": "Yes! Wait, really?",
+   "start": 339.609,
+   "end": 340.49,
+   "section": "THE CHOCOLATE QUESTION"
+  },
+  {
+   "who": "INK",
+   "text": "The cacao flower is tiny and complicated. Bees can't get into it. It's pollinated by flies called midges, about one millimeter long.",
+   "start": 340.63,
+   "end": 348.611,
+   "section": "THE CHOCOLATE QUESTION"
+  },
+  {
+   "who": "PIP",
+   "text": "A fly the size of a dot saves chocolate?",
+   "start": 348.751,
+   "end": 350.565,
+   "section": "THE CHOCOLATE QUESTION"
+  },
+  {
+   "who": "INK",
+   "text": "It does. And it's not very good at it. Only about three cacao flowers out of every thousand turn into a pod.",
+   "start": 350.705,
+   "end": 356.657,
+   "section": "THE CHOCOLATE QUESTION"
+  },
+  {
+   "who": "PIP",
+   "text": "Three out of a thousand? Midges, you have one job!",
+   "start": 356.797,
+   "end": 359.193,
+   "section": "THE CHOCOLATE QUESTION"
+  },
+  {
+   "who": "INK",
+   "text": "And they're the only ones who can do it. So chocolate survives. Your toast survives. But your fruit bowl is in trouble.",
+   "start": 359.333,
+   "end": 365.565,
+   "section": "THE CHOCOLATE QUESTION"
+  },
+  {
+   "who": "PIP",
+   "text": "Okay, what if we just do the bees' job ourselves?",
+   "start": 366.065,
+   "end": 368.21,
+   "section": "TWIST: HUMAN BEES"
+  },
+  {
+   "who": "INK",
+   "text": "That's the twist. People already do. In some apple and pear orchards in Sichuan, in China, wild bees became so rare that farmers started pollinating by hand.",
+   "start": 368.35,
+   "end": 377.638,
+   "section": "TWIST: HUMAN BEES"
+  },
+  {
+   "who": "PIP",
+   "text": "By hand? Every single flower?",
+   "start": 377.778,
+   "end": 379.293,
+   "section": "TWIST: HUMAN BEES"
+  },
+  {
+   "who": "INK",
+   "text": "Every single flower. They climb ladders with a brush and a little pot of pollen and touch the flowers one by one. One person can only finish a handful of trees in a day.",
+   "start": 379.433,
+   "end": 388.773,
+   "section": "TWIST: HUMAN BEES"
+  },
+  {
+   "who": "PIP",
+   "text": "And a bee hive?",
+   "start": 388.913,
+   "end": 389.59,
+   "section": "TWIST: HUMAN BEES"
+  },
+  {
+   "who": "INK",
+   "text": "A healthy hive can visit more than a million flowers in a single day. For free.",
+   "start": 389.73,
+   "end": 393.898,
+   "section": "TWIST: HUMAN BEES"
+  },
+  {
+   "who": "PIP",
+   "text": "Okay, the bees are way cheaper than us.",
+   "start": 394.038,
+   "end": 395.73,
+   "section": "TWIST: HUMAN BEES"
+  },
+  {
+   "who": "INK",
+   "text": "And there's another hand-pollinated food you know. Vanilla. In 1841, on the island of R\u00e9union, a twelve-year-old boy named Edmond Albius invented a quick way to pollinate vanilla flowers by hand. Vanilla farmers still use his trick today.",
+   "start": 395.87,
+   "end": 411.431,
+   "section": "TWIST: HUMAN BEES"
+  },
+  {
+   "who": "PIP",
+   "text": "A twelve-year-old saved vanilla ice cream? Legend.",
+   "start": 411.571,
+   "end": 414.156,
+   "section": "TWIST: HUMAN BEES"
+  },
+  {
+   "who": "INK",
+   "text": "Total legend. But there are not enough people on Earth to do every bee's job.",
+   "start": 414.296,
+   "end": 418.41,
+   "section": "TWIST: HUMAN BEES"
+  },
+  {
+   "who": "PIP",
+   "text": "Then robots! Tiny robot bees!",
+   "start": 418.55,
+   "end": 420.288,
+   "section": "TWIST: HUMAN BEES"
+  },
+  {
+   "who": "INK",
+   "text": "Engineers have built them. One robot insect from Harvard weighs less than a tenth of a gram, and it can flap its wings and fly.",
+   "start": 420.428,
+   "end": 427.428,
+   "section": "TWIST: HUMAN BEES"
+  },
+  {
+   "who": "PIP",
+   "text": "Problem solved!",
+   "start": 427.568,
+   "end": 428.382,
+   "section": "TWIST: HUMAN BEES"
+  },
+  {
+   "who": "INK",
+   "text": "Not even close. Most of them still need a wire for power, and we would need billions of them. Real bees build themselves, fix themselves, and run on flower juice.",
+   "start": 428.522,
+   "end": 437.688,
+   "section": "TWIST: HUMAN BEES"
+  },
+  {
+   "who": "PIP",
+   "text": "Okay. Real bees win again.",
+   "start": 437.828,
+   "end": 439.282,
+   "section": "TWIST: HUMAN BEES"
+  },
+  {
+   "who": "PIP",
+   "text": "Okay, I'm worried now. Are the bees actually disappearing?",
+   "start": 439.782,
+   "end": 442.451,
+   "section": "THE GOOD NEWS"
+  },
+  {
+   "who": "INK",
+   "text": "They're not all vanishing tonight. But many kinds of bees are in trouble, because they're losing flowers, homes, and clean places to live.",
+   "start": 442.591,
+   "end": 449.67,
+   "section": "THE GOOD NEWS"
+  },
+  {
+   "who": "PIP",
+   "text": "So what can we do? I can't build a hive.",
+   "start": 449.81,
+   "end": 451.721,
+   "section": "THE GOOD NEWS"
+  },
+  {
+   "who": "INK",
+   "text": "You don't have to. Plant some flowers. Leave a messy, wild corner in the garden. Let the dandelions grow. A lot of bees just need a place to live and something to eat.",
+   "start": 451.861,
+   "end": 461.324,
+   "section": "THE GOOD NEWS"
+  },
+  {
+   "who": "PIP",
+   "text": "What if I only have a balcony?",
+   "start": 461.464,
+   "end": 462.747,
+   "section": "THE GOOD NEWS"
+  },
+  {
+   "who": "INK",
+   "text": "Even one flower pot helps. Bees are always looking for a snack on the way.",
+   "start": 462.887,
+   "end": 466.865,
+   "section": "THE GOOD NEWS"
+  },
+  {
+   "who": "PIP",
+   "text": "Messy gardens save the world. My mom is going to love this.",
+   "start": 467.005,
+   "end": 469.832,
+   "section": "THE GOOD NEWS"
+  },
+  {
+   "who": "INK",
+   "text": "Probably not. But the bees will.",
+   "start": 469.972,
+   "end": 471.633,
+   "section": "THE GOOD NEWS"
+  },
+  {
+   "who": "PIP",
+   "text": "So bees aren't just honey makers.",
+   "start": 472.133,
+   "end": 473.531,
+   "section": "OUTRO"
+  },
+  {
+   "who": "INK",
+   "text": "Nope. They're the delivery service of the whole planet. Fruit, nuts, cow food, even your T-shirt.",
+   "start": 473.671,
+   "end": 478.788,
+   "section": "OUTRO"
+  },
+  {
+   "who": "PIP",
+   "text": "Then let's give them a nice messy garden.",
+   "start": 478.928,
+   "end": 480.692,
+   "section": "OUTRO"
+  },
+  {
+   "who": "INK",
+   "text": "If you learned something new, subscribe so you don't miss our next \"what if\".",
+   "start": 480.832,
+   "end": 484.246,
+   "section": "OUTRO"
+  },
+  {
+   "who": "PIP",
+   "text": "And tell us in the comments: which animal should we make disappear next? The best idea becomes our next video!",
+   "start": 484.386,
+   "end": 489.701,
+   "section": "OUTRO"
+  }
+ ],
+ "sections": [
+  {
+   "title": "HOOK",
+   "t": 0.08
+  },
+  {
+   "title": "TITLE",
+   "t": 16.389
+  },
+  {
+   "title": "THE FIRST MORNING",
+   "t": 30.259
+  },
+  {
+   "title": "WHAT BEES ACTUALLY DO",
+   "t": 63.611
+  },
+  {
+   "title": "THE HONEY AND THE DANCE",
+   "t": 115.123
+  },
+  {
+   "title": "THE ORCHARD",
+   "t": 171.384
+  },
+  {
+   "title": "mid-roll"
+  },
+  {
+   "title": "THE SUPERMARKET",
+   "t": 218.684
+  },
+  {
+   "title": "MYTH: FOUR YEARS LEFT",
+   "t": 263.377
+  },
+  {
+   "title": "THE HIDDEN CHAIN",
+   "t": 293.169
+  },
+  {
+   "title": "THE CHOCOLATE QUESTION",
+   "t": 334.071
+  },
+  {
+   "title": "TWIST: HUMAN BEES",
+   "t": 366.065
+  },
+  {
+   "title": "THE GOOD NEWS",
+   "t": 439.782
+  },
+  {
+   "title": "OUTRO",
+   "t": 472.133
+  }
+ ],
+ "duration": 493.201
+}

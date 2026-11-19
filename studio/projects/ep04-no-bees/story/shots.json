@@ -1,0 +1,319 @@
+{
+ "title": "What If All the Bees Disappeared?",
+ "duration": 493.201,
+ "shots": [
+  {
+   "id": "s001",
+   "start": 0.0,
+   "end": 16.09,
+   "line": "If every bee on Earth vanished tonight, what would disappear from your breakfast first? Look at your plate. My apple! My honey! My blueberries! Where did they go? That's the bees' work. They don't just make honey. They help make a huge part of what you eat. But my toast is still here. Ha! For now. Let's find out how deep this goes.",
+   "scene": "room",
+   "kind": "room",
+   "params": {
+    "part": "start"
+   },
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 3.9,
+     "name": "pop",
+     "gain": -12
+    },
+    {
+     "at": 4.78,
+     "name": "pop",
+     "gain": -12
+    },
+    {
+     "at": 5.13,
+     "name": "pop",
+     "gain": -13
+    },
+    {
+     "at": 5.48,
+     "name": "pop",
+     "gain": -13
+    }
+   ],
+   "captions": true
+  },
+  {
+   "id": "s002",
+   "start": 16.09,
+   "end": 63.31,
+   "line": "Tonight we delete every bee on the planet. All of them, at once. Then we follow what happens: the first morning, the orchards, the supermarket, and the whole food chain. And at the end? At the end, we find out who would have to do the bees' job. Spoiler: it's us. Okay, the bees are gone. What's the first thing I'd notice? Silence. A summer meadow without buzzing. And the flowers wouldn't know anything is wrong yet. Wait, how many bees are we talking about? Like, a few hives? Way more. Scientists know more than twenty thousand species of bees. The honeybee is just one of them. Twenty thousand kinds? I thought a bee was a bee! Most bees don't live in hives at all. They live alone, in tiny holes in the ground or in old wood. Most of them never make honey, and many of them can barely sting. So bees are mostly quiet loners. Like you. Exactly like me. And we do important work.",
+   "scene": "meadow",
+   "kind": "meadow",
+   "params": {
+    "mode": "meadow",
+    "part": "title"
+   },
+   "in": {
+    "type": "fade",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "whoosh",
+     "gain": -10
+    },
+    {
+     "at": 13.87,
+     "name": "pop",
+     "gain": -10
+    }
+   ],
+   "captions": true
+  },
+  {
+   "id": "s003",
+   "start": 63.31,
+   "end": 114.82,
+   "line": "Okay, but what is that important work? Bees just drink flower juice. You see, a flower has a problem. To make a fruit and seeds, it needs pollen from another flower. But flowers can't walk. So they order delivery. Exactly. The flower pays the bee with sweet nectar, and while the bee is drinking, pollen sticks to its fuzzy body. Then the bee flies to the next flower and drops some of it off. That's pollination. So every apple starts with a bee delivery. Lots of them. And bees are really good at it. Their hairy bodies even carry a little static electricity, so pollen jumps onto them like dust onto a balloon. Bees are tiny fuzzy balloons. I love it. And flowers help them. Bees can see ultraviolet light. Many flowers have hidden ultraviolet patterns, like landing lights, pointing straight to the nectar. Flowers have secret runways? That's so cool. Runways nobody uses anymore. Without bees, many flowers wait, and wait, and never make seeds.",
+   "scene": "flower",
+   "kind": "flower",
+   "params": {},
+   "in": {
+    "type": "fade",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "whoosh",
+     "gain": -16
+    }
+   ],
+   "captions": true
+  },
+  {
+   "id": "s004",
+   "start": 114.82,
+   "end": 171.08,
+   "line": "Okay, but the honey. Tell me about the honey. Honey is the bees' food for winter. A honeybee makes about one twelfth of a teaspoon of honey in her whole life. Her whole life? That's one tiny spoon! One tiny drop. A jar of honey is the life's work of hundreds of bees. Now I feel bad for eating it. Then eat it slowly. And honey almost never goes bad. Archaeologists have found honey in ancient Egyptian tombs that was thousands of years old. Ancient honey? Would you eat it? Scientists say it could still be safe. I'd still say no thanks. And how do bees find the flowers? Do they have maps? Better. When a honeybee finds great flowers, she flies home and dances. A wiggly run, again and again. The direction of the run tells the others which way to fly, and how long she wiggles tells them how far. Bees give directions by dancing? I'd get lost so fast. A scientist named Karl von Frisch figured that out, and he won a Nobel Prize for it in 1973. A Nobel Prize for watching bees dance. That's my dream job.",
+   "scene": "flower",
+   "kind": "flower",
+   "params": {
+    "mode": "comb"
+   },
+   "in": {
+    "type": "fade",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "whoosh",
+     "gain": -16
+    }
+   ],
+   "captions": true
+  },
+  {
+   "id": "s005",
+   "start": 171.08,
+   "end": 218.38,
+   "line": "Okay, so which foods are in trouble? Scientists looked at the world's most important crops. Out of a hundred and fifteen of them, eighty-seven get help from animals that carry pollen. And bees are the biggest helpers by far. Eighty-seven! That's almost all of them! Apples, cherries, almonds, blueberries, pumpkins, melons, avocados. In the United States, more than half of all the bee colonies that farmers rent go to one crop: the almond orchards of California. The bees go on a road trip for almonds? Millions of hives, on trucks, every spring. And some fruits need a very special trick. Bumblebees grab a tomato flower and shake it, really fast, until the pollen falls out. The bee does a little dance on the flower? Buzz pollination. Honeybees can't do it. So greenhouses all over the world use bumblebees to grow tomatoes.",
+   "scene": "meadow",
+   "kind": "meadow",
+   "params": {
+    "mode": "orchard",
+    "part": "crops"
+   },
+   "in": {
+    "type": "fade",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true
+  },
+  {
+   "id": "s006",
+   "start": 218.38,
+   "end": 292.87,
+   "line": "Okay, let's go shopping in a world without bees. Let's. Scientists calculated what happens if all the animals that pollinate crops disappeared. The world would lose about a fifth of its fruit. A fifth? Like every fifth apple, gone? Roughly. About twenty-three percent of the fruit, sixteen percent of the vegetables, and twenty-two percent of the nuts and seeds. My almonds! My cherries! My guacamole! The shelves wouldn't be empty. But the colorful part of the store would shrink, and what's left would cost a lot more. What about coffee? My mom can't live without her coffee. Coffee flowers can pollinate themselves, but when bees visit, the plants grow more coffee beans. So coffee would get rarer and more expensive too. Okay. Nobody tell Mom. So who cares? I'll just eat bread and pasta. Funny you should say that, because there's a famous scary quote about this. Oh, I know it! Einstein said that if the bees disappear, humans have only four years left! That's the myth. There's no evidence Einstein ever said it. The quote first shows up in a French magazine in 1965. Einstein died ten years earlier. So someone just borrowed his hair. Borrowed his famous name. And the four years part is wrong too. The biggest foods on Earth, wheat, rice and corn, are pollinated by the wind. No bees needed. So humans wouldn't die out. No. Myth busted. But wait, the story isn't over.",
+   "scene": "market",
+   "kind": "market",
+   "params": {},
+   "in": {
+    "type": "fade",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 7.1,
+     "name": "pop",
+     "gain": -16
+    },
+    {
+     "at": 50.09,
+     "name": "hit",
+     "gain": -12
+    },
+    {
+     "at": 71.73,
+     "name": "hit",
+     "gain": -14
+    }
+   ],
+   "captions": true
+  },
+  {
+   "id": "s007",
+   "start": 292.87,
+   "end": 333.77,
+   "line": "There's more? I still have my bread! Look at the cows. They eat clover and alfalfa, and farmers need bees to grow the seeds for those plants. Fewer seeds, less cow food. Less cow food means... Less milk, less cheese, less ice cream. Not the ice cream! And cotton plants grow more cotton when bees visit them. So even your T-shirt has a little bee in it. My shirt is part bee? I'm wearing a bee? In a way. But here's the serious part. Fruit, vegetables and nuts are where we get lots of our vitamins. One big study estimated that without pollinators, more than a million extra people could die every year from diseases linked to a worse diet. Whoa. So the bees don't keep us alive. They keep us healthy. Exactly. Bread keeps you full. Fruit keeps you strong.",
+   "scene": "meadow",
+   "kind": "meadow",
+   "params": {
+    "mode": "farm"
+   },
+   "in": {
+    "type": "fade",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 11.39,
+     "name": "pop",
+     "gain": -14
+    }
+   ],
+   "captions": true
+  },
+  {
+   "id": "s008",
+   "start": 333.77,
+   "end": 365.76,
+   "line": "Okay, I need to ask the most important question. What about chocolate? Good news. Chocolate doesn't need bees. Yes! Wait, really? The cacao flower is tiny and complicated. Bees can't get into it. It's pollinated by flies called midges, about one millimeter long. A fly the size of a dot saves chocolate? It does. And it's not very good at it. Only about three cacao flowers out of every thousand turn into a pod. Three out of a thousand? Midges, you have one job! And they're the only ones who can do it. So chocolate survives. Your toast survives. But your fruit bowl is in trouble.",
+   "scene": "meadow",
+   "kind": "meadow",
+   "params": {
+    "mode": "cacao"
+   },
+   "in": {
+    "type": "fade",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 3.79,
+     "name": "hit",
+     "gain": -16
+    }
+   ],
+   "captions": true
+  },
+  {
+   "id": "s009",
+   "start": 365.76,
+   "end": 439.48,
+   "line": "Okay, what if we just do the bees' job ourselves? That's the twist. People already do. In some apple and pear orchards in Sichuan, in China, wild bees became so rare that farmers started pollinating by hand. By hand? Every single flower? Every single flower. They climb ladders with a brush and a little pot of pollen and touch the flowers one by one. One person can only finish a handful of trees in a day. And a bee hive? A healthy hive can visit more than a million flowers in a single day. For free. Okay, the bees are way cheaper than us. And there's another hand-pollinated food you know. Vanilla. In 1841, on the island of R\u00e9union, a twelve-year-old boy named Edmond Albius invented a quick way to pollinate vanilla flowers by hand. Vanilla farmers still use his trick today. A twelve-year-old saved vanilla ice cream? Legend. Total legend. But there are not enough people on Earth to do every bee's job. Then robots! Tiny robot bees! Engineers have built them. One robot insect from Harvard weighs less than a tenth of a gram, and it can flap its wings and fly. Problem solved! Not even close. Most of them still need a wire for power, and we would need billions of them. Real bees build themselves, fix themselves, and run on flower juice. Okay. Real bees win again.",
+   "scene": "meadow",
+   "kind": "meadow",
+   "params": {
+    "mode": "orchard",
+    "part": "human"
+   },
+   "in": {
+    "type": "fade",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true
+  },
+  {
+   "id": "s010",
+   "start": 439.48,
+   "end": 471.83,
+   "line": "Okay, I'm worried now. Are the bees actually disappearing? They're not all vanishing tonight. But many kinds of bees are in trouble, because they're losing flowers, homes, and clean places to live. So what can we do? I can't build a hive. You don't have to. Plant some flowers. Leave a messy, wild corner in the garden. Let the dandelions grow. A lot of bees just need a place to live and something to eat. What if I only have a balcony? Even one flower pot helps. Bees are always looking for a snack on the way. Messy gardens save the world. My mom is going to love this. Probably not. But the bees will.",
+   "scene": "meadow",
+   "kind": "meadow",
+   "params": {
+    "mode": "meadow",
+    "part": "good"
+   },
+   "in": {
+    "type": "fade",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 3.71,
+     "name": "pop",
+     "gain": -10
+    }
+   ],
+   "captions": true
+  },
+  {
+   "id": "s011",
+   "start": 471.83,
+   "end": 493.2,
+   "line": "So bees aren't just honey makers. Nope. They're the delivery service of the whole planet. Fruit, nuts, cow food, even your T-shirt. Then let's give them a nice messy garden. If you learned something new, subscribe so you don't miss our next \"what if\". And tell us in the comments: which animal should we make disappear next? The best idea becomes our next video!",
+   "scene": "room",
+   "kind": "room",
+   "params": {
+    "part": "end"
+   },
+   "in": {
+    "type": "fade",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.7,
+     "name": "pop",
+     "gain": -12
+    },
+    {
+     "at": 9.0,
+     "name": "pop",
+     "gain": -12
+    }
+   ],
+   "captions": true
+  }
+ ],
+ "music": [
+  {
+   "start": 0,
+   "end": 16.09,
+   "mood": "mystery",
+   "intensity": 0.45
+  },
+  {
+   "start": 16.09,
+   "end": 171.08,
+   "mood": "wonder",
+   "intensity": 0.45
+  },
+  {
+   "start": 171.08,
+   "end": 292.87,
+   "mood": "playful",
+   "intensity": 0.45
+  },
+  {
+   "start": 292.87,
+   "end": 333.77,
+   "mood": "tension",
+   "intensity": 0.45
+  },
+  {
+   "start": 333.77,
+   "end": 439.48,
+   "mood": "playful",
+   "intensity": 0.45
+  },
+  {
+   "start": 439.48,
+   "end": 493.201,
+   "mood": "hopeful",
+   "intensity": 0.5
+  }
+ ]
+}
