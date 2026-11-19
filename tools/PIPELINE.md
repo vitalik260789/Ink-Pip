@@ -5,7 +5,7 @@ Reference episode for code and style: `studio/projects/ep03-moon-full` (8:06, st
 
 ## 0. Setup in a fresh container
 ```
-git clone https://github.com/vitalik260789/Ink-Pip.git ink-pip && cd ink-pip/studio && npm ci
+git clone https://github.com/vitalik260789/Ink-Pip.git ink-pip && cd ink-pip/studio && npm install --no-audit --no-fund   # no package-lock: npm ci fails
 pip install --break-system-packages kokoro-onnx soundfile scipy opencv-python-headless
 mkdir -p ~/tts && cd ~/tts && curl -sLO https://github.com/thewh1teagle/kokoro-onnx/releases/download/model-files-v1.0/kokoro-v1.0.onnx && curl -sLO https://github.com/thewh1teagle/kokoro-onnx/releases/download/model-files-v1.0/voices-v1.0.bin
 export CHROME_BIN=$(ls -d /opt/pw-browsers/chromium-*/chrome-linux*/chrome | head -1)   # or let Playwright install chromium
@@ -22,6 +22,7 @@ export CHROME_BIN=$(ls -d /opt/pw-browsers/chromium-*/chrome-linux*/chrome | hea
 Target: speaking rate ≈ 3.6 words/s, duration 8:00–9:00.
 
 ## 3. Project
+Topic rubrics rotate (never space twice in a row): animals & nature · human body · Earth & weather · history & dinosaurs · tech & everyday life · space. Ep04 `ep04-no-bees` adds `scenes/sets/nature3d.js` (meadow/hive/bees, macro flower with UV view, honeycomb, blossoming orchard with ladders, market stall, farm, cacao tree) and keys beats to line indices (`LN(i)`); its plan script is `tools/plan_ep04.py`.
 Copy `studio/projects/ep03-moon-full` → `studio/projects/<slug>`; keep `scenes/sets/*` (room3d night/day, space3d, worlds3d: dune/reef/beach, props3d: planets) and the camera/cast helpers at the top of `scenes/shots/episode.js`; rewrite the beats (labels, moon/tilt states, ACT table) for the new story. Add sets in `worlds3d.js` if the story needs a new place.
 `tools/plan_example_ep03.py` shows how `story/shots.json`, `timeline/words.json`, `config.json` and `scenes/cast.js` are generated (one shot per location segment, dissolve 0.3 s between locations).
 Rules (reference-matched, see claude/ep03_reference_match.md in the claude.ai project):
@@ -35,7 +36,7 @@ Colour check: `python3 tools/qa_colour.py <stills dir> <shots.json>` — room Y 
 ```
 gh api -X POST repos/vitalik260789/Ink-Pip/actions/workflows/render.yml/dispatches -f ref=main -f 'inputs[project]=<slug>' -f 'inputs[shards]=20' -f 'inputs[scale]=1'
 ```
-Result: release `<slug>-rN`, asset `<slug>.mp4` → `https://github.com/vitalik260789/Ink-Pip/releases/download/<tag>/<slug>.mp4`.
+Result: release `<slug>-rN`, asset `<slug>.mp4` (auto re-encoded to ≈420 MB when larger than 450 MB — Metricool rejects ~700 MB uploads) → `https://github.com/vitalik260789/Ink-Pip/releases/download/<tag>/<slug>.mp4`.
 Fix a few chunks: `-f 'inputs[chunks]=8,28' -f 'inputs[reuse_run]=<run id>'` (chunk = floor(t/4 s)).
 Use REST only (`gh api …`); GraphQL (`gh run view/watch`, `gh release download`) is blocked in Claude sessions → download with curl.
 
