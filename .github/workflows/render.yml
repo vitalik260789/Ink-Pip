@@ -130,6 +130,15 @@ jobs:
           npm install --no-audit --no-fund
           node render.mjs --project $P --concat
           ffmpeg -y -v error -i $P/build/video_silent.mp4 -i $P/build/mix.wav -map 0:v:0 -map 1:a:0 -c:v copy -c:a aac -b:a 192k -shortest -movflags +faststart $P/build/final.mp4
+          # Metricool rejects very large uploads (a 716 MB file failed, 468 MB worked): re-encode to fit ~420 MB
+          SIZE=$(stat -c %s $P/build/final.mp4)
+          if [ "$SIZE" -gt 450000000 ]; then
+            DUR=$(ffprobe -v error -show_entries format=duration -of csv=p=0 $P/build/final.mp4)
+            VB=$(python3 -c "print(int(420e6*8/float('$DUR')/1000 - 200))")
+            echo "final.mp4 is $SIZE bytes -> re-encode video at ${VB}k"
+            ffmpeg -y -v error -i $P/build/final.mp4 -c:v libx264 -preset fast -b:v ${VB}k -maxrate $((VB*13/10))k -bufsize $((VB*2))k -pix_fmt yuv420p -c:a copy -movflags +faststart $P/build/final_small.mp4
+            mv $P/build/final_small.mp4 $P/build/final.mp4
+          fi
           ls -la $P/build/final.mp4
       - name: Publish release
         env:
