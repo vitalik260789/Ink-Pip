@@ -20,12 +20,13 @@ const noiseTex = (seed = 3, rep = [14, 14]) => W3.paintTex(1024, 1024, (g, w, h)
   for (let i = 0; i < 40; i++) { g.fillStyle = 'rgba(80,80,60,.08)'; g.beginPath(); g.ellipse(r() * w, r() * h, 40 + r() * 80, 20 + r() * 40, r() * 3, 0, 7); g.fill(); } }, rep);
 const sandTex = (base, seed) => W3.paintTex(1024, 1024, (g, w, h) => { g.fillStyle = base; g.fillRect(0, 0, w, h); const r = rng(seed); for (let i = 0; i < 2600; i++) { g.fillStyle = r() < 0.5 ? 'rgba(255,240,210,.25)' : 'rgba(120,80,40,.16)'; g.fillRect(r() * w, r() * h, 2 + r() * 3, 2 + r() * 3); } for (let i = 0; i < 40; i++) { g.strokeStyle = 'rgba(140,100,60,.18)'; g.lineWidth = 3; g.beginPath(); const y = r() * h; g.moveTo(0, y); for (let x = 0; x <= w; x += 32) g.lineTo(x, y + Math.sin(x * 0.02 + i) * 8); g.stroke(); } }, [10, 10]);
 // cracked mud: tiles of dry clay with dark gaps
-const crackTex = () => W3.paintTex(1024, 1024, (g, w, h) => { g.clearRect(0, 0, w, h); const r = rng(11); const pts = []; for (let i = 0; i < 70; i++) pts.push([r() * w, r() * h]);
-  g.fillStyle = '#c8a070'; g.fillRect(0, 0, w, h); g.strokeStyle = '#3a2416'; g.lineWidth = 9; g.lineJoin = 'round';
-  // voronoi-ish cracks: connect each point to its 3 nearest neighbours with jagged lines
-  for (const [x, y] of pts) { const nn = pts.map(p => [Math.hypot(p[0] - x, p[1] - y), p]).sort((a, b) => a[0] - b[0]).slice(1, 4);
-    for (const [, [x2, y2]] of nn) { const mx = (x + x2) / 2 + (r() - 0.5) * 30, my = (y + y2) / 2 + (r() - 0.5) * 30; g.beginPath(); g.moveTo(mx + (y2 - y) * 0.25, my - (x2 - x) * 0.25); g.lineTo(mx, my); g.lineTo(mx - (y2 - y) * 0.25, my + (x2 - x) * 0.25); g.stroke(); } }
-  for (let i = 0; i < 2000; i++) { g.fillStyle = r() < 0.5 ? 'rgba(255,230,190,.25)' : 'rgba(90,60,30,.15)'; g.fillRect(r() * w, r() * h, 3, 3); } }, [3, 3]);
+const crackTex = () => W3.paintTex(512, 512, (g, w, h) => { const r = rng(11), pts = []; for (let i = 0; i < 26; i++) pts.push([r() * w, r() * h, 0.9 + r() * 0.2]);
+  const img = g.createImageData(w, h), d = img.data;
+  for (let y = 0; y < h; y++) for (let x = 0; x < w; x++) { let d1 = 1e9, d2 = 1e9, k1 = 0;
+    for (let k = 0; k < pts.length; k++) { let dx = Math.abs(x - pts[k][0]), dy = Math.abs(y - pts[k][1]); if (dx > w / 2) dx = w - dx; if (dy > h / 2) dy = h - dy; const dd = Math.sqrt(dx * dx + dy * dy); if (dd < d1) { d2 = d1; d1 = dd; k1 = k; } else if (dd < d2) d2 = dd; }
+    const edge = d2 - d1, crack = edge < 5 ? 1 : edge < 9 ? (9 - edge) / 4 * 0.6 : 0, sh = pts[k1][2] * (1 - 0.18 * Math.min(1, d1 / 90)), o = (y * w + x) * 4;
+    d[o] = (200 * sh) * (1 - crack) + 58 * crack; d[o + 1] = (160 * sh) * (1 - crack) + 36 * crack; d[o + 2] = (112 * sh) * (1 - crack) + 22 * crack; d[o + 3] = 255; }
+  g.putImageData(img, 0, 0); }, [3, 3]);
 const softTex = () => W3.paintTex(128, 128, (g, w, h) => { const gr = g.createRadialGradient(w / 2, h / 2, 2, w / 2, h / 2, w / 2); gr.addColorStop(0, 'rgba(255,255,255,1)'); gr.addColorStop(0.5, 'rgba(255,255,255,.55)'); gr.addColorStop(1, 'rgba(255,255,255,0)'); g.fillStyle = gr; g.fillRect(0, 0, w, h); });
 const netTex = () => W3.paintTex(256, 256, (g, w, h) => { g.clearRect(0, 0, w, h); g.strokeStyle = 'rgba(40,30,30,.85)'; g.lineWidth = 3; for (let i = 0; i <= 16; i++) { g.beginPath(); g.moveTo(i * w / 16, 0); g.lineTo(i * w / 16 + 8, h); g.stroke(); g.beginPath(); g.moveTo(0, i * h / 16); g.lineTo(w, i * h / 16 + 6); g.stroke(); } }, [4, 2]);
 
@@ -175,8 +176,8 @@ export function valley3d(W, o = {}) {
     const wmat = new THREE.MeshLambertMaterial({ color: '#3a9ad0', transparent: true, opacity: 0.86 });
     const river = new THREE.Mesh(new THREE.PlaneGeometry(120, 2.6), wmat); river.rotation.x = -Math.PI / 2; river.position.set(0, -0.08, RZ); river.userData.noink = true; W.scene.add(river);
     const lake = new THREE.Mesh(new THREE.CircleGeometry(LAKE[2], 48), wmat); lake.rotation.x = -Math.PI / 2; lake.scale.x = 1.4; lake.position.set(LAKE[0], -0.08, LAKE[1]); lake.userData.noink = true; W.scene.add(lake);
-    const cracks = new THREE.Mesh(new THREE.CircleGeometry(LAKE[2] * 0.66, 48), new THREE.MeshLambertMaterial({ map: tex('cracks', crackTex), transparent: true, opacity: 0 })); cracks.rotation.x = -Math.PI / 2; cracks.scale.x = 1.4; cracks.position.set(LAKE[0], -0.93 + LAKE[2] * 0.0, LAKE[1]); W.scene.add(cracks);
-    const boat = new THREE.Group(); const hull = P('#c8543a'), rim = P('#f4e8d8'); boat.add(box(1.6, 0.28, 0.6, hull, 0, 0.14, 0)); boat.add(box(1.7, 0.06, 0.66, rim, 0, 0.3, 0)); boat.add(box(0.12, 0.05, 0.62, rim, 0.2, 0.3, 0)); const oar = cyl(0.02, 0.02, 1.4, P('#8a6a3a'), 0.1, 0.35, 0.3, 5); oar.rotation.z = 1.3; boat.add(oar);
+    const cracks = new THREE.Mesh(new THREE.CircleGeometry(LAKE[2] * 0.66, 48), new THREE.MeshLambertMaterial({ map: tex('cracks', crackTex), transparent: true, opacity: 0 })); cracks.rotation.x = -Math.PI / 2; cracks.scale.x = 1.4; cracks.position.set(LAKE[0], -0.845, LAKE[1]); W.scene.add(cracks);
+    const boat = new THREE.Group(); const hull = P('#c8543a'), rim = P('#f4e8d8'), inner = P('#7a4a2a'); boat.add(box(1.6, 0.28, 0.6, hull, 0, 0.14, 0)); boat.add(box(1.46, 0.02, 0.46, inner, 0, 0.285, 0)); for (const z of [-0.3, 0.3]) boat.add(box(1.7, 0.07, 0.07, rim, 0, 0.31, z)); for (const x of [-0.82, 0.82]) boat.add(box(0.07, 0.07, 0.66, rim, x, 0.31, 0)); boat.add(box(0.12, 0.05, 0.6, rim, 0.2, 0.3, 0)); const oar = cyl(0.02, 0.02, 1.4, P('#8a6a3a'), 0.1, 0.35, 0.3, 5); oar.rotation.z = 1.3; boat.add(oar);
     boat.position.set(LAKE[0] - 2.2, 0, LAKE[1] + 2.2); boat.rotation.y = 0.5; W.scene.add(boat);
     // wheat field (left back), instanced stalks share one material (colour = green → gold → brown)
     const N = 2600, wheat = P('#ffffff'), stalk = new THREE.InstancedMesh(new THREE.ConeGeometry(0.035, 0.75, 4), wheat, N), m4 = new THREE.Matrix4(), q = new THREE.Quaternion(), v = new THREE.Vector3(), sc = new THREE.Vector3(), e = new THREE.Euler();
@@ -192,9 +193,9 @@ export function valley3d(W, o = {}) {
     out.fish = []; for (let i = 0; i < 6; i++) { const f = new THREE.Mesh(new THREE.SphereGeometry(0.09, 10, 8), P(['#ff9a3a', '#f4d04a', '#ff6a5a'][i % 3])); f.scale.set(1.8, 0.7, 0.6); W.scene.add(f); out.fish.push(f); }
     Object.assign(out, { river, lake, cracks, boat, wheat, RZ, LAKE, bed });
     out.setWater = (riverK, lakeK) => {   // 1 = full, 0 = empty
-      river.position.y = lerp(-0.6, -0.08, riverK); river.visible = riverK > 0.02; lake.position.y = lerp(-0.94, -0.08, lakeK); lake.scale.setScalar(lerp(0.55, 1, Math.sqrt(lakeK))); lake.scale.x *= 1.4; lake.visible = lakeK > 0.02; lake.material.opacity = 0.86;
-      cracks.material.opacity = clamp((0.35 - lakeK) / 0.3);
-      const by = Math.max(lake.position.y - 0.12, -0.92); boat.position.y = by; boat.rotation.z = lakeK < 0.2 ? lerp(0.18, 0, lakeK / 0.2) : 0; };
+      river.position.y = lerp(-0.6, -0.08, riverK); river.visible = riverK > 0.02; lake.position.y = lerp(-0.94, -0.08, lakeK); lake.scale.setScalar(lerp(0.25, 1, Math.sqrt(lakeK))); lake.scale.x *= 1.4; lake.visible = lakeK > 0.12; lake.material.opacity = 0.86;
+      cracks.material.opacity = clamp((0.4 - lakeK) / 0.25);
+      const by = Math.max(lake.position.y - 0.12, -0.86); boat.position.y = by; boat.rotation.z = lakeK < 0.2 ? lerp(0.18, 0, lakeK / 0.2) : 0; };
     out.setWater(1, 1);
   }
   if (forest) {
