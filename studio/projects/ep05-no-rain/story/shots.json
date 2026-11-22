@@ -1,0 +1,328 @@
+{
+ "title": "What If It Never Rained Again?",
+ "duration": 485.562,
+ "shots": [
+  {
+   "id": "s001",
+   "start": 0.0,
+   "end": 29.43,
+   "line": "Ink, it's raining again. Three days in a row! You usually love the rain. Not today. Today I wish it would just stop. Forever. Forever? Okay. Let's see what happens. Wait, the rain is gone! Did you just switch it off? Everywhere on Earth. No rain, no snow, no drizzle. Not one drop falls from the sky ever again. Great! Sunshine forever. What could possibly go wrong? Here's the strange part. A month from now, the sky would hold more water than ever. And you could still end up thirsty. More water, and thirsty? That makes no sense. It will. Let's go up there and find out.",
+   "scene": "room",
+   "kind": "room",
+   "params": {
+    "part": "start"
+   },
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 8.35,
+     "name": "pop",
+     "gain": -10
+    }
+   ],
+   "captions": true
+  },
+  {
+   "id": "s002",
+   "start": 29.43,
+   "end": 102.08,
+   "line": "Whoa! We're standing on a cloud! Welcome to the biggest water machine on the planet. So, what if it never rained again? First, you need to know where rain comes from. Look down. The ocean is steaming! The Sun warms the sea, and water floats up as invisible vapor. Up here it cools and turns into tiny droplets. That's a cloud. So I'm standing on ocean fog? Pretty much. And it's heavier than it looks. A normal fluffy cloud holds about as much water as a hundred elephants weigh. Elephants? Floating over my head? Spread out into billions of tiny droplets, each one too small to fall. Then how does it ever rain? The droplets bump into each other and grow. When they're heavy enough, they fall. That's rain. Then rivers carry it back to the sea, and the circle starts again. The water cycle! We learned that at school. But here's what school doesn't tell you. A drop of water stays in the sky for only about nine days. Nine days? That's a short holiday. The sky is not a big water tank. It's more like a busy train station. Water arrives and water leaves, all the time. How much water leaves? Every year, about half a million cubic kilometers of rain and snow fall on Earth. I can't even picture that. It's enough to cover the whole planet in water about one meter deep. Every single year. And now we switched it off. Right. The station keeps letting passengers in, but nobody is allowed to leave.",
+   "scene": "sky",
+   "kind": "sky",
+   "params": {
+    "mode": "title"
+   },
+   "in": {
+    "type": "fade",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "whoosh",
+     "gain": -10
+    },
+    {
+     "at": 4.31,
+     "name": "pop",
+     "gain": -10
+    },
+    {
+     "at": 40.45,
+     "name": "hit",
+     "gain": -14
+    }
+   ],
+   "captions": true
+  },
+  {
+   "id": "s003",
+   "start": 102.08,
+   "end": 240.67,
+   "line": "Okay, back on the ground. What happens first? At first, almost nothing. Day one is just a sunny day. See? Perfect picnic weather! But watch the river. Rivers are fed by rain, and by water that slowly leaks out of the ground. It's getting lower. Small streams dry up in days. Within weeks, many rivers turn into a line of puddles. What about the fish? Fish crowd into the last deep pools. Frogs dig into the mud and wait for rain that never comes. Smart frogs. Some desert frogs can wait underground for years. But not forever. That's so sad. And the lake? Lakes last longer, months or even years. But every day, the Sun takes a little more. The shore walks away from you. Hey, that boat is stuck in the mud! And the mud cracks into tiles, like a giant broken plate. Can't we just dig a well? For a while, yes. There's a lot of water hidden underground, more than in all the rivers and lakes together. But it took thousands of years to collect, and it only refills when rain soaks into the soil. So it's like a piggy bank, with no more pocket money coming in. Exactly. You can spend it, but only once. But we have taps. Our water comes from pipes, not from clouds. And where do the pipes get it? Rivers, lakes, and the ground. All of it started as rain. Oh. Right. And most of the water we use isn't for drinking. About seventy percent of all the fresh water people take goes to farms. Seventy percent? For plants? Plants are thirsty. One kilogram of bread needs about sixteen hundred liters of water, mostly to grow the wheat. Sixteen hundred liters? That's like ten bathtubs! Without rain, the fields turn yellow, then brown. Farmers would empty the underground piggy bank fast, and once it's empty, it stays empty. What about cows? Cows drink water, not rain. A dairy cow can drink more than a hundred liters of water a day. And it eats grass and hay. No rain, no grass. So, no bread. And no pizza. No pasta, no rice, no corn. Within months, the world's harvest would collapse. What about the mountains? They have snow! We can melt it! Good idea. But snow is just frozen rain. If rain stops, snow stops too. No snow days ever again? It's worse than that. About one in six people on Earth get water from melting snow and glaciers. One in six? That's more than a billion people! Every summer, the snow melts and fills the rivers. Every winter, new snow refills the mountain. Now, nothing refills it. So the mountains slowly go bald. Bald and brown. The glaciers would shrink year after year, and the rivers below them would get weaker.",
+   "scene": "valley",
+   "kind": "valley",
+   "params": {
+    "mode": "valley",
+    "part": "dry"
+   },
+   "in": {
+    "type": "fade",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "whoosh",
+     "gain": -16
+    },
+    {
+     "at": 13.76,
+     "name": "pop",
+     "gain": -16
+    },
+    {
+     "at": 31.29,
+     "name": "pop",
+     "gain": -16
+    },
+    {
+     "at": 70.1,
+     "name": "pop",
+     "gain": -14
+    },
+    {
+     "at": 76.56,
+     "name": "pop",
+     "gain": -14
+    },
+    {
+     "at": 119.25,
+     "name": "hit",
+     "gain": -14
+    }
+   ],
+   "captions": true
+  },
+  {
+   "id": "s004",
+   "start": 240.67,
+   "end": 273.03,
+   "line": "I already miss the rain. I miss those cute little teardrop shapes. Ah, about that. Raindrops are not shaped like teardrops. What? Every drawing of rain is a teardrop! Every drawing is wrong. Small raindrops are almost perfect little balls. Okay, round. Fine. Bigger drops get squashed by the air as they fall. The bottom goes flat, and they look like a hamburger bun. A raindrop hamburger! And when a drop grows bigger than about four and a half millimeters, the air blows it into a parachute shape, and it pops into smaller drops. So the teardrop is a myth? Myth busted. Raindrops are buns, not tears.",
+   "scene": "sky",
+   "kind": "sky",
+   "params": {
+    "mode": "drop"
+   },
+   "in": {
+    "type": "fade",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 3.82,
+     "name": "hit",
+     "gain": -12
+    },
+    {
+     "at": 25.83,
+     "name": "pop",
+     "gain": -10
+    },
+    {
+     "at": 29.78,
+     "name": "hit",
+     "gain": -12
+    }
+   ],
+   "captions": true
+  },
+  {
+   "id": "s005",
+   "start": 273.03,
+   "end": 321.81,
+   "line": "What about rainforests? Rain is literally in the name! The Amazon is amazing. Its trees pull water from the ground and breathe it out through their leaves. Trees breathe out water? Lots of it. On a normal day, the Amazon's trees release about twenty billion tonnes of water into the air. Twenty billion tonnes? Every day? That's more water than the Amazon River pours into the ocean. Scientists call it a flying river. A river in the sky! So the forest makes its own rain. A big part of it, yes. But here's the catch. The forest can only breathe out what the rain gave it first. So without rain... The leaves close up to save water. Trees start to die. The flying river slows down, and the green turns brown. And the animals? Jaguars, monkeys and parrots would crowd around the last rivers, and those rivers would be shrinking too. And dry forests burn. Sadly, yes. The lungs of the planet would turn into firewood.",
+   "scene": "valley",
+   "kind": "valley",
+   "params": {
+    "mode": "forest"
+   },
+   "in": {
+    "type": "fade",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "whoosh",
+     "gain": -16
+    },
+    {
+     "at": 19.04,
+     "name": "hit",
+     "gain": -14
+    }
+   ],
+   "captions": true
+  },
+  {
+   "id": "s006",
+   "start": 321.81,
+   "end": 362.0,
+   "line": "Wait. You said the sky would hold more water than ever. Where is all that water? You see, the Sun never stopped. The ocean is still evaporating, every single second. And it can't fall back down. So the air gets wetter and wetter. Hot, sticky, heavy air, like a bathroom after a long shower. Gross. The whole planet needs a towel. The clouds would grow thicker and darker, but they'd never let go of a single drop. And water vapor traps heat like a blanket. More vapor means a hotter planet. Hot, sticky, and thirsty. Great wish, Pip. There's more. Rain also cleans the air. Every drop grabs dust and smoke on its way down. So without rain, the dust just stays up there? The sky turns hazy and grey, the sunsets turn a strange red, and the dust keeps piling up.",
+   "scene": "sky",
+   "kind": "sky",
+   "params": {
+    "mode": "grey"
+   },
+   "in": {
+    "type": "fade",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "whoosh",
+     "gain": -16
+    }
+   ],
+   "captions": true
+  },
+  {
+   "id": "s007",
+   "start": 362.0,
+   "end": 419.28,
+   "line": "Is there anywhere on Earth that already lives like this? Welcome to the Atacama Desert in Chile. Some weather stations here have never recorded a single drop of rain. It looks like another planet. It's so dry that NASA tests its Mars rovers here. But if it never rains, how does anything live here? Fog. It rolls in from the ocean, and people catch it with giant nets. They catch fog with nets? Like butterflies? The tiny droplets stick to the net, join together, and drip into a pipe. A big net can collect hundreds of liters on a good day. So in a world without rain, the sky is full of water, and we'd have to catch it ourselves. Exactly. Fog nets, and machines that take the salt out of seawater. Why don't we just do that everywhere right now? Some countries already do. But it needs a lot of energy, and it leaves behind super salty water. Rain does the same job for free, powered by sunshine. Could that save everyone? Maybe some cities by the sea. But not the forests, not the wild animals, and not most farms. They need water falling from the sky, everywhere, for free.",
+   "scene": "valley",
+   "kind": "valley",
+   "params": {
+    "mode": "desert"
+   },
+   "in": {
+    "type": "fade",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "whoosh",
+     "gain": -16
+    },
+    {
+     "at": 16.81,
+     "name": "hit",
+     "gain": -14
+    }
+   ],
+   "captions": true
+  },
+  {
+   "id": "s008",
+   "start": 419.28,
+   "end": 454.02,
+   "line": "Okay, Ink, I take it back. I want my rain back! Good news. It can't really stop. As long as the Sun shines on the ocean, the water cycle keeps spinning. So somewhere, it's raining right now? Always. At any moment, there are around two thousand thunderstorms happening on Earth. Two thousand? Right now? Right now. Somewhere, someone is getting soaked while we talk. It's back! And it smells amazing! That smell has a name: petrichor. Part of it comes from geosmin, a chemical made by tiny bacteria in the soil. My nose loves it. Your nose is a geosmin detector. It can smell it at about five parts per trillion. That's almost nothing at all.",
+   "scene": "valley",
+   "kind": "valley",
+   "params": {
+    "mode": "valley",
+    "part": "good"
+   },
+   "in": {
+    "type": "fade",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "whoosh",
+     "gain": -16
+    },
+    {
+     "at": 11.39,
+     "name": "pop",
+     "gain": -12
+    },
+    {
+     "at": 18.59,
+     "name": "hit",
+     "gain": -12
+    },
+    {
+     "at": 21.33,
+     "name": "hit",
+     "gain": -14
+    }
+   ],
+   "captions": true
+  },
+  {
+   "id": "s009",
+   "start": 454.02,
+   "end": 485.56,
+   "line": "Next time it rains three days in a row, I'm not complaining. Every glass of water you drink fell from the sky once. Probably thousands of times. Thousands of times? The water in your glass is very old. It has been cloud, rain, river and ocean again and again, for billions of years. Some of it probably passed through a dinosaur. Ew! Dinosaur water! So rain is the planet saying: here, have a drink! If you liked this trip, subscribe, so you don't miss the next \"what if\". And tell us in the comments: what should we switch off next?",
+   "scene": "room",
+   "kind": "room",
+   "params": {
+    "part": "end"
+   },
+   "in": {
+    "type": "fade",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 22.07,
+     "name": "pop",
+     "gain": -12
+    }
+   ],
+   "captions": true
+  }
+ ],
+ "music": [
+  {
+   "start": 0,
+   "end": 29.43,
+   "mood": "playful",
+   "intensity": 0.45
+  },
+  {
+   "start": 29.43,
+   "end": 102.08,
+   "mood": "wonder",
+   "intensity": 0.45
+  },
+  {
+   "start": 102.08,
+   "end": 211.01,
+   "mood": "mystery",
+   "intensity": 0.45
+  },
+  {
+   "start": 211.01,
+   "end": 273.03,
+   "mood": "playful",
+   "intensity": 0.45
+  },
+  {
+   "start": 273.03,
+   "end": 362.0,
+   "mood": "tension",
+   "intensity": 0.45
+  },
+  {
+   "start": 362.0,
+   "end": 419.28,
+   "mood": "wonder",
+   "intensity": 0.45
+  },
+  {
+   "start": 419.28,
+   "end": 485.562,
+   "mood": "hopeful",
+   "intensity": 0.5
+  }
+ ]
+}

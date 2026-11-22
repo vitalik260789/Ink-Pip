@@ -1,0 +1,25 @@
+{
+ "title": "What If It Never Rained Again?",
+ "aspect": "16:9",
+ "resolution": "1080p",
+ "fps": 24,
+ "style": "inkworld",
+ "voiceover": "input/voiceover.wav",
+ "duration": 485.562,
+ "captions": true,
+ "bars": 0,
+ "fadeIn": 0.0,
+ "fadeOut": 0.6,
+ "music": {
+  "enabled": true,
+  "gainDb": -16,
+  "seed": 5
+ },
+ "sfx": {
+  "enabled": true,
+  "gainDb": -6
+ },
+ "loudness": -14,
+ "compress": true,
+ "lra": 3
+}

@@ -1,0 +1,999 @@
+{
+ "lines": [
+  {
+   "who": "PIP",
+   "text": "Ink, it's raining again. Three days in a row!",
+   "start": 0.08,
+   "end": 2.166,
+   "section": "HOOK"
+  },
+  {
+   "who": "INK",
+   "text": "You usually love the rain.",
+   "start": 2.306,
+   "end": 3.533,
+   "section": "HOOK"
+  },
+  {
+   "who": "PIP",
+   "text": "Not today. Today I wish it would just stop. Forever.",
+   "start": 3.673,
+   "end": 6.223,
+   "section": "HOOK"
+  },
+  {
+   "who": "INK",
+   "text": "Forever? Okay. Let's see what happens.",
+   "start": 6.363,
+   "end": 8.296,
+   "section": "HOOK"
+  },
+  {
+   "who": "PIP",
+   "text": "Wait, the rain is gone! Did you just switch it off?",
+   "start": 8.436,
+   "end": 10.629,
+   "section": "HOOK"
+  },
+  {
+   "who": "INK",
+   "text": "Everywhere on Earth. No rain, no snow, no drizzle. Not one drop falls from the sky ever again.",
+   "start": 10.769,
+   "end": 16.327,
+   "section": "HOOK"
+  },
+  {
+   "who": "PIP",
+   "text": "Great! Sunshine forever. What could possibly go wrong?",
+   "start": 16.467,
+   "end": 18.96,
+   "section": "HOOK"
+  },
+  {
+   "who": "INK",
+   "text": "Here's the strange part. A month from now, the sky would hold more water than ever. And you could still end up thirsty.",
+   "start": 19.1,
+   "end": 25.113,
+   "section": "HOOK"
+  },
+  {
+   "who": "PIP",
+   "text": "More water, and thirsty? That makes no sense.",
+   "start": 25.253,
+   "end": 27.359,
+   "section": "HOOK"
+  },
+  {
+   "who": "INK",
+   "text": "It will. Let's go up there and find out.",
+   "start": 27.499,
+   "end": 29.23,
+   "section": "HOOK"
+  },
+  {
+   "who": "PIP",
+   "text": "Whoa! We're standing on a cloud!",
+   "start": 29.73,
+   "end": 31.031,
+   "section": "TITLE"
+  },
+  {
+   "who": "INK",
+   "text": "Welcome to the biggest water machine on the planet.",
+   "start": 31.171,
+   "end": 33.401,
+   "section": "TITLE"
+  },
+  {
+   "who": "PIP",
+   "text": "So, what if it never rained again?",
+   "start": 33.541,
+   "end": 34.964,
+   "section": "TITLE"
+  },
+  {
+   "who": "INK",
+   "text": "First, you need to know where rain comes from. Look down.",
+   "start": 35.104,
+   "end": 37.892,
+   "section": "TITLE"
+  },
+  {
+   "who": "PIP",
+   "text": "The ocean is steaming!",
+   "start": 38.032,
+   "end": 39.006,
+   "section": "TITLE"
+  },
+  {
+   "who": "INK",
+   "text": "The Sun warms the sea, and water floats up as invisible vapor. Up here it cools and turns into tiny droplets. That's a cloud.",
+   "start": 39.146,
+   "end": 46.29,
+   "section": "TITLE"
+  },
+  {
+   "who": "PIP",
+   "text": "So I'm standing on ocean fog?",
+   "start": 46.43,
+   "end": 47.826,
+   "section": "TITLE"
+  },
+  {
+   "who": "INK",
+   "text": "Pretty much. And it's heavier than it looks. A normal fluffy cloud holds about as much water as a hundred elephants weigh.",
+   "start": 47.966,
+   "end": 54.504,
+   "section": "TITLE"
+  },
+  {
+   "who": "PIP",
+   "text": "Elephants? Floating over my head?",
+   "start": 54.644,
+   "end": 56.136,
+   "section": "TITLE"
+  },
+  {
+   "who": "INK",
+   "text": "Spread out into billions of tiny droplets, each one too small to fall.",
+   "start": 56.276,
+   "end": 60.134,
+   "section": "TITLE"
+  },
+  {
+   "who": "PIP",
+   "text": "Then how does it ever rain?",
+   "start": 60.274,
+   "end": 61.401,
+   "section": "TITLE"
+  },
+  {
+   "who": "INK",
+   "text": "The droplets bump into each other and grow. When they're heavy enough, they fall. That's rain. Then rivers carry it back to the sea, and the circle starts again.",
+   "start": 61.541,
+   "end": 69.639,
+   "section": "TITLE"
+  },
+  {
+   "who": "PIP",
+   "text": "The water cycle! We learned that at school.",
+   "start": 69.779,
+   "end": 71.518,
+   "section": "TITLE"
+  },
+  {
+   "who": "INK",
+   "text": "But here's what school doesn't tell you. A drop of water stays in the sky for only about nine days.",
+   "start": 71.658,
+   "end": 76.945,
+   "section": "TITLE"
+  },
+  {
+   "who": "PIP",
+   "text": "Nine days? That's a short holiday.",
+   "start": 77.085,
+   "end": 78.758,
+   "section": "TITLE"
+  },
+  {
+   "who": "INK",
+   "text": "The sky is not a big water tank. It's more like a busy train station. Water arrives and water leaves, all the time.",
+   "start": 78.898,
+   "end": 85.313,
+   "section": "TITLE"
+  },
+  {
+   "who": "PIP",
+   "text": "How much water leaves?",
+   "start": 85.453,
+   "end": 86.42,
+   "section": "TITLE"
+  },
+  {
+   "who": "INK",
+   "text": "Every year, about half a million cubic kilometers of rain and snow fall on Earth.",
+   "start": 86.56,
+   "end": 90.768,
+   "section": "TITLE"
+  },
+  {
+   "who": "PIP",
+   "text": "I can't even picture that.",
+   "start": 90.908,
+   "end": 91.985,
+   "section": "TITLE"
+  },
+  {
+   "who": "INK",
+   "text": "It's enough to cover the whole planet in water about one meter deep. Every single year.",
+   "start": 92.125,
+   "end": 96.671,
+   "section": "TITLE"
+  },
+  {
+   "who": "PIP",
+   "text": "And now we switched it off.",
+   "start": 96.811,
+   "end": 97.907,
+   "section": "TITLE"
+  },
+  {
+   "who": "INK",
+   "text": "Right. The station keeps letting passengers in, but nobody is allowed to leave.",
+   "start": 98.047,
+   "end": 101.877,
+   "section": "TITLE"
+  },
+  {
+   "who": "PIP",
+   "text": "Okay, back on the ground. What happens first?",
+   "start": 102.377,
+   "end": 104.574,
+   "section": "WEEK ONE"
+  },
+  {
+   "who": "INK",
+   "text": "At first, almost nothing. Day one is just a sunny day.",
+   "start": 104.714,
+   "end": 107.66,
+   "section": "WEEK ONE"
+  },
+  {
+   "who": "PIP",
+   "text": "See? Perfect picnic weather!",
+   "start": 107.8,
+   "end": 109.133,
+   "section": "WEEK ONE"
+  },
+  {
+   "who": "INK",
+   "text": "But watch the river. Rivers are fed by rain, and by water that slowly leaks out of the ground.",
+   "start": 109.273,
+   "end": 114.35,
+   "section": "WEEK ONE"
+  },
+  {
+   "who": "PIP",
+   "text": "It's getting lower.",
+   "start": 114.49,
+   "end": 115.303,
+   "section": "WEEK ONE"
+  },
+  {
+   "who": "INK",
+   "text": "Small streams dry up in days. Within weeks, many rivers turn into a line of puddles.",
+   "start": 115.443,
+   "end": 120.262,
+   "section": "WEEK ONE"
+  },
+  {
+   "who": "PIP",
+   "text": "What about the fish?",
+   "start": 120.402,
+   "end": 121.159,
+   "section": "WEEK ONE"
+  },
+  {
+   "who": "INK",
+   "text": "Fish crowd into the last deep pools. Frogs dig into the mud and wait for rain that never comes.",
+   "start": 121.299,
+   "end": 126.631,
+   "section": "WEEK ONE"
+  },
+  {
+   "who": "PIP",
+   "text": "Smart frogs.",
+   "start": 126.771,
+   "end": 127.542,
+   "section": "WEEK ONE"
+  },
+  {
+   "who": "INK",
+   "text": "Some desert frogs can wait underground for years. But not forever.",
+   "start": 127.682,
+   "end": 131.267,
+   "section": "WEEK ONE"
+  },
+  {
+   "who": "PIP",
+   "text": "That's so sad. And the lake?",
+   "start": 131.407,
+   "end": 132.731,
+   "section": "WEEK ONE"
+  },
+  {
+   "who": "INK",
+   "text": "Lakes last longer, months or even years. But every day, the Sun takes a little more. The shore walks away from you.",
+   "start": 132.871,
+   "end": 139.132,
+   "section": "WEEK ONE"
+  },
+  {
+   "who": "PIP",
+   "text": "Hey, that boat is stuck in the mud!",
+   "start": 139.272,
+   "end": 140.569,
+   "section": "WEEK ONE"
+  },
+  {
+   "who": "INK",
+   "text": "And the mud cracks into tiles, like a giant broken plate.",
+   "start": 140.709,
+   "end": 143.704,
+   "section": "WEEK ONE"
+  },
+  {
+   "who": "PIP",
+   "text": "Can't we just dig a well?",
+   "start": 143.844,
+   "end": 144.862,
+   "section": "WEEK ONE"
+  },
+  {
+   "who": "INK",
+   "text": "For a while, yes. There's a lot of water hidden underground, more than in all the rivers and lakes together. But it took thousands of years to collect, and it only refills when rain soaks into the soil.",
+   "start": 145.002,
+   "end": 155.722,
+   "section": "WEEK ONE"
+  },
+  {
+   "who": "PIP",
+   "text": "So it's like a piggy bank, with no more pocket money coming in.",
+   "start": 155.862,
+   "end": 158.521,
+   "section": "WEEK ONE"
+  },
+  {
+   "who": "INK",
+   "text": "Exactly. You can spend it, but only once.",
+   "start": 158.661,
+   "end": 160.823,
+   "section": "WEEK ONE"
+  },
+  {
+   "who": "PIP",
+   "text": "But we have taps. Our water comes from pipes, not from clouds.",
+   "start": 161.323,
+   "end": 164.122,
+   "section": "THE FARMS"
+  },
+  {
+   "who": "INK",
+   "text": "And where do the pipes get it? Rivers, lakes, and the ground. All of it started as rain.",
+   "start": 164.262,
+   "end": 168.651,
+   "section": "THE FARMS"
+  },
+  {
+   "who": "PIP",
+   "text": "Oh. Right.",
+   "start": 168.791,
+   "end": 169.443,
+   "section": "THE FARMS"
+  },
+  {
+   "who": "INK",
+   "text": "And most of the water we use isn't for drinking. About seventy percent of all the fresh water people take goes to farms.",
+   "start": 169.583,
+   "end": 175.929,
+   "section": "THE FARMS"
+  },
+  {
+   "who": "PIP",
+   "text": "Seventy percent? For plants?",
+   "start": 176.069,
+   "end": 177.504,
+   "section": "THE FARMS"
+  },
+  {
+   "who": "INK",
+   "text": "Plants are thirsty. One kilogram of bread needs about sixteen hundred liters of water, mostly to grow the wheat.",
+   "start": 177.644,
+   "end": 183.809,
+   "section": "THE FARMS"
+  },
+  {
+   "who": "PIP",
+   "text": "Sixteen hundred liters? That's like ten bathtubs!",
+   "start": 183.949,
+   "end": 186.329,
+   "section": "THE FARMS"
+  },
+  {
+   "who": "INK",
+   "text": "Without rain, the fields turn yellow, then brown. Farmers would empty the underground piggy bank fast, and once it's empty, it stays empty.",
+   "start": 186.469,
+   "end": 194.501,
+   "section": "THE FARMS"
+  },
+  {
+   "who": "PIP",
+   "text": "What about cows? Cows drink water, not rain.",
+   "start": 194.641,
+   "end": 196.781,
+   "section": "THE FARMS"
+  },
+  {
+   "who": "INK",
+   "text": "A dairy cow can drink more than a hundred liters of water a day. And it eats grass and hay. No rain, no grass.",
+   "start": 196.921,
+   "end": 203.311,
+   "section": "THE FARMS"
+  },
+  {
+   "who": "PIP",
+   "text": "So, no bread. And no pizza.",
+   "start": 203.451,
+   "end": 204.942,
+   "section": "THE FARMS"
+  },
+  {
+   "who": "INK",
+   "text": "No pasta, no rice, no corn. Within months, the world's harvest would collapse.",
+   "start": 205.082,
+   "end": 209.31,
+   "section": "THE FARMS"
+  },
+  {
+   "who": "PIP",
+   "text": "What about the mountains? They have snow! We can melt it!",
+   "start": 211.31,
+   "end": 213.588,
+   "section": "THE MOUNTAINS"
+  },
+  {
+   "who": "INK",
+   "text": "Good idea. But snow is just frozen rain. If rain stops, snow stops too.",
+   "start": 213.728,
+   "end": 218.066,
+   "section": "THE MOUNTAINS"
+  },
+  {
+   "who": "PIP",
+   "text": "No snow days ever again?",
+   "start": 218.206,
+   "end": 219.394,
+   "section": "THE MOUNTAINS"
+  },
+  {
+   "who": "INK",
+   "text": "It's worse than that. About one in six people on Earth get water from melting snow and glaciers.",
+   "start": 219.534,
+   "end": 224.66,
+   "section": "THE MOUNTAINS"
+  },
+  {
+   "who": "PIP",
+   "text": "One in six? That's more than a billion people!",
+   "start": 224.8,
+   "end": 226.871,
+   "section": "THE MOUNTAINS"
+  },
+  {
+   "who": "INK",
+   "text": "Every summer, the snow melts and fills the rivers. Every winter, new snow refills the mountain. Now, nothing refills it.",
+   "start": 227.011,
+   "end": 233.415,
+   "section": "THE MOUNTAINS"
+  },
+  {
+   "who": "PIP",
+   "text": "So the mountains slowly go bald.",
+   "start": 233.555,
+   "end": 235.069,
+   "section": "THE MOUNTAINS"
+  },
+  {
+   "who": "INK",
+   "text": "Bald and brown. The glaciers would shrink year after year, and the rivers below them would get weaker.",
+   "start": 235.209,
+   "end": 240.473,
+   "section": "THE MOUNTAINS"
+  },
+  {
+   "who": "PIP",
+   "text": "I already miss the rain. I miss those cute little teardrop shapes.",
+   "start": 240.973,
+   "end": 243.95,
+   "section": "MYTH: TEARDROPS"
+  },
+  {
+   "who": "INK",
+   "text": "Ah, about that. Raindrops are not shaped like teardrops.",
+   "start": 244.09,
+   "end": 247.21,
+   "section": "MYTH: TEARDROPS"
+  },
+  {
+   "who": "PIP",
+   "text": "What? Every drawing of rain is a teardrop!",
+   "start": 247.35,
+   "end": 249.275,
+   "section": "MYTH: TEARDROPS"
+  },
+  {
+   "who": "INK",
+   "text": "Every drawing is wrong. Small raindrops are almost perfect little balls.",
+   "start": 249.415,
+   "end": 253.265,
+   "section": "MYTH: TEARDROPS"
+  },
+  {
+   "who": "PIP",
+   "text": "Okay, round. Fine.",
+   "start": 253.405,
+   "end": 254.607,
+   "section": "MYTH: TEARDROPS"
+  },
+  {
+   "who": "INK",
+   "text": "Bigger drops get squashed by the air as they fall. The bottom goes flat, and they look like a hamburger bun.",
+   "start": 254.747,
+   "end": 260.458,
+   "section": "MYTH: TEARDROPS"
+  },
+  {
+   "who": "PIP",
+   "text": "A raindrop hamburger!",
+   "start": 260.598,
+   "end": 261.662,
+   "section": "MYTH: TEARDROPS"
+  },
+  {
+   "who": "INK",
+   "text": "And when a drop grows bigger than about four and a half millimeters, the air blows it into a parachute shape, and it pops into smaller drops.",
+   "start": 261.802,
+   "end": 268.866,
+   "section": "MYTH: TEARDROPS"
+  },
+  {
+   "who": "PIP",
+   "text": "So the teardrop is a myth?",
+   "start": 269.006,
+   "end": 270.108,
+   "section": "MYTH: TEARDROPS"
+  },
+  {
+   "who": "INK",
+   "text": "Myth busted. Raindrops are buns, not tears.",
+   "start": 270.248,
+   "end": 272.83,
+   "section": "MYTH: TEARDROPS"
+  },
+  {
+   "who": "PIP",
+   "text": "What about rainforests? Rain is literally in the name!",
+   "start": 273.33,
+   "end": 275.662,
+   "section": "THE RAINFOREST"
+  },
+  {
+   "who": "INK",
+   "text": "The Amazon is amazing. Its trees pull water from the ground and breathe it out through their leaves.",
+   "start": 275.802,
+   "end": 280.775,
+   "section": "THE RAINFOREST"
+  },
+  {
+   "who": "PIP",
+   "text": "Trees breathe out water?",
+   "start": 280.915,
+   "end": 281.951,
+   "section": "THE RAINFOREST"
+  },
+  {
+   "who": "INK",
+   "text": "Lots of it. On a normal day, the Amazon's trees release about twenty billion tonnes of water into the air.",
+   "start": 282.091,
+   "end": 287.806,
+   "section": "THE RAINFOREST"
+  },
+  {
+   "who": "PIP",
+   "text": "Twenty billion tonnes? Every day?",
+   "start": 287.946,
+   "end": 289.529,
+   "section": "THE RAINFOREST"
+  },
+  {
+   "who": "INK",
+   "text": "That's more water than the Amazon River pours into the ocean. Scientists call it a flying river.",
+   "start": 289.669,
+   "end": 294.732,
+   "section": "THE RAINFOREST"
+  },
+  {
+   "who": "PIP",
+   "text": "A river in the sky! So the forest makes its own rain.",
+   "start": 294.872,
+   "end": 297.436,
+   "section": "THE RAINFOREST"
+  },
+  {
+   "who": "INK",
+   "text": "A big part of it, yes. But here's the catch. The forest can only breathe out what the rain gave it first.",
+   "start": 297.576,
+   "end": 303.388,
+   "section": "THE RAINFOREST"
+  },
+  {
+   "who": "PIP",
+   "text": "So without rain...",
+   "start": 303.528,
+   "end": 304.305,
+   "section": "THE RAINFOREST"
+  },
+  {
+   "who": "INK",
+   "text": "The leaves close up to save water. Trees start to die. The flying river slows down, and the green turns brown.",
+   "start": 304.445,
+   "end": 310.746,
+   "section": "THE RAINFOREST"
+  },
+  {
+   "who": "PIP",
+   "text": "And the animals?",
+   "start": 310.886,
+   "end": 311.601,
+   "section": "THE RAINFOREST"
+  },
+  {
+   "who": "INK",
+   "text": "Jaguars, monkeys and parrots would crowd around the last rivers, and those rivers would be shrinking too.",
+   "start": 311.741,
+   "end": 317.093,
+   "section": "THE RAINFOREST"
+  },
+  {
+   "who": "PIP",
+   "text": "And dry forests burn.",
+   "start": 317.233,
+   "end": 318.286,
+   "section": "THE RAINFOREST"
+  },
+  {
+   "who": "INK",
+   "text": "Sadly, yes. The lungs of the planet would turn into firewood.",
+   "start": 318.426,
+   "end": 321.609,
+   "section": "THE RAINFOREST"
+  },
+  {
+   "who": "PIP",
+   "text": "Wait. You said the sky would hold more water than ever. Where is all that water?",
+   "start": 322.109,
+   "end": 325.457,
+   "section": "THE TWIST"
+  },
+  {
+   "who": "INK",
+   "text": "You see, the Sun never stopped. The ocean is still evaporating, every single second.",
+   "start": 325.597,
+   "end": 330.016,
+   "section": "THE TWIST"
+  },
+  {
+   "who": "PIP",
+   "text": "And it can't fall back down.",
+   "start": 330.156,
+   "end": 331.279,
+   "section": "THE TWIST"
+  },
+  {
+   "who": "INK",
+   "text": "So the air gets wetter and wetter. Hot, sticky, heavy air, like a bathroom after a long shower.",
+   "start": 331.419,
+   "end": 336.415,
+   "section": "THE TWIST"
+  },
+  {
+   "who": "PIP",
+   "text": "Gross. The whole planet needs a towel.",
+   "start": 336.555,
+   "end": 338.221,
+   "section": "THE TWIST"
+  },
+  {
+   "who": "INK",
+   "text": "The clouds would grow thicker and darker, but they'd never let go of a single drop. And water vapor traps heat like a blanket. More vapor means a hotter planet.",
+   "start": 338.361,
+   "end": 346.929,
+   "section": "THE TWIST"
+  },
+  {
+   "who": "PIP",
+   "text": "Hot, sticky, and thirsty. Great wish, Pip.",
+   "start": 347.069,
+   "end": 349.165,
+   "section": "THE TWIST"
+  },
+  {
+   "who": "INK",
+   "text": "There's more. Rain also cleans the air. Every drop grabs dust and smoke on its way down.",
+   "start": 349.305,
+   "end": 354.511,
+   "section": "THE TWIST"
+  },
+  {
+   "who": "PIP",
+   "text": "So without rain, the dust just stays up there?",
+   "start": 354.651,
+   "end": 356.604,
+   "section": "THE TWIST"
+  },
+  {
+   "who": "INK",
+   "text": "The sky turns hazy and grey, the sunsets turn a strange red, and the dust keeps piling up.",
+   "start": 356.744,
+   "end": 361.804,
+   "section": "THE TWIST"
+  },
+  {
+   "who": "PIP",
+   "text": "Is there anywhere on Earth that already lives like this?",
+   "start": 362.304,
+   "end": 364.558,
+   "section": "HOW WE WOULD SURVIVE"
+  },
+  {
+   "who": "INK",
+   "text": "Welcome to the Atacama Desert in Chile. Some weather stations here have never recorded a single drop of rain.",
+   "start": 364.698,
+   "end": 370.741,
+   "section": "HOW WE WOULD SURVIVE"
+  },
+  {
+   "who": "PIP",
+   "text": "It looks like another planet.",
+   "start": 370.881,
+   "end": 372.029,
+   "section": "HOW WE WOULD SURVIVE"
+  },
+  {
+   "who": "INK",
+   "text": "It's so dry that NASA tests its Mars rovers here.",
+   "start": 372.169,
+   "end": 374.792,
+   "section": "HOW WE WOULD SURVIVE"
+  },
+  {
+   "who": "PIP",
+   "text": "But if it never rains, how does anything live here?",
+   "start": 374.932,
+   "end": 377.069,
+   "section": "HOW WE WOULD SURVIVE"
+  },
+  {
+   "who": "INK",
+   "text": "Fog. It rolls in from the ocean, and people catch it with giant nets.",
+   "start": 377.209,
+   "end": 381.095,
+   "section": "HOW WE WOULD SURVIVE"
+  },
+  {
+   "who": "PIP",
+   "text": "They catch fog with nets? Like butterflies?",
+   "start": 381.235,
+   "end": 383.196,
+   "section": "HOW WE WOULD SURVIVE"
+  },
+  {
+   "who": "INK",
+   "text": "The tiny droplets stick to the net, join together, and drip into a pipe. A big net can collect hundreds of liters on a good day.",
+   "start": 383.336,
+   "end": 390.437,
+   "section": "HOW WE WOULD SURVIVE"
+  },
+  {
+   "who": "PIP",
+   "text": "So in a world without rain, the sky is full of water, and we'd have to catch it ourselves.",
+   "start": 390.577,
+   "end": 394.623,
+   "section": "HOW WE WOULD SURVIVE"
+  },
+  {
+   "who": "INK",
+   "text": "Exactly. Fog nets, and machines that take the salt out of seawater.",
+   "start": 394.763,
+   "end": 398.294,
+   "section": "HOW WE WOULD SURVIVE"
+  },
+  {
+   "who": "PIP",
+   "text": "Why don't we just do that everywhere right now?",
+   "start": 398.434,
+   "end": 400.196,
+   "section": "HOW WE WOULD SURVIVE"
+  },
+  {
+   "who": "INK",
+   "text": "Some countries already do. But it needs a lot of energy, and it leaves behind super salty water. Rain does the same job for free, powered by sunshine.",
+   "start": 400.336,
+   "end": 409.232,
+   "section": "HOW WE WOULD SURVIVE"
+  },
+  {
+   "who": "PIP",
+   "text": "Could that save everyone?",
+   "start": 409.372,
+   "end": 410.483,
+   "section": "HOW WE WOULD SURVIVE"
+  },
+  {
+   "who": "INK",
+   "text": "Maybe some cities by the sea. But not the forests, not the wild animals, and not most farms. They need water falling from the sky, everywhere, for free.",
+   "start": 410.623,
+   "end": 419.081,
+   "section": "HOW WE WOULD SURVIVE"
+  },
+  {
+   "who": "PIP",
+   "text": "Okay, Ink, I take it back. I want my rain back!",
+   "start": 419.581,
+   "end": 422.115,
+   "section": "GOOD NEWS"
+  },
+  {
+   "who": "INK",
+   "text": "Good news. It can't really stop. As long as the Sun shines on the ocean, the water cycle keeps spinning.",
+   "start": 422.255,
+   "end": 427.72,
+   "section": "GOOD NEWS"
+  },
+  {
+   "who": "PIP",
+   "text": "So somewhere, it's raining right now?",
+   "start": 427.86,
+   "end": 429.327,
+   "section": "GOOD NEWS"
+  },
+  {
+   "who": "INK",
+   "text": "Always. At any moment, there are around two thousand thunderstorms happening on Earth.",
+   "start": 429.467,
+   "end": 433.807,
+   "section": "GOOD NEWS"
+  },
+  {
+   "who": "PIP",
+   "text": "Two thousand? Right now?",
+   "start": 433.947,
+   "end": 435.068,
+   "section": "GOOD NEWS"
+  },
+  {
+   "who": "INK",
+   "text": "Right now. Somewhere, someone is getting soaked while we talk.",
+   "start": 435.208,
+   "end": 438.028,
+   "section": "GOOD NEWS"
+  },
+  {
+   "who": "PIP",
+   "text": "It's back! And it smells amazing!",
+   "start": 438.168,
+   "end": 439.665,
+   "section": "GOOD NEWS"
+  },
+  {
+   "who": "INK",
+   "text": "That smell has a name: petrichor. Part of it comes from geosmin, a chemical made by tiny bacteria in the soil.",
+   "start": 439.805,
+   "end": 446.272,
+   "section": "GOOD NEWS"
+  },
+  {
+   "who": "PIP",
+   "text": "My nose loves it.",
+   "start": 446.412,
+   "end": 447.227,
+   "section": "GOOD NEWS"
+  },
+  {
+   "who": "INK",
+   "text": "Your nose is a geosmin detector. It can smell it at about five parts per trillion. That's almost nothing at all.",
+   "start": 447.367,
+   "end": 453.821,
+   "section": "GOOD NEWS"
+  },
+  {
+   "who": "PIP",
+   "text": "Next time it rains three days in a row, I'm not complaining.",
+   "start": 454.321,
+   "end": 457.159,
+   "section": "OUTRO"
+  },
+  {
+   "who": "INK",
+   "text": "Every glass of water you drink fell from the sky once. Probably thousands of times.",
+   "start": 457.299,
+   "end": 461.835,
+   "section": "OUTRO"
+  },
+  {
+   "who": "PIP",
+   "text": "Thousands of times?",
+   "start": 461.975,
+   "end": 462.848,
+   "section": "OUTRO"
+  },
+  {
+   "who": "INK",
+   "text": "The water in your glass is very old. It has been cloud, rain, river and ocean again and again, for billions of years. Some of it probably passed through a dinosaur.",
+   "start": 462.988,
+   "end": 472.433,
+   "section": "OUTRO"
+  },
+  {
+   "who": "PIP",
+   "text": "Ew! Dinosaur water! So rain is the planet saying: here, have a drink!",
+   "start": 472.573,
+   "end": 475.952,
+   "section": "OUTRO"
+  },
+  {
+   "who": "INK",
+   "text": "If you liked this trip, subscribe, so you don't miss the next \"what if\".",
+   "start": 476.092,
+   "end": 479.434,
+   "section": "OUTRO"
+  },
+  {
+   "who": "PIP",
+   "text": "And tell us in the comments: what should we switch off next?",
+   "start": 479.574,
+   "end": 482.062,
+   "section": "OUTRO"
+  }
+ ],
+ "sections": [
+  {
+   "title": "HOOK",
+   "t": 0.08
+  },
+  {
+   "title": "TITLE",
+   "t": 29.73
+  },
+  {
+   "title": "WEEK ONE",
+   "t": 102.377
+  },
+  {
+   "title": "THE FARMS",
+   "t": 161.323
+  },
+  {
+   "title": "mid-roll"
+  },
+  {
+   "title": "THE MOUNTAINS",
+   "t": 211.31
+  },
+  {
+   "title": "MYTH: TEARDROPS",
+   "t": 240.973
+  },
+  {
+   "title": "THE RAINFOREST",
+   "t": 273.33
+  },
+  {
+   "title": "THE TWIST",
+   "t": 322.109
+  },
+  {
+   "title": "HOW WE WOULD SURVIVE",
+   "t": 362.304
+  },
+  {
+   "title": "GOOD NEWS",
+   "t": 419.581
+  },
+  {
+   "title": "OUTRO",
+   "t": 454.321
+  }
+ ],
+ "duration": 485.562
+}

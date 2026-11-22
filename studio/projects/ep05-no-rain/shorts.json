@@ -1,0 +1,30 @@
+[
+{
+"name": "short_a",
+"from": 240.72,
+"to": 273.43,
+"q1": "ARE RAINDROPS",
+"q2": "REALLY TEARDROPS?"
+},
+{
+"name": "short_b",
+"from": 273.08,
+"to": 298.04,
+"q1": "THE BIGGEST RIVER",
+"q2": "IS IN THE SKY"
+},
+{
+"name": "short_c",
+"from": 362.05,
+"to": 395.22,
+"q1": "THEY CATCH",
+"q2": "FOG WITH NETS"
+},
+{
+"name": "short_d",
+"from": 161.07,
+"to": 195.1,
+"q1": "1 KG OF BREAD =",
+"q2": "HOW MUCH WATER?"
+}
+]
