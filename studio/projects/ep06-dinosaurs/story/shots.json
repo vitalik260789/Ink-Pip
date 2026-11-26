@@ -1,0 +1,336 @@
+{
+ "title": "What If the Dinosaurs Never Went Extinct?",
+ "duration": 505.735,
+ "shots": [
+  {
+   "id": "s001",
+   "start": 0.0,
+   "end": 27.97,
+   "line": "Ink, look! A shooting star! Quick, make a wish! Careful what you wish for. Sixty-six million years ago, a rock from space fell on Earth. And it probably saved your life. Saved my life? I wasn't even born! Exactly. Without that rock, you might never have been born at all. None of us would. Okay, now I'm curious. Which rock? The one that wiped out the dinosaurs. Then I wish it had missed! I want a pet T. rex. Wish granted. The asteroid misses. Let's go see what happens. Wait, right now? Like, right right now? Hold on to your toy.",
+   "scene": "room",
+   "kind": "room",
+   "params": {
+    "part": "start"
+   },
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.68,
+     "name": "whoosh",
+     "gain": -14
+    },
+    {
+     "at": 27.11,
+     "name": "whoosh",
+     "gain": -10
+    }
+   ],
+   "captions": true
+  },
+  {
+   "id": "s002",
+   "start": 27.97,
+   "end": 170.2,
+   "line": "Whoa! Where are we? Welcome to the Cretaceous. Earth, sixty-six million years ago. The very last day before the rock was supposed to hit. So, what if the dinosaurs never went extinct? To answer that, we first need to know what we'd be keeping. Look over there. That neck! It goes on forever! That's a giant plant-eater, a titanosaur. The biggest ones, like Argentinosaurus, were about thirty-five meters long. Thirty-five meters? That's longer than a basketball court! And heavy. Around seventy tonnes. As much as ten elephants walking around together. What does something that big even eat? Plants. Hundreds of kilos of ferns and needles every day. They didn't chew much. They just swallowed. Rude. My mom always says chew your food. And over there, by the river, is the one you wished for. Is that a, a, T. rex?! Tyrannosaurus rex. Twelve meters long, about eight tonnes, and the strongest bite of any land animal we know. How strong? Scientists built a computer model of its skull. A single back tooth could press with up to fifty-seven thousand newtons. I don't know what a newton is. Imagine a medium-sized elephant sitting on you. Through one tooth. Okay. Maybe not a pet T. rex. Maybe a pet triceratops. Good choice. Three horns, a huge frill, and it only eats plants. Mostly. Mostly?! And what are those giant birds up in the sky? Those are pterosaurs. And here's a surprise: they're not dinosaurs, and they're not birds. They're flying reptiles, cousins of the dinosaurs. They look huge from down here. The biggest one, Quetzalcoatlus, had wings about ten meters across. As wide as a small airplane. And standing on the ground, it was as tall as a giraffe. A flying giraffe. This planet is amazing. Dinosaurs ruled the land for about one hundred sixty-five million years. That's a very, very long time. How long is that compared to people? Our species is about three hundred thousand years old. Dinosaurs lasted more than five hundred times longer. So they were the champions. The longest-running champions the land has ever had. Wait, I know this part. Cavemen used to ride dinosaurs, right? I saw it in a cartoon. That's the biggest dinosaur myth of all. No human ever saw a living T. rex. Never? Never. And here's the weird part. Stegosaurus, the one with the plates on its back, died out around eighty million years before T. rex even appeared. Eighty million? And T. rex lived sixty-six million years ago. So T. rex lived closer in time to you than to Stegosaurus. That breaks my brain. Myth busted. Dinosaurs were not one big party. They were one hundred sixty-five million years of different parties.",
+   "scene": "cret",
+   "kind": "cret",
+   "params": {
+    "mode": "plain"
+   },
+   "in": {
+    "type": "fade",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.4,
+     "name": "pop",
+     "gain": -12
+    },
+    {
+     "at": 8.12,
+     "name": "hit",
+     "gain": -14
+    },
+    {
+     "at": 13.94,
+     "name": "pop",
+     "gain": -16
+    },
+    {
+     "at": 41.36,
+     "name": "hit",
+     "gain": -12
+    },
+    {
+     "at": 57.96,
+     "name": "hit",
+     "gain": -12
+    },
+    {
+     "at": 110.52,
+     "name": "pop",
+     "gain": -12
+    },
+    {
+     "at": 121.13,
+     "name": "pop",
+     "gain": -14
+    },
+    {
+     "at": 131.3,
+     "name": "pop",
+     "gain": -12
+    },
+    {
+     "at": 135.92,
+     "name": "hit",
+     "gain": -12
+    }
+   ],
+   "captions": true
+  },
+  {
+   "id": "s003",
+   "start": 170.2,
+   "end": 220.72,
+   "line": "Ink, why is the sky getting brighter? Because in the real history, this is the moment. Look up. Is that the rock?! An asteroid about ten kilometers wide. That's taller than Mount Everest. It's flying at around twenty kilometers every second. Twenty kilometers a second? That's faster than a bullet! About twenty times faster. It hit what is now Mexico, near the Yucat\u00e1n Peninsula, and made a crater about one hundred eighty kilometers wide. What happened next? First a flash and a giant wave. Then hot rock rained down from the sky all over the planet, and forests burned. That sounds horrible. Then dust and soot blocked the Sun. For months it was dark and cold. Plants stopped growing, so plant-eaters starved, and then the meat-eaters. How many animals died? About three out of every four species on Earth disappeared. Three out of four? But this is our what if. So let's rewind, and nudge the rock just a tiny bit.",
+   "scene": "cret",
+   "kind": "cret",
+   "params": {
+    "mode": "impact"
+   },
+   "in": {
+    "type": "fade",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.4,
+     "name": "whoosh",
+     "gain": -16
+    },
+    {
+     "at": 4.97,
+     "name": "whoosh",
+     "gain": -10
+    },
+    {
+     "at": 17.9,
+     "name": "hit",
+     "gain": -6
+    },
+    {
+     "at": 24.78,
+     "name": "hit",
+     "gain": -10
+    },
+    {
+     "at": 47.26,
+     "name": "whoosh",
+     "gain": -10
+    }
+   ],
+   "captions": true
+  },
+  {
+   "id": "s004",
+   "start": 220.72,
+   "end": 234.99,
+   "line": "It missed! It actually missed! Everybody's okay! The titanosaurs keep eating. The T. rex keeps hunting. The Cretaceous just goes on. Then this is the best timeline! Where's my pet? Not so fast. Before we celebrate, we need to talk about someone very small.",
+   "scene": "cret",
+   "kind": "cret",
+   "params": {
+    "mode": "miss"
+   },
+   "in": {
+    "type": "fade",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.4,
+     "name": "whoosh",
+     "gain": -8
+    },
+    {
+     "at": 1.2,
+     "name": "pop",
+     "gain": -10
+    }
+   ],
+   "captions": true
+  },
+  {
+   "id": "s005",
+   "start": 234.99,
+   "end": 321.79,
+   "line": "It's so dark. What are those little eyes? Those are mammals. Our distant relatives. Mammals? Like us? But they're so tiny! Most mammals back then were about the size of a mouse or a squirrel. The biggest were about as big as a badger. Why didn't they grow bigger? You see, every good job on land was already taken. The big plant-eaters were dinosaurs. The big hunters were dinosaurs. So mammals had to stay small. And hide. And mostly come out at night, when the big dinosaurs couldn't see them so well. One scientist said that for their first hundred forty million years, mammals were basically pests. Hey! That's my family you're talking about! Sorry. But here's why it matters. After the real asteroid, the big dinosaurs were gone. Suddenly the jobs were empty. So the mammals got promoted! Exactly. Within about twenty-five million years, some mammals were huge. The biggest plant-eaters weighed around seventeen tonnes. Bigger than elephants! Several times bigger. Later came whales, horses, monkeys, and finally us. And where were our great-great-great-grandparents? Some of the first primate relatives were tiny tree climbers, about the size of a rat. They show up right around the time of the impact. So the asteroid was terrible for dinosaurs, but it opened the door for us. That's why I said it probably saved your life. In our what if, the door stays closed. So in this timeline, no people? Probably not. Small mammals would still be around, scurrying under the ferns. But a big-brained ape building cities? Much less likely. No people means no pizza. No phones. No cartoons! And no one to dig up fossils.",
+   "scene": "cret",
+   "kind": "cret",
+   "params": {
+    "mode": "night"
+   },
+   "in": {
+    "type": "fade",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "whoosh",
+     "gain": -16
+    },
+    {
+     "at": 4.69,
+     "name": "pop",
+     "gain": -14
+    },
+    {
+     "at": 41.51,
+     "name": "pop",
+     "gain": -12
+    },
+    {
+     "at": 50.03,
+     "name": "hit",
+     "gain": -12
+    }
+   ],
+   "captions": true
+  },
+  {
+   "id": "s006",
+   "start": 321.79,
+   "end": 430.0,
+   "line": "Ink, where are we now? The same place, but today. The dinosaurs survived, and we jumped sixty-six million years forward. It's freezing! Where are the jungles? Earth didn't stay the same. Over millions of years the climate got cooler, ice formed at the poles, and grasslands spread. Grass! Did dinosaurs even know about grass? Some did. Scientists found tiny bits of grass inside fossil dinosaur poop from India. Ew. Somebody studied dinosaur poop? Fossil poop tells us exactly what was for dinner. Seventy million years later. So the dinosaurs would have to change too. Right. Big, scaly giants need lots of warm food. In a colder world, many of them might get fluffier, faster, and smaller. Fluffy dinosaurs? Like giant chickens? Don't laugh. Lots of dinosaurs already had feathers. Even some relatives of T. rex were covered in fuzz. So the scary green lizards in movies are wrong? Many of them, yes. Real dinosaurs were often colorful and feathery. A bit more parrot than crocodile. Ink, what is that?! It looks like a dinosaur person! Meet the dinosauroid. In 1982, a scientist called Dale Russell asked a wild question. What if a clever little dinosaur kept getting smarter? Which dinosaur? A small hunter called Troodon, or Stenonychosaurus. It had big eyes and, for a dinosaur, a pretty big brain. How big? Russell said that if its brain kept growing, it could reach about the size of ours. So he imagined it standing upright, with big eyes and hands that could grab things. So dinosaurs could have built cities! Maybe. But many scientists think he made it look too human. A smart dinosaur would probably still look like a dinosaur. Long tail, feathers, beak. A feathered genius with a beak. Like a really, really smart crow. That's a good guess. Crows and parrots are already very clever. They use tools and solve puzzles. So the dinosaurs could get smart without looking like us. Russell himself called it a thought experiment. Nobody knows. But it's a fun one.",
+   "scene": "cret",
+   "kind": "cret",
+   "params": {
+    "mode": "today"
+   },
+   "in": {
+    "type": "fade",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "whoosh",
+     "gain": -14
+    },
+    {
+     "at": 54.42,
+     "name": "hit",
+     "gain": -10
+    },
+    {
+     "at": 84.96,
+     "name": "pop",
+     "gain": -14
+    }
+   ],
+   "captions": true
+  },
+  {
+   "id": "s007",
+   "start": 430.0,
+   "end": 505.74,
+   "line": "Okay, take me home. I miss pizza. Here we are. Back in the real timeline, where the asteroid hit. So the dinosaurs are all gone. That's a bit sad. Are they? Look at the window. It's just a pigeon. It's a dinosaur. What?! Birds are not just related to dinosaurs. Birds are dinosaurs. They come from small feathered hunters, cousins of the T. rex. So when the asteroid hit, some dinosaurs survived? The small ones with feathers and beaks. They could eat seeds, and they made it through the dark years. Some other animals made it too. Crocodiles, turtles, frogs, and of course our tiny mammal friends. Lucky crocodiles. So the dinosaurs never really went extinct! Not all of them. Today there are around eleven thousand kinds of birds. That's more than all the kinds of mammals put together. So dinosaurs still outnumber us! In species, yes. And scientists who studied ancient proteins from a T. rex bone found they looked a lot like those of chickens and ostriches. So my chicken nuggets are dinosaur nuggets?! Technically, yes. So the answer is: if the dinosaurs never went extinct, we probably wouldn't be here. And the funny thing is, they never fully did. They just got small and learned to fly. I'm never looking at a pigeon the same way again. If you liked this, subscribe, so you don't miss our next what if. And tell us in the comments: what should we change in history next?",
+   "scene": "room",
+   "kind": "room",
+   "params": {
+    "part": "end"
+   },
+   "in": {
+    "type": "fade",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "whoosh",
+     "gain": -14
+    },
+    {
+     "at": 10.04,
+     "name": "hit",
+     "gain": -10
+    },
+    {
+     "at": 12.07,
+     "name": "pop",
+     "gain": -12
+    },
+    {
+     "at": 37.18,
+     "name": "pop",
+     "gain": -12
+    },
+    {
+     "at": 52.31,
+     "name": "pop",
+     "gain": -12
+    },
+    {
+     "at": 66.02,
+     "name": "pop",
+     "gain": -12
+    }
+   ],
+   "captions": true
+  }
+ ],
+ "music": [
+  {
+   "start": 0,
+   "end": 27.97,
+   "mood": "playful",
+   "intensity": 0.45
+  },
+  {
+   "start": 27.97,
+   "end": 137.19,
+   "mood": "wonder",
+   "intensity": 0.45
+  },
+  {
+   "start": 137.19,
+   "end": 170.2,
+   "mood": "playful",
+   "intensity": 0.45
+  },
+  {
+   "start": 170.2,
+   "end": 220.72,
+   "mood": "tension",
+   "intensity": 0.5
+  },
+  {
+   "start": 220.72,
+   "end": 234.99,
+   "mood": "hopeful",
+   "intensity": 0.5
+  },
+  {
+   "start": 234.99,
+   "end": 321.79,
+   "mood": "mystery",
+   "intensity": 0.45
+  },
+  {
+   "start": 321.79,
+   "end": 430.0,
+   "mood": "wonder",
+   "intensity": 0.45
+  },
+  {
+   "start": 430.0,
+   "end": 505.735,
+   "mood": "playful",
+   "intensity": 0.5
+  }
+ ]
+}

@@ -1,0 +1,1013 @@
+{
+ "lines": [
+  {
+   "who": "PIP",
+   "text": "Ink, look! A shooting star! Quick, make a wish!",
+   "start": 0.08,
+   "end": 2.166,
+   "section": "HOOK"
+  },
+  {
+   "who": "INK",
+   "text": "Careful what you wish for. Sixty-six million years ago, a rock from space fell on Earth. And it probably saved your life.",
+   "start": 2.306,
+   "end": 9.096,
+   "section": "HOOK"
+  },
+  {
+   "who": "PIP",
+   "text": "Saved my life? I wasn't even born!",
+   "start": 9.236,
+   "end": 10.976,
+   "section": "HOOK"
+  },
+  {
+   "who": "INK",
+   "text": "Exactly. Without that rock, you might never have been born at all. None of us would.",
+   "start": 11.116,
+   "end": 15.233,
+   "section": "HOOK"
+  },
+  {
+   "who": "PIP",
+   "text": "Okay, now I'm curious. Which rock?",
+   "start": 15.373,
+   "end": 17.064,
+   "section": "HOOK"
+  },
+  {
+   "who": "INK",
+   "text": "The one that wiped out the dinosaurs.",
+   "start": 17.204,
+   "end": 18.976,
+   "section": "HOOK"
+  },
+  {
+   "who": "PIP",
+   "text": "Then I wish it had missed! I want a pet T. rex.",
+   "start": 19.116,
+   "end": 21.519,
+   "section": "HOOK"
+  },
+  {
+   "who": "INK",
+   "text": "Wish granted. The asteroid misses. Let's go see what happens.",
+   "start": 21.659,
+   "end": 24.885,
+   "section": "HOOK"
+  },
+  {
+   "who": "PIP",
+   "text": "Wait, right now? Like, right right now?",
+   "start": 25.025,
+   "end": 26.571,
+   "section": "HOOK"
+  },
+  {
+   "who": "INK",
+   "text": "Hold on to your toy.",
+   "start": 26.711,
+   "end": 27.774,
+   "section": "HOOK"
+  },
+  {
+   "who": "PIP",
+   "text": "Whoa! Where are we?",
+   "start": 28.274,
+   "end": 29.006,
+   "section": "TITLE"
+  },
+  {
+   "who": "INK",
+   "text": "Welcome to the Cretaceous. Earth, sixty-six million years ago. The very last day before the rock was supposed to hit.",
+   "start": 29.146,
+   "end": 35.647,
+   "section": "TITLE"
+  },
+  {
+   "who": "PIP",
+   "text": "So, what if the dinosaurs never went extinct?",
+   "start": 35.787,
+   "end": 37.879,
+   "section": "TITLE"
+  },
+  {
+   "who": "INK",
+   "text": "To answer that, we first need to know what we'd be keeping. Look over there.",
+   "start": 38.019,
+   "end": 41.565,
+   "section": "TITLE"
+  },
+  {
+   "who": "PIP",
+   "text": "That neck! It goes on forever!",
+   "start": 41.705,
+   "end": 42.99,
+   "section": "TITLE"
+  },
+  {
+   "who": "INK",
+   "text": "That's a giant plant-eater, a titanosaur. The biggest ones, like Argentinosaurus, were about thirty-five meters long.",
+   "start": 43.13,
+   "end": 49.87,
+   "section": "TITLE"
+  },
+  {
+   "who": "PIP",
+   "text": "Thirty-five meters? That's longer than a basketball court!",
+   "start": 50.01,
+   "end": 52.674,
+   "section": "TITLE"
+  },
+  {
+   "who": "INK",
+   "text": "And heavy. Around seventy tonnes. As much as ten elephants walking around together.",
+   "start": 52.814,
+   "end": 57.158,
+   "section": "TITLE"
+  },
+  {
+   "who": "PIP",
+   "text": "What does something that big even eat?",
+   "start": 57.298,
+   "end": 58.753,
+   "section": "TITLE"
+  },
+  {
+   "who": "INK",
+   "text": "Plants. Hundreds of kilos of ferns and needles every day. They didn't chew much. They just swallowed.",
+   "start": 58.893,
+   "end": 64.343,
+   "section": "TITLE"
+  },
+  {
+   "who": "PIP",
+   "text": "Rude. My mom always says chew your food.",
+   "start": 64.483,
+   "end": 66.244,
+   "section": "TITLE"
+  },
+  {
+   "who": "INK",
+   "text": "And over there, by the river, is the one you wished for.",
+   "start": 66.384,
+   "end": 68.892,
+   "section": "TITLE"
+  },
+  {
+   "who": "PIP",
+   "text": "Is that a, a, T. rex?!",
+   "start": 69.032,
+   "end": 70.331,
+   "section": "TITLE"
+  },
+  {
+   "who": "INK",
+   "text": "Tyrannosaurus rex. Twelve meters long, about eight tonnes, and the strongest bite of any land animal we know.",
+   "start": 70.471,
+   "end": 76.478,
+   "section": "TITLE"
+  },
+  {
+   "who": "PIP",
+   "text": "How strong?",
+   "start": 76.618,
+   "end": 77.2,
+   "section": "TITLE"
+  },
+  {
+   "who": "INK",
+   "text": "Scientists built a computer model of its skull. A single back tooth could press with up to fifty-seven thousand newtons.",
+   "start": 77.34,
+   "end": 83.87,
+   "section": "TITLE"
+  },
+  {
+   "who": "PIP",
+   "text": "I don't know what a newton is.",
+   "start": 84.01,
+   "end": 85.191,
+   "section": "TITLE"
+  },
+  {
+   "who": "INK",
+   "text": "Imagine a medium-sized elephant sitting on you. Through one tooth.",
+   "start": 85.331,
+   "end": 88.744,
+   "section": "TITLE"
+  },
+  {
+   "who": "PIP",
+   "text": "Okay. Maybe not a pet T. rex. Maybe a pet triceratops.",
+   "start": 88.884,
+   "end": 92.354,
+   "section": "TITLE"
+  },
+  {
+   "who": "INK",
+   "text": "Good choice. Three horns, a huge frill, and it only eats plants. Mostly.",
+   "start": 92.494,
+   "end": 96.669,
+   "section": "TITLE"
+  },
+  {
+   "who": "PIP",
+   "text": "Mostly?!",
+   "start": 96.809,
+   "end": 97.315,
+   "section": "TITLE"
+  },
+  {
+   "who": "PIP",
+   "text": "And what are those giant birds up in the sky?",
+   "start": 97.395,
+   "end": 99.221,
+   "section": "TITLE"
+  },
+  {
+   "who": "INK",
+   "text": "Those are pterosaurs. And here's a surprise: they're not dinosaurs, and they're not birds. They're flying reptiles, cousins of the dinosaurs.",
+   "start": 99.361,
+   "end": 106.91,
+   "section": "TITLE"
+  },
+  {
+   "who": "PIP",
+   "text": "They look huge from down here.",
+   "start": 107.05,
+   "end": 108.184,
+   "section": "TITLE"
+  },
+  {
+   "who": "INK",
+   "text": "The biggest one, Quetzalcoatlus, had wings about ten meters across. As wide as a small airplane. And standing on the ground, it was as tall as a giraffe.",
+   "start": 108.324,
+   "end": 117.038,
+   "section": "TITLE"
+  },
+  {
+   "who": "PIP",
+   "text": "A flying giraffe. This planet is amazing.",
+   "start": 117.178,
+   "end": 119.301,
+   "section": "TITLE"
+  },
+  {
+   "who": "INK",
+   "text": "Dinosaurs ruled the land for about one hundred sixty-five million years. That's a very, very long time.",
+   "start": 119.441,
+   "end": 125.247,
+   "section": "TITLE"
+  },
+  {
+   "who": "PIP",
+   "text": "How long is that compared to people?",
+   "start": 125.387,
+   "end": 126.977,
+   "section": "TITLE"
+  },
+  {
+   "who": "INK",
+   "text": "Our species is about three hundred thousand years old. Dinosaurs lasted more than five hundred times longer.",
+   "start": 127.117,
+   "end": 133.209,
+   "section": "TITLE"
+  },
+  {
+   "who": "PIP",
+   "text": "So they were the champions.",
+   "start": 133.349,
+   "end": 134.355,
+   "section": "TITLE"
+  },
+  {
+   "who": "INK",
+   "text": "The longest-running champions the land has ever had.",
+   "start": 134.495,
+   "end": 136.989,
+   "section": "TITLE"
+  },
+  {
+   "who": "PIP",
+   "text": "Wait, I know this part. Cavemen used to ride dinosaurs, right? I saw it in a cartoon.",
+   "start": 137.489,
+   "end": 141.736,
+   "section": "MYTH"
+  },
+  {
+   "who": "INK",
+   "text": "That's the biggest dinosaur myth of all. No human ever saw a living T. rex.",
+   "start": 141.876,
+   "end": 146.429,
+   "section": "MYTH"
+  },
+  {
+   "who": "PIP",
+   "text": "Never?",
+   "start": 146.569,
+   "end": 146.956,
+   "section": "MYTH"
+  },
+  {
+   "who": "INK",
+   "text": "Never. And here's the weird part. Stegosaurus, the one with the plates on its back, died out around eighty million years before T. rex even appeared.",
+   "start": 147.096,
+   "end": 155.327,
+   "section": "MYTH"
+  },
+  {
+   "who": "PIP",
+   "text": "Eighty million? And T. rex lived sixty-six million years ago.",
+   "start": 155.467,
+   "end": 158.825,
+   "section": "MYTH"
+  },
+  {
+   "who": "INK",
+   "text": "So T. rex lived closer in time to you than to Stegosaurus.",
+   "start": 158.965,
+   "end": 162.528,
+   "section": "MYTH"
+  },
+  {
+   "who": "PIP",
+   "text": "That breaks my brain.",
+   "start": 162.668,
+   "end": 163.555,
+   "section": "MYTH"
+  },
+  {
+   "who": "INK",
+   "text": "Myth busted. Dinosaurs were not one big party. They were one hundred sixty-five million years of different parties.",
+   "start": 163.695,
+   "end": 169.996,
+   "section": "MYTH"
+  },
+  {
+   "who": "PIP",
+   "text": "Ink, why is the sky getting brighter?",
+   "start": 170.496,
+   "end": 172.075,
+   "section": "THE ROCK"
+  },
+  {
+   "who": "INK",
+   "text": "Because in the real history, this is the moment. Look up.",
+   "start": 172.215,
+   "end": 174.832,
+   "section": "THE ROCK"
+  },
+  {
+   "who": "PIP",
+   "text": "Is that the rock?!",
+   "start": 174.972,
+   "end": 175.687,
+   "section": "THE ROCK"
+  },
+  {
+   "who": "INK",
+   "text": "An asteroid about ten kilometers wide. That's taller than Mount Everest. It's flying at around twenty kilometers every second.",
+   "start": 175.827,
+   "end": 182.974,
+   "section": "THE ROCK"
+  },
+  {
+   "who": "PIP",
+   "text": "Twenty kilometers a second? That's faster than a bullet!",
+   "start": 183.114,
+   "end": 185.557,
+   "section": "THE ROCK"
+  },
+  {
+   "who": "INK",
+   "text": "About twenty times faster. It hit what is now Mexico, near the Yucat\u00e1n Peninsula, and made a crater about one hundred eighty kilometers wide.",
+   "start": 185.697,
+   "end": 193.712,
+   "section": "THE ROCK"
+  },
+  {
+   "who": "PIP",
+   "text": "What happened next?",
+   "start": 193.852,
+   "end": 194.638,
+   "section": "THE ROCK"
+  },
+  {
+   "who": "INK",
+   "text": "First a flash and a giant wave. Then hot rock rained down from the sky all over the planet, and forests burned.",
+   "start": 194.778,
+   "end": 201.023,
+   "section": "THE ROCK"
+  },
+  {
+   "who": "PIP",
+   "text": "That sounds horrible.",
+   "start": 201.163,
+   "end": 202.019,
+   "section": "THE ROCK"
+  },
+  {
+   "who": "INK",
+   "text": "Then dust and soot blocked the Sun. For months it was dark and cold. Plants stopped growing, so plant-eaters starved, and then the meat-eaters.",
+   "start": 202.159,
+   "end": 209.812,
+   "section": "THE ROCK"
+  },
+  {
+   "who": "PIP",
+   "text": "How many animals died?",
+   "start": 209.952,
+   "end": 211.035,
+   "section": "THE ROCK"
+  },
+  {
+   "who": "INK",
+   "text": "About three out of every four species on Earth disappeared.",
+   "start": 211.175,
+   "end": 214.086,
+   "section": "THE ROCK"
+  },
+  {
+   "who": "PIP",
+   "text": "Three out of four?",
+   "start": 214.226,
+   "end": 214.924,
+   "section": "THE ROCK"
+  },
+  {
+   "who": "INK",
+   "text": "But this is our what if. So let's rewind, and nudge the rock just a tiny bit.",
+   "start": 215.064,
+   "end": 219.024,
+   "section": "THE ROCK"
+  },
+  {
+   "who": "PIP",
+   "text": "It missed! It actually missed! Everybody's okay!",
+   "start": 221.024,
+   "end": 223.261,
+   "section": "mid-roll"
+  },
+  {
+   "who": "INK",
+   "text": "The titanosaurs keep eating. The T. rex keeps hunting. The Cretaceous just goes on.",
+   "start": 223.401,
+   "end": 228.499,
+   "section": "mid-roll"
+  },
+  {
+   "who": "PIP",
+   "text": "Then this is the best timeline! Where's my pet?",
+   "start": 228.639,
+   "end": 230.715,
+   "section": "mid-roll"
+  },
+  {
+   "who": "INK",
+   "text": "Not so fast. Before we celebrate, we need to talk about someone very small.",
+   "start": 230.855,
+   "end": 234.79,
+   "section": "mid-roll"
+  },
+  {
+   "who": "PIP",
+   "text": "It's so dark. What are those little eyes?",
+   "start": 235.29,
+   "end": 237.025,
+   "section": "THE LITTLE ONES"
+  },
+  {
+   "who": "INK",
+   "text": "Those are mammals. Our distant relatives.",
+   "start": 237.165,
+   "end": 239.343,
+   "section": "THE LITTLE ONES"
+  },
+  {
+   "who": "PIP",
+   "text": "Mammals? Like us? But they're so tiny!",
+   "start": 239.483,
+   "end": 241.35,
+   "section": "THE LITTLE ONES"
+  },
+  {
+   "who": "INK",
+   "text": "Most mammals back then were about the size of a mouse or a squirrel. The biggest were about as big as a badger.",
+   "start": 241.49,
+   "end": 247.35,
+   "section": "THE LITTLE ONES"
+  },
+  {
+   "who": "PIP",
+   "text": "Why didn't they grow bigger?",
+   "start": 247.49,
+   "end": 248.533,
+   "section": "THE LITTLE ONES"
+  },
+  {
+   "who": "INK",
+   "text": "You see, every good job on land was already taken. The big plant-eaters were dinosaurs. The big hunters were dinosaurs. So mammals had to stay small.",
+   "start": 248.673,
+   "end": 257.31,
+   "section": "THE LITTLE ONES"
+  },
+  {
+   "who": "PIP",
+   "text": "And hide.",
+   "start": 257.45,
+   "end": 257.964,
+   "section": "THE LITTLE ONES"
+  },
+  {
+   "who": "INK",
+   "text": "And mostly come out at night, when the big dinosaurs couldn't see them so well. One scientist said that for their first hundred forty million years, mammals were basically pests.",
+   "start": 258.104,
+   "end": 267.464,
+   "section": "THE LITTLE ONES"
+  },
+  {
+   "who": "PIP",
+   "text": "Hey! That's my family you're talking about!",
+   "start": 267.604,
+   "end": 269.341,
+   "section": "THE LITTLE ONES"
+  },
+  {
+   "who": "INK",
+   "text": "Sorry. But here's why it matters. After the real asteroid, the big dinosaurs were gone. Suddenly the jobs were empty.",
+   "start": 269.481,
+   "end": 276.155,
+   "section": "THE LITTLE ONES"
+  },
+  {
+   "who": "PIP",
+   "text": "So the mammals got promoted!",
+   "start": 276.295,
+   "end": 277.549,
+   "section": "THE LITTLE ONES"
+  },
+  {
+   "who": "INK",
+   "text": "Exactly. Within about twenty-five million years, some mammals were huge. The biggest plant-eaters weighed around seventeen tonnes.",
+   "start": 277.689,
+   "end": 284.68,
+   "section": "THE LITTLE ONES"
+  },
+  {
+   "who": "PIP",
+   "text": "Bigger than elephants!",
+   "start": 284.82,
+   "end": 285.732,
+   "section": "THE LITTLE ONES"
+  },
+  {
+   "who": "INK",
+   "text": "Several times bigger. Later came whales, horses, monkeys, and finally us.",
+   "start": 285.872,
+   "end": 290.007,
+   "section": "THE LITTLE ONES"
+  },
+  {
+   "who": "PIP",
+   "text": "And where were our great-great-great-grandparents?",
+   "start": 290.147,
+   "end": 291.963,
+   "section": "THE LITTLE ONES"
+  },
+  {
+   "who": "INK",
+   "text": "Some of the first primate relatives were tiny tree climbers, about the size of a rat. They show up right around the time of the impact.",
+   "start": 292.103,
+   "end": 299.295,
+   "section": "THE LITTLE ONES"
+  },
+  {
+   "who": "PIP",
+   "text": "So the asteroid was terrible for dinosaurs, but it opened the door for us.",
+   "start": 299.435,
+   "end": 302.962,
+   "section": "THE LITTLE ONES"
+  },
+  {
+   "who": "INK",
+   "text": "That's why I said it probably saved your life. In our what if, the door stays closed.",
+   "start": 303.102,
+   "end": 307.596,
+   "section": "THE LITTLE ONES"
+  },
+  {
+   "who": "PIP",
+   "text": "So in this timeline, no people?",
+   "start": 307.736,
+   "end": 309.18,
+   "section": "THE LITTLE ONES"
+  },
+  {
+   "who": "INK",
+   "text": "Probably not. Small mammals would still be around, scurrying under the ferns. But a big-brained ape building cities? Much less likely.",
+   "start": 309.32,
+   "end": 316.842,
+   "section": "THE LITTLE ONES"
+  },
+  {
+   "who": "PIP",
+   "text": "No people means no pizza. No phones. No cartoons!",
+   "start": 316.982,
+   "end": 319.884,
+   "section": "THE LITTLE ONES"
+  },
+  {
+   "who": "INK",
+   "text": "And no one to dig up fossils.",
+   "start": 320.024,
+   "end": 321.587,
+   "section": "THE LITTLE ONES"
+  },
+  {
+   "who": "PIP",
+   "text": "Ink, where are we now?",
+   "start": 322.087,
+   "end": 322.936,
+   "section": "66 MILLION YEARS LATER"
+  },
+  {
+   "who": "INK",
+   "text": "The same place, but today. The dinosaurs survived, and we jumped sixty-six million years forward.",
+   "start": 323.076,
+   "end": 328.352,
+   "section": "66 MILLION YEARS LATER"
+  },
+  {
+   "who": "PIP",
+   "text": "It's freezing! Where are the jungles?",
+   "start": 328.492,
+   "end": 330.082,
+   "section": "66 MILLION YEARS LATER"
+  },
+  {
+   "who": "INK",
+   "text": "Earth didn't stay the same. Over millions of years the climate got cooler, ice formed at the poles, and grasslands spread.",
+   "start": 330.222,
+   "end": 336.577,
+   "section": "66 MILLION YEARS LATER"
+  },
+  {
+   "who": "PIP",
+   "text": "Grass! Did dinosaurs even know about grass?",
+   "start": 336.717,
+   "end": 338.833,
+   "section": "66 MILLION YEARS LATER"
+  },
+  {
+   "who": "INK",
+   "text": "Some did. Scientists found tiny bits of grass inside fossil dinosaur poop from India.",
+   "start": 338.973,
+   "end": 344.163,
+   "section": "66 MILLION YEARS LATER"
+  },
+  {
+   "who": "PIP",
+   "text": "Ew. Somebody studied dinosaur poop?",
+   "start": 344.303,
+   "end": 346.019,
+   "section": "66 MILLION YEARS LATER"
+  },
+  {
+   "who": "INK",
+   "text": "Fossil poop tells us exactly what was for dinner. Seventy million years later.",
+   "start": 346.159,
+   "end": 350.278,
+   "section": "66 MILLION YEARS LATER"
+  },
+  {
+   "who": "PIP",
+   "text": "So the dinosaurs would have to change too.",
+   "start": 350.418,
+   "end": 352.136,
+   "section": "66 MILLION YEARS LATER"
+  },
+  {
+   "who": "INK",
+   "text": "Right. Big, scaly giants need lots of warm food. In a colder world, many of them might get fluffier, faster, and smaller.",
+   "start": 352.276,
+   "end": 359.103,
+   "section": "66 MILLION YEARS LATER"
+  },
+  {
+   "who": "PIP",
+   "text": "Fluffy dinosaurs? Like giant chickens?",
+   "start": 359.243,
+   "end": 361.235,
+   "section": "66 MILLION YEARS LATER"
+  },
+  {
+   "who": "INK",
+   "text": "Don't laugh. Lots of dinosaurs already had feathers. Even some relatives of T. rex were covered in fuzz.",
+   "start": 361.375,
+   "end": 367.519,
+   "section": "66 MILLION YEARS LATER"
+  },
+  {
+   "who": "PIP",
+   "text": "So the scary green lizards in movies are wrong?",
+   "start": 367.659,
+   "end": 369.676,
+   "section": "66 MILLION YEARS LATER"
+  },
+  {
+   "who": "INK",
+   "text": "Many of them, yes. Real dinosaurs were often colorful and feathery. A bit more parrot than crocodile.",
+   "start": 369.816,
+   "end": 375.508,
+   "section": "66 MILLION YEARS LATER"
+  },
+  {
+   "who": "PIP",
+   "text": "Ink, what is that?! It looks like a dinosaur person!",
+   "start": 376.008,
+   "end": 378.455,
+   "section": "THE SMART DINOSAUR"
+  },
+  {
+   "who": "INK",
+   "text": "Meet the dinosauroid. In 1982, a scientist called Dale Russell asked a wild question. What if a clever little dinosaur kept getting smarter?",
+   "start": 378.595,
+   "end": 387.487,
+   "section": "THE SMART DINOSAUR"
+  },
+  {
+   "who": "PIP",
+   "text": "Which dinosaur?",
+   "start": 387.627,
+   "end": 388.396,
+   "section": "THE SMART DINOSAUR"
+  },
+  {
+   "who": "INK",
+   "text": "A small hunter called Troodon, or Stenonychosaurus. It had big eyes and, for a dinosaur, a pretty big brain.",
+   "start": 388.536,
+   "end": 394.77,
+   "section": "THE SMART DINOSAUR"
+  },
+  {
+   "who": "PIP",
+   "text": "How big?",
+   "start": 394.91,
+   "end": 395.399,
+   "section": "THE SMART DINOSAUR"
+  },
+  {
+   "who": "INK",
+   "text": "Russell said that if its brain kept growing, it could reach about the size of ours. So he imagined it standing upright, with big eyes and hands that could grab things.",
+   "start": 395.539,
+   "end": 404.478,
+   "section": "THE SMART DINOSAUR"
+  },
+  {
+   "who": "PIP",
+   "text": "So dinosaurs could have built cities!",
+   "start": 404.618,
+   "end": 406.113,
+   "section": "THE SMART DINOSAUR"
+  },
+  {
+   "who": "INK",
+   "text": "Maybe. But many scientists think he made it look too human. A smart dinosaur would probably still look like a dinosaur. Long tail, feathers, beak.",
+   "start": 406.253,
+   "end": 414.441,
+   "section": "THE SMART DINOSAUR"
+  },
+  {
+   "who": "PIP",
+   "text": "A feathered genius with a beak. Like a really, really smart crow.",
+   "start": 414.581,
+   "end": 417.528,
+   "section": "THE SMART DINOSAUR"
+  },
+  {
+   "who": "INK",
+   "text": "That's a good guess. Crows and parrots are already very clever. They use tools and solve puzzles.",
+   "start": 417.668,
+   "end": 422.841,
+   "section": "THE SMART DINOSAUR"
+  },
+  {
+   "who": "PIP",
+   "text": "So the dinosaurs could get smart without looking like us.",
+   "start": 422.981,
+   "end": 425.385,
+   "section": "THE SMART DINOSAUR"
+  },
+  {
+   "who": "INK",
+   "text": "Russell himself called it a thought experiment. Nobody knows. But it's a fun one.",
+   "start": 425.525,
+   "end": 429.803,
+   "section": "THE SMART DINOSAUR"
+  },
+  {
+   "who": "PIP",
+   "text": "Okay, take me home. I miss pizza.",
+   "start": 430.303,
+   "end": 432.06,
+   "section": "THE TWIST"
+  },
+  {
+   "who": "INK",
+   "text": "Here we are. Back in the real timeline, where the asteroid hit.",
+   "start": 432.2,
+   "end": 435.161,
+   "section": "THE TWIST"
+  },
+  {
+   "who": "PIP",
+   "text": "So the dinosaurs are all gone. That's a bit sad.",
+   "start": 435.301,
+   "end": 437.557,
+   "section": "THE TWIST"
+  },
+  {
+   "who": "INK",
+   "text": "Are they? Look at the window.",
+   "start": 437.697,
+   "end": 438.799,
+   "section": "THE TWIST"
+  },
+  {
+   "who": "PIP",
+   "text": "It's just a pigeon.",
+   "start": 438.939,
+   "end": 439.796,
+   "section": "THE TWIST"
+  },
+  {
+   "who": "INK",
+   "text": "It's a dinosaur.",
+   "start": 439.936,
+   "end": 440.835,
+   "section": "THE TWIST"
+  },
+  {
+   "who": "PIP",
+   "text": "What?!",
+   "start": 440.975,
+   "end": 441.329,
+   "section": "THE TWIST"
+  },
+  {
+   "who": "INK",
+   "text": "Birds are not just related to dinosaurs. Birds are dinosaurs. They come from small feathered hunters, cousins of the T. rex.",
+   "start": 441.469,
+   "end": 448.792,
+   "section": "THE TWIST"
+  },
+  {
+   "who": "PIP",
+   "text": "So when the asteroid hit, some dinosaurs survived?",
+   "start": 448.932,
+   "end": 451.385,
+   "section": "THE TWIST"
+  },
+  {
+   "who": "INK",
+   "text": "The small ones with feathers and beaks. They could eat seeds, and they made it through the dark years.",
+   "start": 451.525,
+   "end": 456.3,
+   "section": "THE TWIST"
+  },
+  {
+   "who": "INK",
+   "text": "Some other animals made it too. Crocodiles, turtles, frogs, and of course our tiny mammal friends.",
+   "start": 456.38,
+   "end": 461.947,
+   "section": "THE TWIST"
+  },
+  {
+   "who": "PIP",
+   "text": "Lucky crocodiles.",
+   "start": 462.087,
+   "end": 463.066,
+   "section": "THE TWIST"
+  },
+  {
+   "who": "PIP",
+   "text": "So the dinosaurs never really went extinct!",
+   "start": 463.146,
+   "end": 465.235,
+   "section": "THE TWIST"
+  },
+  {
+   "who": "INK",
+   "text": "Not all of them. Today there are around eleven thousand kinds of birds. That's more than all the kinds of mammals put together.",
+   "start": 465.375,
+   "end": 471.812,
+   "section": "THE TWIST"
+  },
+  {
+   "who": "PIP",
+   "text": "So dinosaurs still outnumber us!",
+   "start": 471.952,
+   "end": 473.453,
+   "section": "THE TWIST"
+  },
+  {
+   "who": "INK",
+   "text": "In species, yes. And scientists who studied ancient proteins from a T. rex bone found they looked a lot like those of chickens and ostriches.",
+   "start": 473.593,
+   "end": 481.568,
+   "section": "THE TWIST"
+  },
+  {
+   "who": "PIP",
+   "text": "So my chicken nuggets are dinosaur nuggets?!",
+   "start": 481.708,
+   "end": 483.701,
+   "section": "THE TWIST"
+  },
+  {
+   "who": "INK",
+   "text": "Technically, yes.",
+   "start": 483.841,
+   "end": 484.745,
+   "section": "THE TWIST"
+  },
+  {
+   "who": "PIP",
+   "text": "So the answer is: if the dinosaurs never went extinct, we probably wouldn't be here.",
+   "start": 485.245,
+   "end": 489.254,
+   "section": "OUTRO"
+  },
+  {
+   "who": "INK",
+   "text": "And the funny thing is, they never fully did. They just got small and learned to fly.",
+   "start": 489.394,
+   "end": 493.675,
+   "section": "OUTRO"
+  },
+  {
+   "who": "PIP",
+   "text": "I'm never looking at a pigeon the same way again.",
+   "start": 493.815,
+   "end": 495.88,
+   "section": "OUTRO"
+  },
+  {
+   "who": "INK",
+   "text": "If you liked this, subscribe, so you don't miss our next what if.",
+   "start": 496.02,
+   "end": 499.169,
+   "section": "OUTRO"
+  },
+  {
+   "who": "PIP",
+   "text": "And tell us in the comments: what should we change in history next?",
+   "start": 499.309,
+   "end": 502.235,
+   "section": "OUTRO"
+  }
+ ],
+ "sections": [
+  {
+   "title": "HOOK",
+   "t": 0.08
+  },
+  {
+   "title": "TITLE",
+   "t": 28.274
+  },
+  {
+   "title": "MYTH",
+   "t": 137.489
+  },
+  {
+   "title": "THE ROCK",
+   "t": 170.496
+  },
+  {
+   "title": "mid-roll",
+   "t": 221.024
+  },
+  {
+   "title": "THE LITTLE ONES",
+   "t": 235.29
+  },
+  {
+   "title": "66 MILLION YEARS LATER",
+   "t": 322.087
+  },
+  {
+   "title": "THE SMART DINOSAUR",
+   "t": 376.008
+  },
+  {
+   "title": "THE TWIST",
+   "t": 430.303
+  },
+  {
+   "title": "OUTRO",
+   "t": 485.245
+  }
+ ],
+ "duration": 505.735
+}
